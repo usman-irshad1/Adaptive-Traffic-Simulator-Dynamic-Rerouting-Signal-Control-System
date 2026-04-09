@@ -726,8 +726,8 @@ public:
         int index = getIndex(s);
         if (index == -1) { cout << "\nCity not found.\n"; return x; } // Safety
         typename list<weighted>::iterator temp = array[index].Neighbors.begin();
-        cout << "\nThe vertex ";
-        cout << array[index].vertex << " has links to \n";
+        x+= "\nThe vertex ";
+        x+= array[index].vertex + " has links to \n";
         while (temp != array[index].Neighbors.end()) {
             x+= array[temp->index].vertex + "\t";
             x+= "length = " + to_string(temp->weight.length) + "\n";
@@ -834,7 +834,7 @@ public:
         return totalCost;
     }
 
-    
+   
 };
 
 

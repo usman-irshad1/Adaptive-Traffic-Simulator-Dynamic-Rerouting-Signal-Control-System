@@ -385,6 +385,7 @@ public:
     void PrintAllConnetedCityFromAcity() {
         map->PrintLevels();
     }
+    
 
     void checkBrokenPath() {
         typename list<vehicle<t>>::iterator car = array_of_vehicles.begin();
