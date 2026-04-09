@@ -1,0 +1,6007 @@
+--- NEW SIMULATION SESSION ---
+
+--- PERFORMANCE METRICS REPORT ---
+No vehicles have finished yet.
+Total System Cost: 1628
+Average Rush Level: 0.222222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 2
+Average Travel Time: 1.9 ticks
+System Throughput: 0.1 vehicles/tick
+Total System Cost: 1638.07
+Average Rush Level: 0.227778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 9
+Average Travel Time: 2.15556 ticks
+System Throughput: 0.3 vehicles/tick
+Total System Cost: 1639.93
+Average Rush Level: 0.258889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 10
+Average Travel Time: 2.26 ticks
+System Throughput: 0.25 vehicles/tick
+Total System Cost: 1639.14
+Average Rush Level: 0.252778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 18
+Average Travel Time: 3.25555 ticks
+System Throughput: 0.36 vehicles/tick
+Total System Cost: 1638.2
+Average Rush Level: 0.233889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 23
+Average Travel Time: 3.6913 ticks
+System Throughput: 0.383333 vehicles/tick
+Total System Cost: 1638.4
+Average Rush Level: 0.235556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 26
+Average Travel Time: 4.04231 ticks
+System Throughput: 0.371429 vehicles/tick
+Total System Cost: 1639.06
+Average Rush Level: 0.246667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 33
+Average Travel Time: 4.74545 ticks
+System Throughput: 0.4125 vehicles/tick
+Total System Cost: 1640.52
+Average Rush Level: 0.255556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 34
+Average Travel Time: 4.8647 ticks
+System Throughput: 0.377778 vehicles/tick
+Total System Cost: 1799.69
+Average Rush Level: 0.258889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 38
+Average Travel Time: 5.37631 ticks
+System Throughput: 0.38 vehicles/tick
+Total System Cost: 1799.48
+Average Rush Level: 0.257778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 41
+Average Travel Time: 5.72683 ticks
+System Throughput: 0.372727 vehicles/tick
+Total System Cost: 1799.75
+Average Rush Level: 0.256667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 51
+Average Travel Time: 6.91961 ticks
+System Throughput: 0.425 vehicles/tick
+Total System Cost: 2008.66
+Average Rush Level: 0.242222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 62
+Average Travel Time: 7.89517 ticks
+System Throughput: 0.476923 vehicles/tick
+Total System Cost: 2098
+Average Rush Level: 0.232407
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 69
+Average Travel Time: 8.45363 ticks
+System Throughput: 0.492857 vehicles/tick
+Total System Cost: 2098.07
+Average Rush Level: 0.23
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 71
+Average Travel Time: 8.63099 ticks
+System Throughput: 0.473333 vehicles/tick
+Total System Cost: 2098.15
+Average Rush Level: 0.233333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 78
+Average Travel Time: 9.27565 ticks
+System Throughput: 0.4875 vehicles/tick
+Total System Cost: 2098.28
+Average Rush Level: 0.233333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 81
+Average Travel Time: 9.54569 ticks
+System Throughput: 0.476471 vehicles/tick
+Total System Cost: 2054.88
+Average Rush Level: 0.218704
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 83
+Average Travel Time: 9.74218 ticks
+System Throughput: 0.461111 vehicles/tick
+Total System Cost: 2051.66
+Average Rush Level: 0.193889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 86
+Average Travel Time: 10.0454 ticks
+System Throughput: 0.452632 vehicles/tick
+Total System Cost: 2057.29
+Average Rush Level: 0.239259
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 88
+Average Travel Time: 10.2557 ticks
+System Throughput: 0.44 vehicles/tick
+Total System Cost: 2057.27
+Average Rush Level: 0.237037
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 103
+Average Travel Time: 11.7117 ticks
+System Throughput: 0.490476 vehicles/tick
+Total System Cost: 2052.09
+Average Rush Level: 0.206667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 107
+Average Travel Time: 12.071 ticks
+System Throughput: 0.486364 vehicles/tick
+Total System Cost: 2050.66
+Average Rush Level: 0.200556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 116
+Average Travel Time: 12.8854 ticks
+System Throughput: 0.504348 vehicles/tick
+Total System Cost: 2048.9
+Average Rush Level: 0.186667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 122
+Average Travel Time: 13.3984 ticks
+System Throughput: 0.508333 vehicles/tick
+Total System Cost: 2048.61
+Average Rush Level: 0.183333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 125
+Average Travel Time: 13.66 ticks
+System Throughput: 0.5 vehicles/tick
+Total System Cost: 2048.72
+Average Rush Level: 0.186667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 130
+Average Travel Time: 14.1146 ticks
+System Throughput: 0.5 vehicles/tick
+Total System Cost: 2048.47
+Average Rush Level: 0.184444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 133
+Average Travel Time: 14.391 ticks
+System Throughput: 0.492593 vehicles/tick
+Total System Cost: 2048.33
+Average Rush Level: 0.182222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 139
+Average Travel Time: 14.9547 ticks
+System Throughput: 0.496429 vehicles/tick
+Total System Cost: 2048.17
+Average Rush Level: 0.175556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 144
+Average Travel Time: 15.4236 ticks
+System Throughput: 0.496552 vehicles/tick
+Total System Cost: 2048.11
+Average Rush Level: 0.172222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 147
+Average Travel Time: 15.7096 ticks
+System Throughput: 0.49 vehicles/tick
+Total System Cost: 2048.08
+Average Rush Level: 0.171111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 151
+Average Travel Time: 16.1027 ticks
+System Throughput: 0.487097 vehicles/tick
+Total System Cost: 2048.1
+Average Rush Level: 0.171111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 151
+Average Travel Time: 16.1027 ticks
+System Throughput: 0.471875 vehicles/tick
+Total System Cost: 2048.24
+Average Rush Level: 0.175556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 157
+Average Travel Time: 16.7268 ticks
+System Throughput: 0.475758 vehicles/tick
+Total System Cost: 2048.29
+Average Rush Level: 0.177778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 158
+Average Travel Time: 16.8348 ticks
+System Throughput: 0.464706 vehicles/tick
+Total System Cost: 2048.35
+Average Rush Level: 0.18
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 160
+Average Travel Time: 17.0532 ticks
+System Throughput: 0.457143 vehicles/tick
+Total System Cost: 2048.28
+Average Rush Level: 0.18
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 163
+Average Travel Time: 17.3896 ticks
+System Throughput: 0.452778 vehicles/tick
+Total System Cost: 2048.19
+Average Rush Level: 0.176667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 167
+Average Travel Time: 17.8408 ticks
+System Throughput: 0.451351 vehicles/tick
+Total System Cost: 2053.98
+Average Rush Level: 0.211111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 169
+Average Travel Time: 18.0722 ticks
+System Throughput: 0.444737 vehicles/tick
+Total System Cost: 2053.41
+Average Rush Level: 0.207778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 178
+Average Travel Time: 19.1045 ticks
+System Throughput: 0.45641 vehicles/tick
+Total System Cost: 2052.15
+Average Rush Level: 0.206667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 183
+Average Travel Time: 19.6645 ticks
+System Throughput: 0.4575 vehicles/tick
+Total System Cost: 2050.5
+Average Rush Level: 0.2
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 187
+Average Travel Time: 20.1091 ticks
+System Throughput: 0.456098 vehicles/tick
+Total System Cost: 2050.09
+Average Rush Level: 0.198889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 196
+Average Travel Time: 21.0776 ticks
+System Throughput: 0.466667 vehicles/tick
+Total System Cost: 2048.79
+Average Rush Level: 0.186667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 202
+Average Travel Time: 21.7065 ticks
+System Throughput: 0.469767 vehicles/tick
+Total System Cost: 2048.44
+Average Rush Level: 0.183333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 207
+Average Travel Time: 22.2334 ticks
+System Throughput: 0.470455 vehicles/tick
+Total System Cost: 2048.21
+Average Rush Level: 0.177778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 211
+Average Travel Time: 22.6498 ticks
+System Throughput: 0.468889 vehicles/tick
+Total System Cost: 2048.16
+Average Rush Level: 0.174444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 213
+Average Travel Time: 22.8648 ticks
+System Throughput: 0.463043 vehicles/tick
+Total System Cost: 2048.13
+Average Rush Level: 0.174444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 216
+Average Travel Time: 23.1954 ticks
+System Throughput: 0.459574 vehicles/tick
+Total System Cost: 2048.12
+Average Rush Level: 0.173333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 220
+Average Travel Time: 23.6373 ticks
+System Throughput: 0.458333 vehicles/tick
+Total System Cost: 2048.2
+Average Rush Level: 0.174444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 223
+Average Travel Time: 23.9673 ticks
+System Throughput: 0.455102 vehicles/tick
+Total System Cost: 2048.29
+Average Rush Level: 0.177778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 226
+Average Travel Time: 24.304 ticks
+System Throughput: 0.452 vehicles/tick
+Total System Cost: 2048.41
+Average Rush Level: 0.181111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 229
+Average Travel Time: 24.6432 ticks
+System Throughput: 0.44902 vehicles/tick
+Total System Cost: 2048.28
+Average Rush Level: 0.18
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 232
+Average Travel Time: 24.9914 ticks
+System Throughput: 0.446154 vehicles/tick
+Total System Cost: 2048.2
+Average Rush Level: 0.177778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 235
+Average Travel Time: 25.3383 ticks
+System Throughput: 0.443396 vehicles/tick
+Total System Cost: 2048.14
+Average Rush Level: 0.174444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 239
+Average Travel Time: 25.8126 ticks
+System Throughput: 0.442593 vehicles/tick
+Total System Cost: 2048.1
+Average Rush Level: 0.172222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 243
+Average Travel Time: 26.286 ticks
+System Throughput: 0.441818 vehicles/tick
+Total System Cost: 2054.44
+Average Rush Level: 0.208889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 245
+Average Travel Time: 26.5265 ticks
+System Throughput: 0.4375 vehicles/tick
+Total System Cost: 2051.98
+Average Rush Level: 0.201111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 250
+Average Travel Time: 27.126 ticks
+System Throughput: 0.438596 vehicles/tick
+Total System Cost: 2052.9
+Average Rush Level: 0.212778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 254
+Average Travel Time: 27.5984 ticks
+System Throughput: 0.437931 vehicles/tick
+Total System Cost: 2051.41
+Average Rush Level: 0.209444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 260
+Average Travel Time: 28.305 ticks
+System Throughput: 0.440678 vehicles/tick
+Total System Cost: 2050.38
+Average Rush Level: 0.202778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 271
+Average Travel Time: 29.5664 ticks
+System Throughput: 0.451667 vehicles/tick
+Total System Cost: 2048.51
+Average Rush Level: 0.184444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 275
+Average Travel Time: 30.0123 ticks
+System Throughput: 0.45082 vehicles/tick
+Total System Cost: 2048.26
+Average Rush Level: 0.18
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 281
+Average Travel Time: 30.6878 ticks
+System Throughput: 0.453226 vehicles/tick
+Total System Cost: 2048.13
+Average Rush Level: 0.174444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 286
+Average Travel Time: 31.245 ticks
+System Throughput: 0.453968 vehicles/tick
+Total System Cost: 2048.13
+Average Rush Level: 0.174444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 290
+Average Travel Time: 31.6903 ticks
+System Throughput: 0.453125 vehicles/tick
+Total System Cost: 2048.13
+Average Rush Level: 0.173333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 290
+Average Travel Time: 31.6903 ticks
+System Throughput: 0.446154 vehicles/tick
+Total System Cost: 2048.17
+Average Rush Level: 0.175556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 296
+Average Travel Time: 32.3746 ticks
+System Throughput: 0.448485 vehicles/tick
+Total System Cost: 2048.22
+Average Rush Level: 0.177778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 298
+Average Travel Time: 32.6033 ticks
+System Throughput: 0.444776 vehicles/tick
+Total System Cost: 2048.31
+Average Rush Level: 0.18
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 300
+Average Travel Time: 32.8356 ticks
+System Throughput: 0.441176 vehicles/tick
+Total System Cost: 2048.28
+Average Rush Level: 0.18
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 304
+Average Travel Time: 33.3052 ticks
+System Throughput: 0.44058 vehicles/tick
+Total System Cost: 2048.15
+Average Rush Level: 0.175556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 307
+Average Travel Time: 33.6572 ticks
+System Throughput: 0.438571 vehicles/tick
+Total System Cost: 2048.13
+Average Rush Level: 0.173333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 308
+Average Travel Time: 33.7769 ticks
+System Throughput: 0.433803 vehicles/tick
+Total System Cost: 2048.16
+Average Rush Level: 0.175556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 313
+Average Travel Time: 34.3766 ticks
+System Throughput: 0.434722 vehicles/tick
+Total System Cost: 2048.14
+Average Rush Level: 0.174444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 314
+Average Travel Time: 34.4989 ticks
+System Throughput: 0.430137 vehicles/tick
+Total System Cost: 2051.54
+Average Rush Level: 0.202222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 319
+Average Travel Time: 35.1068 ticks
+System Throughput: 0.431081 vehicles/tick
+Total System Cost: 2051.25
+Average Rush Level: 0.201111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 327
+Average Travel Time: 36.0724 ticks
+System Throughput: 0.436 vehicles/tick
+Total System Cost: 2048.48
+Average Rush Level: 0.19
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 331
+Average Travel Time: 36.5482 ticks
+System Throughput: 0.435526 vehicles/tick
+Total System Cost: 2050.98
+Average Rush Level: 0.206111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 334
+Average Travel Time: 36.9074 ticks
+System Throughput: 0.433766 vehicles/tick
+Total System Cost: 2050.42
+Average Rush Level: 0.202222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 346
+Average Travel Time: 38.314 ticks
+System Throughput: 0.44359 vehicles/tick
+Total System Cost: 2048.27
+Average Rush Level: 0.18
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 351
+Average Travel Time: 38.8865 ticks
+System Throughput: 0.444304 vehicles/tick
+Total System Cost: 2048.19
+Average Rush Level: 0.176667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 356
+Average Travel Time: 39.4555 ticks
+System Throughput: 0.445 vehicles/tick
+Total System Cost: 2048.24
+Average Rush Level: 0.176667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 362
+Average Travel Time: 40.1352 ticks
+System Throughput: 0.446914 vehicles/tick
+Total System Cost: 2048.34
+Average Rush Level: 0.177778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 363
+Average Travel Time: 40.248 ticks
+System Throughput: 0.442683 vehicles/tick
+Total System Cost: 2048.35
+Average Rush Level: 0.18
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 366
+Average Travel Time: 40.5946 ticks
+System Throughput: 0.440964 vehicles/tick
+Total System Cost: 2048.31
+Average Rush Level: 0.18
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 369
+Average Travel Time: 40.9418 ticks
+System Throughput: 0.439286 vehicles/tick
+Total System Cost: 2048.26
+Average Rush Level: 0.18
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 373
+Average Travel Time: 41.4079 ticks
+System Throughput: 0.438824 vehicles/tick
+Total System Cost: 2048.17
+Average Rush Level: 0.176667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 374
+Average Travel Time: 41.5266 ticks
+System Throughput: 0.434884 vehicles/tick
+Total System Cost: 2048.16
+Average Rush Level: 0.175556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 380
+Average Travel Time: 42.2377 ticks
+System Throughput: 0.436782 vehicles/tick
+Total System Cost: 2050.97
+Average Rush Level: 0.185
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 382
+Average Travel Time: 42.4768 ticks
+System Throughput: 0.434091 vehicles/tick
+Total System Cost: 2091.02
+Average Rush Level: 0.187222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 385
+Average Travel Time: 42.8344 ticks
+System Throughput: 0.432584 vehicles/tick
+Total System Cost: 2081.18
+Average Rush Level: 0.191667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 387
+Average Travel Time: 43.075 ticks
+System Throughput: 0.43 vehicles/tick
+Total System Cost: 2081.3
+Average Rush Level: 0.195
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 391
+Average Travel Time: 43.5607 ticks
+System Throughput: 0.42967 vehicles/tick
+Total System Cost: 2081.13
+Average Rush Level: 0.192778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 394
+Average Travel Time: 43.9259 ticks
+System Throughput: 0.428261 vehicles/tick
+Total System Cost: 2085.91
+Average Rush Level: 0.225
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 404
+Average Travel Time: 45.1319 ticks
+System Throughput: 0.434409 vehicles/tick
+Total System Cost: 2081.58
+Average Rush Level: 0.202778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 413
+Average Travel Time: 46.1811 ticks
+System Throughput: 0.439362 vehicles/tick
+Total System Cost: 2080.45
+Average Rush Level: 0.188889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 421
+Average Travel Time: 47.0962 ticks
+System Throughput: 0.443158 vehicles/tick
+Total System Cost: 2078.97
+Average Rush Level: 0.176111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 423
+Average Travel Time: 47.3258 ticks
+System Throughput: 0.440625 vehicles/tick
+Total System Cost: 2068.49
+Average Rush Level: 0.175556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 427
+Average Travel Time: 47.7848 ticks
+System Throughput: 0.440206 vehicles/tick
+Total System Cost: 2066.67
+Average Rush Level: 0.170556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 430
+Average Travel Time: 48.13 ticks
+System Throughput: 0.438776 vehicles/tick
+Total System Cost: 2065.79
+Average Rush Level: 0.168333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 435
+Average Travel Time: 48.7057 ticks
+System Throughput: 0.439394 vehicles/tick
+Total System Cost: 2064.57
+Average Rush Level: 0.159444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 438
+Average Travel Time: 49.0516 ticks
+System Throughput: 0.438 vehicles/tick
+Total System Cost: 2064.04
+Average Rush Level: 0.155556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 440
+Average Travel Time: 49.2838 ticks
+System Throughput: 0.435644 vehicles/tick
+Total System Cost: 2064.07
+Average Rush Level: 0.156667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 444
+Average Travel Time: 49.7551 ticks
+System Throughput: 0.435294 vehicles/tick
+Total System Cost: 2063.98
+Average Rush Level: 0.153333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 449
+Average Travel Time: 50.3451 ticks
+System Throughput: 0.435922 vehicles/tick
+Total System Cost: 2062.52
+Average Rush Level: 0.137778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 451
+Average Travel Time: 50.5818 ticks
+System Throughput: 0.433654 vehicles/tick
+Total System Cost: 2061.83
+Average Rush Level: 0.129444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 453
+Average Travel Time: 50.8196 ticks
+System Throughput: 0.431429 vehicles/tick
+Total System Cost: 2061.92
+Average Rush Level: 0.133889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 455
+Average Travel Time: 51.0593 ticks
+System Throughput: 0.429245 vehicles/tick
+Total System Cost: 2062.1
+Average Rush Level: 0.138333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 461
+Average Travel Time: 51.7815 ticks
+System Throughput: 0.430841 vehicles/tick
+Total System Cost: 2062.04
+Average Rush Level: 0.136111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 463
+Average Travel Time: 52.0224 ticks
+System Throughput: 0.428704 vehicles/tick
+Total System Cost: 2061.94
+Average Rush Level: 0.135
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 465
+Average Travel Time: 52.2651 ticks
+System Throughput: 0.426605 vehicles/tick
+Total System Cost: 2063.94
+Average Rush Level: 0.145556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 468
+Average Travel Time: 52.6328 ticks
+System Throughput: 0.425455 vehicles/tick
+Total System Cost: 2062.93
+Average Rush Level: 0.14
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 473
+Average Travel Time: 53.2451 ticks
+System Throughput: 0.426126 vehicles/tick
+Total System Cost: 2063
+Average Rush Level: 0.138333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 476
+Average Travel Time: 53.6112 ticks
+System Throughput: 0.425 vehicles/tick
+Total System Cost: 2061.94
+Average Rush Level: 0.135
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 479
+Average Travel Time: 53.9798 ticks
+System Throughput: 0.423894 vehicles/tick
+Total System Cost: 2062
+Average Rush Level: 0.136111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 484
+Average Travel Time: 54.5959 ticks
+System Throughput: 0.424561 vehicles/tick
+Total System Cost: 2062.1
+Average Rush Level: 0.138333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 490
+Average Travel Time: 55.3288 ticks
+System Throughput: 0.426087 vehicles/tick
+Total System Cost: 2062.04
+Average Rush Level: 0.136111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 492
+Average Travel Time: 55.5742 ticks
+System Throughput: 0.424138 vehicles/tick
+Total System Cost: 2061.97
+Average Rush Level: 0.136111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 495
+Average Travel Time: 55.9429 ticks
+System Throughput: 0.423077 vehicles/tick
+Total System Cost: 2061.91
+Average Rush Level: 0.133889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 498
+Average Travel Time: 56.3141 ticks
+System Throughput: 0.422034 vehicles/tick
+Total System Cost: 2061.88
+Average Rush Level: 0.132778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 500
+Average Travel Time: 56.5612 ticks
+System Throughput: 0.420168 vehicles/tick
+Total System Cost: 2061.88
+Average Rush Level: 0.132778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 503
+Average Travel Time: 56.937 ticks
+System Throughput: 0.419167 vehicles/tick
+Total System Cost: 2071.86
+Average Rush Level: 0.130556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 507
+Average Travel Time: 57.4379 ticks
+System Throughput: 0.419008 vehicles/tick
+Total System Cost: 2071.86
+Average Rush Level: 0.130556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 510
+Average Travel Time: 57.8137 ticks
+System Throughput: 0.418033 vehicles/tick
+Total System Cost: 2071.99
+Average Rush Level: 0.135
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 512
+Average Travel Time: 58.0648 ticks
+System Throughput: 0.41626 vehicles/tick
+Total System Cost: 2072.1
+Average Rush Level: 0.138333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 515
+Average Travel Time: 58.4454 ticks
+System Throughput: 0.415323 vehicles/tick
+Total System Cost: 2072.02
+Average Rush Level: 0.137222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 518
+Average Travel Time: 58.8276 ticks
+System Throughput: 0.4144 vehicles/tick
+Total System Cost: 2071.96
+Average Rush Level: 0.136111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 522
+Average Travel Time: 59.3375 ticks
+System Throughput: 0.414286 vehicles/tick
+Total System Cost: 2074.4
+Average Rush Level: 0.144444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 525
+Average Travel Time: 59.7207 ticks
+System Throughput: 0.413386 vehicles/tick
+Total System Cost: 2073.35
+Average Rush Level: 0.138889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 529
+Average Travel Time: 60.2355 ticks
+System Throughput: 0.413281 vehicles/tick
+Total System Cost: 2073.6
+Average Rush Level: 0.14
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 533
+Average Travel Time: 60.7493 ticks
+System Throughput: 0.413178 vehicles/tick
+Total System Cost: 2071.92
+Average Rush Level: 0.133889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 537
+Average Travel Time: 61.2625 ticks
+System Throughput: 0.413077 vehicles/tick
+Total System Cost: 2071.99
+Average Rush Level: 0.135
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 541
+Average Travel Time: 61.7746 ticks
+System Throughput: 0.412977 vehicles/tick
+Total System Cost: 2072.15
+Average Rush Level: 0.138333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 544
+Average Travel Time: 62.1582 ticks
+System Throughput: 0.412121 vehicles/tick
+Total System Cost: 2072.1
+Average Rush Level: 0.138333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 547
+Average Travel Time: 62.5429 ticks
+System Throughput: 0.411278 vehicles/tick
+Total System Cost: 2071.99
+Average Rush Level: 0.137222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 550
+Average Travel Time: 62.9285 ticks
+System Throughput: 0.410448 vehicles/tick
+Total System Cost: 2071.91
+Average Rush Level: 0.133889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 553
+Average Travel Time: 63.3165 ticks
+System Throughput: 0.40963 vehicles/tick
+Total System Cost: 2071.88
+Average Rush Level: 0.132778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 558
+Average Travel Time: 63.9633 ticks
+System Throughput: 0.410294 vehicles/tick
+Total System Cost: 2071.83
+Average Rush Level: 0.129444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 561
+Average Travel Time: 64.3507 ticks
+System Throughput: 0.409489 vehicles/tick
+Total System Cost: 2071.86
+Average Rush Level: 0.129444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 563
+Average Travel Time: 64.6111 ticks
+System Throughput: 0.407971 vehicles/tick
+Total System Cost: 2071.92
+Average Rush Level: 0.132778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 565
+Average Travel Time: 64.8725 ticks
+System Throughput: 0.406475 vehicles/tick
+Total System Cost: 2072.1
+Average Rush Level: 0.138333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 569
+Average Travel Time: 65.3974 ticks
+System Throughput: 0.406429 vehicles/tick
+Total System Cost: 2072.05
+Average Rush Level: 0.137222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 571
+Average Travel Time: 65.6607 ticks
+System Throughput: 0.404965 vehicles/tick
+Total System Cost: 2071.99
+Average Rush Level: 0.137222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 574
+Average Travel Time: 66.0565 ticks
+System Throughput: 0.404225 vehicles/tick
+Total System Cost: 2071.93
+Average Rush Level: 0.135
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 575
+Average Travel Time: 66.1901 ticks
+System Throughput: 0.402098 vehicles/tick
+Total System Cost: 2074.45
+Average Rush Level: 0.146667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 581
+Average Travel Time: 66.9878 ticks
+System Throughput: 0.403472 vehicles/tick
+Total System Cost: 2073.33
+Average Rush Level: 0.137778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 583
+Average Travel Time: 67.2537 ticks
+System Throughput: 0.402069 vehicles/tick
+Total System Cost: 2074.91
+Average Rush Level: 0.144444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 588
+Average Travel Time: 67.9181 ticks
+System Throughput: 0.40274 vehicles/tick
+Total System Cost: 2072
+Average Rush Level: 0.136111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 589
+Average Travel Time: 68.0516 ticks
+System Throughput: 0.40068 vehicles/tick
+Total System Cost: 2072.37
+Average Rush Level: 0.142778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 595
+Average Travel Time: 68.8508 ticks
+System Throughput: 0.402027 vehicles/tick
+Total System Cost: 2072.18
+Average Rush Level: 0.140556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 600
+Average Travel Time: 69.5154 ticks
+System Throughput: 0.402685 vehicles/tick
+Total System Cost: 2072.1
+Average Rush Level: 0.138333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 603
+Average Travel Time: 69.9135 ticks
+System Throughput: 0.402 vehicles/tick
+Total System Cost: 2071.96
+Average Rush Level: 0.136111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 606
+Average Travel Time: 70.3136 ticks
+System Throughput: 0.401325 vehicles/tick
+Total System Cost: 2071.89
+Average Rush Level: 0.132778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 608
+Average Travel Time: 70.5795 ticks
+System Throughput: 0.4 vehicles/tick
+Total System Cost: 2071.92
+Average Rush Level: 0.132778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 611
+Average Travel Time: 70.981 ticks
+System Throughput: 0.399346 vehicles/tick
+Total System Cost: 2071.86
+Average Rush Level: 0.131667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 614
+Average Travel Time: 71.3829 ticks
+System Throughput: 0.398701 vehicles/tick
+Total System Cost: 2071.89
+Average Rush Level: 0.132778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 620
+Average Travel Time: 72.1883 ticks
+System Throughput: 0.4 vehicles/tick
+Total System Cost: 2071.95
+Average Rush Level: 0.132778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 622
+Average Travel Time: 72.4555 ticks
+System Throughput: 0.398718 vehicles/tick
+Total System Cost: 2072.05
+Average Rush Level: 0.137222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 625
+Average Travel Time: 72.86 ticks
+System Throughput: 0.398089 vehicles/tick
+Total System Cost: 2072.05
+Average Rush Level: 0.137222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 627
+Average Travel Time: 73.1299 ticks
+System Throughput: 0.396835 vehicles/tick
+Total System Cost: 2071.98
+Average Rush Level: 0.137222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 630
+Average Travel Time: 73.5361 ticks
+System Throughput: 0.396226 vehicles/tick
+Total System Cost: 2071.92
+Average Rush Level: 0.133889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 631
+Average Travel Time: 73.6715 ticks
+System Throughput: 0.394375 vehicles/tick
+Total System Cost: 2071.92
+Average Rush Level: 0.133889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 636
+Average Travel Time: 74.3543 ticks
+System Throughput: 0.395031 vehicles/tick
+Total System Cost: 2081.86
+Average Rush Level: 0.131667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 639
+Average Travel Time: 74.7631 ticks
+System Throughput: 0.394444 vehicles/tick
+Total System Cost: 2083.37
+Average Rush Level: 0.138889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 643
+Average Travel Time: 75.3081 ticks
+System Throughput: 0.394479 vehicles/tick
+Total System Cost: 2080.88
+Average Rush Level: 0.127778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 647
+Average Travel Time: 75.8529 ticks
+System Throughput: 0.394512 vehicles/tick
+Total System Cost: 2029.01
+Average Rush Level: 0.125556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 650
+Average Travel Time: 76.2618 ticks
+System Throughput: 0.393939 vehicles/tick
+Total System Cost: 2027.39
+Average Rush Level: 0.117222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 653
+Average Travel Time: 76.6724 ticks
+System Throughput: 0.393373 vehicles/tick
+Total System Cost: 2026.75
+Average Rush Level: 0.111667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 658
+Average Travel Time: 77.354 ticks
+System Throughput: 0.394012 vehicles/tick
+Total System Cost: 2026.31
+Average Rush Level: 0.105
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 661
+Average Travel Time: 77.763 ticks
+System Throughput: 0.393452 vehicles/tick
+Total System Cost: 2026.03
+Average Rush Level: 0.100556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 666
+Average Travel Time: 78.4436 ticks
+System Throughput: 0.394083 vehicles/tick
+Total System Cost: 2025.29
+Average Rush Level: 0.0905556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 670
+Average Travel Time: 78.9868 ticks
+System Throughput: 0.394118 vehicles/tick
+Total System Cost: 2044.94
+Average Rush Level: 0.0816667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 671
+Average Travel Time: 79.1225 ticks
+System Throughput: 0.392398 vehicles/tick
+Total System Cost: 2047.99
+Average Rush Level: 0.0922222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 672
+Average Travel Time: 79.2599 ticks
+System Throughput: 0.390698 vehicles/tick
+Total System Cost: 2064.49
+Average Rush Level: 0.131667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 677
+Average Travel Time: 79.9486 ticks
+System Throughput: 0.391329 vehicles/tick
+Total System Cost: 2064.44
+Average Rush Level: 0.127222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 680
+Average Travel Time: 80.3616 ticks
+System Throughput: 0.390805 vehicles/tick
+Total System Cost: 2044.46
+Average Rush Level: 0.129444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 680
+Average Travel Time: 80.3616 ticks
+System Throughput: 0.388571 vehicles/tick
+Total System Cost: 2044.46
+Average Rush Level: 0.129444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 682
+Average Travel Time: 80.6418 ticks
+System Throughput: 0.3875 vehicles/tick
+Total System Cost: 2044.45
+Average Rush Level: 0.128333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 695
+Average Travel Time: 82.4357 ticks
+System Throughput: 0.392655 vehicles/tick
+Total System Cost: 2039.97
+Average Rush Level: 0.105
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 699
+Average Travel Time: 82.9796 ticks
+System Throughput: 0.392697 vehicles/tick
+Total System Cost: 2038.57
+Average Rush Level: 0.0938889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 702
+Average Travel Time: 83.3885 ticks
+System Throughput: 0.392179 vehicles/tick
+Total System Cost: 2038.07
+Average Rush Level: 0.0872222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 706
+Average Travel Time: 83.9322 ticks
+System Throughput: 0.392222 vehicles/tick
+Total System Cost: 2037.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 706
+Average Travel Time: 83.9322 ticks
+System Throughput: 0.390055 vehicles/tick
+Total System Cost: 2037.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 708
+Average Travel Time: 84.2088 ticks
+System Throughput: 0.389011 vehicles/tick
+Total System Cost: 2037.88
+Average Rush Level: 0.0844444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 711
+Average Travel Time: 84.6233 ticks
+System Throughput: 0.388525 vehicles/tick
+Total System Cost: 2037.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 711
+Average Travel Time: 84.6233 ticks
+System Throughput: 0.386413 vehicles/tick
+Total System Cost: 2037.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 712
+Average Travel Time: 84.7641 ticks
+System Throughput: 0.384865 vehicles/tick
+Total System Cost: 2037.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 716
+Average Travel Time: 85.3265 ticks
+System Throughput: 0.384946 vehicles/tick
+Total System Cost: 2037.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 717
+Average Travel Time: 85.467 ticks
+System Throughput: 0.383422 vehicles/tick
+Total System Cost: 2037.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 717
+Average Travel Time: 85.467 ticks
+System Throughput: 0.381383 vehicles/tick
+Total System Cost: 2037.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 721
+Average Travel Time: 86.0385 ticks
+System Throughput: 0.381481 vehicles/tick
+Total System Cost: 2037.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 722
+Average Travel Time: 86.1814 ticks
+System Throughput: 0.38 vehicles/tick
+Total System Cost: 2037.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 722
+Average Travel Time: 86.1814 ticks
+System Throughput: 0.37801 vehicles/tick
+Total System Cost: 2037.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 726
+Average Travel Time: 86.7619 ticks
+System Throughput: 0.378125 vehicles/tick
+Total System Cost: 2037.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 726
+Average Travel Time: 86.7619 ticks
+System Throughput: 0.376166 vehicles/tick
+Total System Cost: 2037.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 726
+Average Travel Time: 86.7619 ticks
+System Throughput: 0.374227 vehicles/tick
+Total System Cost: 2037.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 730
+Average Travel Time: 87.3521 ticks
+System Throughput: 0.374359 vehicles/tick
+Total System Cost: 2037.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 731
+Average Travel Time: 87.4995 ticks
+System Throughput: 0.372959 vehicles/tick
+Total System Cost: 2037.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 731
+Average Travel Time: 87.4995 ticks
+System Throughput: 0.371066 vehicles/tick
+Total System Cost: 2037.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 735
+Average Travel Time: 88.0988 ticks
+System Throughput: 0.371212 vehicles/tick
+Total System Cost: 2057.88
+Average Rush Level: 0.0844444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 737
+Average Travel Time: 88.398 ticks
+System Throughput: 0.370352 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 737
+Average Travel Time: 88.398 ticks
+System Throughput: 0.3685 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 739
+Average Travel Time: 88.702 ticks
+System Throughput: 0.367662 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 742
+Average Travel Time: 89.1573 ticks
+System Throughput: 0.367327 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 742
+Average Travel Time: 89.1573 ticks
+System Throughput: 0.365517 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 744
+Average Travel Time: 89.4652 ticks
+System Throughput: 0.364706 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 746
+Average Travel Time: 89.7729 ticks
+System Throughput: 0.363902 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 746
+Average Travel Time: 89.7729 ticks
+System Throughput: 0.362136 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 749
+Average Travel Time: 90.2414 ticks
+System Throughput: 0.361836 vehicles/tick
+Total System Cost: 2047.88
+Average Rush Level: 0.0844444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 752
+Average Travel Time: 90.709 ticks
+System Throughput: 0.361538 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 752
+Average Travel Time: 90.709 ticks
+System Throughput: 0.359809 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 752
+Average Travel Time: 90.709 ticks
+System Throughput: 0.358095 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 757
+Average Travel Time: 91.4993 ticks
+System Throughput: 0.358768 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 757
+Average Travel Time: 91.4993 ticks
+System Throughput: 0.357075 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 758
+Average Travel Time: 91.6594 ticks
+System Throughput: 0.355869 vehicles/tick
+Total System Cost: 2047.88
+Average Rush Level: 0.0844444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 761
+Average Travel Time: 92.1394 ticks
+System Throughput: 0.355607 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 761
+Average Travel Time: 92.1394 ticks
+System Throughput: 0.353953 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 762
+Average Travel Time: 92.3018 ticks
+System Throughput: 0.352778 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 766
+Average Travel Time: 92.9499 ticks
+System Throughput: 0.352995 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 766
+Average Travel Time: 92.9499 ticks
+System Throughput: 0.351376 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 766
+Average Travel Time: 92.9499 ticks
+System Throughput: 0.349772 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 771
+Average Travel Time: 93.7702 ticks
+System Throughput: 0.350455 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 772
+Average Travel Time: 93.934 ticks
+System Throughput: 0.349321 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 772
+Average Travel Time: 93.934 ticks
+System Throughput: 0.347748 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 775
+Average Travel Time: 94.4317 ticks
+System Throughput: 0.347534 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 777
+Average Travel Time: 94.763 ticks
+System Throughput: 0.346875 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 777
+Average Travel Time: 94.763 ticks
+System Throughput: 0.345333 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 779
+Average Travel Time: 95.0987 ticks
+System Throughput: 0.34469 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 781
+Average Travel Time: 95.434 ticks
+System Throughput: 0.344053 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 781
+Average Travel Time: 95.434 ticks
+System Throughput: 0.342544 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 784
+Average Travel Time: 95.9431 ticks
+System Throughput: 0.342358 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 786
+Average Travel Time: 96.282 ticks
+System Throughput: 0.341739 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 786
+Average Travel Time: 96.282 ticks
+System Throughput: 0.34026 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 789
+Average Travel Time: 96.7967 ticks
+System Throughput: 0.340086 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 792
+Average Travel Time: 97.31 ticks
+System Throughput: 0.339914 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 792
+Average Travel Time: 97.31 ticks
+System Throughput: 0.338462 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 793
+Average Travel Time: 97.4834 ticks
+System Throughput: 0.337447 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 797
+Average Travel Time: 98.1751 ticks
+System Throughput: 0.337712 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 797
+Average Travel Time: 98.1751 ticks
+System Throughput: 0.336287 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 798
+Average Travel Time: 98.3499 ticks
+System Throughput: 0.335294 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 801
+Average Travel Time: 98.8742 ticks
+System Throughput: 0.335146 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 801
+Average Travel Time: 98.8742 ticks
+System Throughput: 0.33375 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 803
+Average Travel Time: 99.2276 ticks
+System Throughput: 0.333195 vehicles/tick
+Total System Cost: 2047.88
+Average Rush Level: 0.0844444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 807
+Average Travel Time: 99.933 ticks
+System Throughput: 0.333471 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 807
+Average Travel Time: 99.933 ticks
+System Throughput: 0.332099 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 808
+Average Travel Time: 100.111 ticks
+System Throughput: 0.331148 vehicles/tick
+Total System Cost: 2047.88
+Average Rush Level: 0.0844444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 811
+Average Travel Time: 100.645 ticks
+System Throughput: 0.33102 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 812
+Average Travel Time: 100.822 ticks
+System Throughput: 0.330081 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 812
+Average Travel Time: 100.822 ticks
+System Throughput: 0.328745 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 816
+Average Travel Time: 101.541 ticks
+System Throughput: 0.329032 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 816
+Average Travel Time: 101.541 ticks
+System Throughput: 0.327711 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 816
+Average Travel Time: 101.541 ticks
+System Throughput: 0.3264 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 821
+Average Travel Time: 102.448 ticks
+System Throughput: 0.327092 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 821
+Average Travel Time: 102.448 ticks
+System Throughput: 0.325794 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 821
+Average Travel Time: 102.448 ticks
+System Throughput: 0.324506 vehicles/tick
+Total System Cost: 2051.4
+Average Rush Level: 0.114444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 825
+Average Travel Time: 103.18 ticks
+System Throughput: 0.324803 vehicles/tick
+Total System Cost: 2054.45
+Average Rush Level: 0.127222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 827
+Average Travel Time: 103.546 ticks
+System Throughput: 0.324314 vehicles/tick
+Total System Cost: 2054.45
+Average Rush Level: 0.127222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 827
+Average Travel Time: 103.546 ticks
+System Throughput: 0.323047 vehicles/tick
+Total System Cost: 2054.45
+Average Rush Level: 0.127222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 830
+Average Travel Time: 104.099 ticks
+System Throughput: 0.322957 vehicles/tick
+Total System Cost: 2054.44
+Average Rush Level: 0.126111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 832
+Average Travel Time: 104.467 ticks
+System Throughput: 0.322481 vehicles/tick
+Total System Cost: 2054.45
+Average Rush Level: 0.127222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 840
+Average Travel Time: 105.935 ticks
+System Throughput: 0.324324 vehicles/tick
+Total System Cost: 2049.97
+Average Rush Level: 0.105
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 846
+Average Travel Time: 107.024 ticks
+System Throughput: 0.325385 vehicles/tick
+Total System Cost: 2048.57
+Average Rush Level: 0.0938889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 850
+Average Travel Time: 107.745 ticks
+System Throughput: 0.325671 vehicles/tick
+Total System Cost: 2048.09
+Average Rush Level: 0.0894444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 851
+Average Travel Time: 107.926 ticks
+System Throughput: 0.324809 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 854
+Average Travel Time: 108.469 ticks
+System Throughput: 0.324715 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 856
+Average Travel Time: 108.831 ticks
+System Throughput: 0.324242 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 856
+Average Travel Time: 108.831 ticks
+System Throughput: 0.323019 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 859
+Average Travel Time: 109.379 ticks
+System Throughput: 0.322932 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 862
+Average Travel Time: 109.925 ticks
+System Throughput: 0.322846 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 862
+Average Travel Time: 109.925 ticks
+System Throughput: 0.321642 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 863
+Average Travel Time: 110.11 ticks
+System Throughput: 0.320818 vehicles/tick
+Total System Cost: 2047.2
+Average Rush Level: 0.0827778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 867
+Average Travel Time: 110.845 ticks
+System Throughput: 0.321111 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 867
+Average Travel Time: 110.845 ticks
+System Throughput: 0.319926 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 868
+Average Travel Time: 111.03 ticks
+System Throughput: 0.319118 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 870
+Average Travel Time: 111.401 ticks
+System Throughput: 0.318681 vehicles/tick
+Total System Cost: 2047.92
+Average Rush Level: 0.0877778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 870
+Average Travel Time: 111.401 ticks
+System Throughput: 0.317518 vehicles/tick
+Total System Cost: 2047.92
+Average Rush Level: 0.0877778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 873
+Average Travel Time: 111.962 ticks
+System Throughput: 0.317455 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 876
+Average Travel Time: 112.522 ticks
+System Throughput: 0.317391 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 877
+Average Travel Time: 112.709 ticks
+System Throughput: 0.316606 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 877
+Average Travel Time: 112.709 ticks
+System Throughput: 0.315468 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 881
+Average Travel Time: 113.461 ticks
+System Throughput: 0.315771 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 882
+Average Travel Time: 113.649 ticks
+System Throughput: 0.315 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 882
+Average Travel Time: 113.649 ticks
+System Throughput: 0.313879 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 886
+Average Travel Time: 114.407 ticks
+System Throughput: 0.314184 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 886
+Average Travel Time: 114.407 ticks
+System Throughput: 0.313074 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 887
+Average Travel Time: 114.598 ticks
+System Throughput: 0.312324 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 890
+Average Travel Time: 115.171 ticks
+System Throughput: 0.312281 vehicles/tick
+Total System Cost: 2047.89
+Average Rush Level: 0.0855556
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 891
+Average Travel Time: 115.362 ticks
+System Throughput: 0.311538 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 891
+Average Travel Time: 115.362 ticks
+System Throughput: 0.310453 vehicles/tick
+Total System Cost: 2047.9
+Average Rush Level: 0.0866667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 895
+Average Travel Time: 116.131 ticks
+System Throughput: 0.310764 vehicles/tick
+Total System Cost: 2047.88
+Average Rush Level: 0.0844444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 897
+Average Travel Time: 116.515 ticks
+System Throughput: 0.310381 vehicles/tick
+Total System Cost: 2037.2
+Average Rush Level: 0.0827778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 897
+Average Travel Time: 116.515 ticks
+System Throughput: 0.30931 vehicles/tick
+Total System Cost: 2037.2
+Average Rush Level: 0.0827778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 900
+Average Travel Time: 117.095 ticks
+System Throughput: 0.309278 vehicles/tick
+Total System Cost: 2035.94
+Average Rush Level: 0.0761111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 901
+Average Travel Time: 117.289 ticks
+System Throughput: 0.308562 vehicles/tick
+Total System Cost: 2034.82
+Average Rush Level: 0.0716667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 901
+Average Travel Time: 117.289 ticks
+System Throughput: 0.307509 vehicles/tick
+Total System Cost: 2034.82
+Average Rush Level: 0.0716667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.307143 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.306102 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.305068 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.30404 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.30302 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.302007 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.301 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.3 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.299007 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.29802 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.297039 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.296066 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.295098 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.294137 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.293182 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.292233 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.29129 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.290354 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.289423 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.288498 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.28758 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.286667 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.285759 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.284858 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.283962 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.283072 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.282187 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.281308 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.280435 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.279567 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.278704 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.277846 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.276994 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.276147 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.275305 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.274468 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.273636 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.27281 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.271988 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.271171 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.270359 vehicles/tick
+Total System Cost: 2034.81
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.269552 vehicles/tick
+Total System Cost: 2040.69
+Average Rush Level: 0.108333
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.26875 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 903
+Average Travel Time: 117.679 ticks
+System Throughput: 0.267953 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 907
+Average Travel Time: 118.649 ticks
+System Throughput: 0.268343 vehicles/tick
+Total System Cost: 2051.24
+Average Rush Level: 0.111111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 907
+Average Travel Time: 118.649 ticks
+System Throughput: 0.267552 vehicles/tick
+Total System Cost: 2051.24
+Average Rush Level: 0.111111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 907
+Average Travel Time: 118.649 ticks
+System Throughput: 0.266765 vehicles/tick
+Total System Cost: 2051.24
+Average Rush Level: 0.111111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 916
+Average Travel Time: 120.83 ticks
+System Throughput: 0.268622 vehicles/tick
+Total System Cost: 2047.61
+Average Rush Level: 0.0861111
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 919
+Average Travel Time: 121.55 ticks
+System Throughput: 0.268713 vehicles/tick
+Total System Cost: 2047.04
+Average Rush Level: 0.0777778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 921
+Average Travel Time: 122.029 ticks
+System Throughput: 0.268513 vehicles/tick
+Total System Cost: 2046.83
+Average Rush Level: 0.0722222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.268023 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.267246 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.266474 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.265706 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.264943 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.264183 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.263429 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.262678 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.261932 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.26119 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.260452 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.259718 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.258989 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.258263 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.257542 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.256825 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.256111 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.255402 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.254696 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.253994 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.253297 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.252603 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.251913 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.251226 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.250543 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.249865 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.249189 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.248518 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.247849 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.247185 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.246524 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.245867 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.245213 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.244562 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.243915 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.243272 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.242632 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.241995 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.241361 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.240731 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.240104 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.239481 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.23886 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.238243 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.237629 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.237018 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.23641 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.235806 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.235204 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.234606 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.23401 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.233418 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.232828 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.232242 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.231658 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.231078 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.2305 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.229925 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.229353 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.228784 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.228218 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.227654 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.227094 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.226536 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.22598 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.225428 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.224878 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.224331 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.223786 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.223245 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.222705 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.222169 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.221635 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.221103 vehicles/tick
+Total System Cost: 2052.43
+Average Rush Level: 0.116667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.220574 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.220048 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.219524 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.219002 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 922
+Average Travel Time: 122.27 ticks
+System Throughput: 0.218483 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 934
+Average Travel Time: 126.127 ticks
+System Throughput: 0.220804 vehicles/tick
+Total System Cost: 2047.88
+Average Rush Level: 0.0888889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 938
+Average Travel Time: 127.394 ticks
+System Throughput: 0.221226 vehicles/tick
+Total System Cost: 2047.04
+Average Rush Level: 0.0777778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 940
+Average Travel Time: 128.026 ticks
+System Throughput: 0.221176 vehicles/tick
+Total System Cost: 2046.83
+Average Rush Level: 0.0722222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.220892 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.220375 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.21986 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.219347 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.218837 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.218329 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.217824 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.217321 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.21682 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.216322 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.215826 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.215332 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.21484 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.214351 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.213864 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.213379 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.212896 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.212415 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.211937 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.211461 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.210987 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.210515 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.210045 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.209577 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.209111 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.208647 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.208186 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.207726 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.207269 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.206813 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.20636 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.205908 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.205459 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.205011 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.204565 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.204121 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.20368 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.20324 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.202802 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.202366 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.201931 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.201499 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.201068 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.20064 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.200213 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.199788 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.199364 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.198943 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.198523 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.198105 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.197689 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.197275 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.196862 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.196451 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.196042 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.195634 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.195228 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.194824 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.194421 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.194021 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.193621 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.193224 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.192828 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.192434 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.192041 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.19165 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.19126 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.190872 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.190486 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.190101 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.189718 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.189336 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.188956 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.188577 vehicles/tick
+Total System Cost: 2052.43
+Average Rush Level: 0.116667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.1882 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.187824 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.18745 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.187078 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 941
+Average Travel Time: 128.342 ticks
+System Throughput: 0.186706 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 953
+Average Travel Time: 133.079 ticks
+System Throughput: 0.188713 vehicles/tick
+Total System Cost: 2047.88
+Average Rush Level: 0.0888889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 957
+Average Travel Time: 134.635 ticks
+System Throughput: 0.18913 vehicles/tick
+Total System Cost: 2047.04
+Average Rush Level: 0.0777778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 959
+Average Travel Time: 135.41 ticks
+System Throughput: 0.189152 vehicles/tick
+Total System Cost: 2046.83
+Average Rush Level: 0.0722222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.188976 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.188605 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.188235 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.187867 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.1875 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.187135 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.18677 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.186408 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.186047 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.185687 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.185328 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.184971 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.184615 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.184261 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.183908 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.183556 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.183206 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.182857 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.18251 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.182163 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.181818 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.181474 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.181132 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.180791 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.180451 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.180113 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.179775 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.179439 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.179104 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.178771 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.178439 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.178108 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.177778 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.177449 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.177122 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.176796 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.176471 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.176147 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.175824 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.175503 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.175182 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.174863 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.174545 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.174229 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.173913 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.173599 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.173285 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.172973 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.172662 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.172352 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.172043 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.171735 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.171429 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.171123 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.170819 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.170515 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.170213 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.169912 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.169611 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.169312 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.169014 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.168717 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.168421 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.168126 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.167832 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.167539 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.167247 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.166957 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.166667 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.166378 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.16609 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.165803 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.165517 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.165232 vehicles/tick
+Total System Cost: 2052.43
+Average Rush Level: 0.116667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.164948 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.164666 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.164384 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.164103 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 960
+Average Travel Time: 135.798 ticks
+System Throughput: 0.163823 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 972
+Average Travel Time: 141.362 ticks
+System Throughput: 0.165588 vehicles/tick
+Total System Cost: 2047.88
+Average Rush Level: 0.0888889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 976
+Average Travel Time: 143.19 ticks
+System Throughput: 0.165986 vehicles/tick
+Total System Cost: 2047.04
+Average Rush Level: 0.0777778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 978
+Average Travel Time: 144.1 ticks
+System Throughput: 0.166044 vehicles/tick
+Total System Cost: 2046.83
+Average Rush Level: 0.0722222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.165932 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.165651 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.165372 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.165093 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.164815 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.164538 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.164262 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.163987 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.163712 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.163439 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.163167 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.162895 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.162625 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.162355 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.162086 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.161818 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.161551 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.161285 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.16102 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.160755 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.160492 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.160229 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.159967 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.159706 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.159446 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.159187 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.158929 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.158671 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.158414 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.158158 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.157903 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.157649 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.157395 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.157143 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.156891 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.15664 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.15639 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.15614 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.155892 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.155644 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.155397 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.155151 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.154905 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.15466 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.154416 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.154173 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.153931 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.153689 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.153448 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.153208 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.152969 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.15273 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.152492 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.152255 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.152019 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.151783 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.151548 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.151314 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.15108 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.150847 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.150615 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.150384 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.150153 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.149923 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.149694 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.149466 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.149238 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.149011 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.148784 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.148558 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.148333 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.148109 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.147885 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.147662 vehicles/tick
+Total System Cost: 2042.43
+Average Rush Level: 0.116667
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.14744 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.147218 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.146997 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.146777 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 979
+Average Travel Time: 144.555 ticks
+System Throughput: 0.146557 vehicles/tick
+Total System Cost: 2053.76
+Average Rush Level: 0.122222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 991
+Average Travel Time: 150.899 ticks
+System Throughput: 0.148132 vehicles/tick
+Total System Cost: 2047.88
+Average Rush Level: 0.0888889
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 995
+Average Travel Time: 152.983 ticks
+System Throughput: 0.148507 vehicles/tick
+Total System Cost: 2047.04
+Average Rush Level: 0.0777778
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 997
+Average Travel Time: 154.021 ticks
+System Throughput: 0.148584 vehicles/tick
+Total System Cost: 2046.83
+Average Rush Level: 0.0722222
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.148512 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.148291 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.148071 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.147852 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.147633 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.147415 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.147198 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.146981 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.146765 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.146549 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.146334 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.14612 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.145906 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.145693 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.145481 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.145269 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.145058 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.144848 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.144638 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.144428 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.14422 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.144012 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.143804 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.143597 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.143391 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.143185 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.14298 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.142775 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.142571 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.142368 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.142165 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.141963 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.141761 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.14156 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.14136 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.14116 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.14096 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.140762 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.140563 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.140366 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.140169 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.139972 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.139776 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.13958 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.139385 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.139191 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.138997 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.138804 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.138611 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.138419 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.138227 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.138036 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.137845 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.137655 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.137466 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.137276 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.137088 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.1369 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.136712 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.136525 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.136339 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.136153 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.135967 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.135782 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.135598 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.135414 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.13523 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.135047 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.134865 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.134683 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.134501 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.13432 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.13414 vehicles/tick
+Total System Cost: 2046.77
+Average Rush Level: 0.0694444
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.13396 vehicles/tick
+Total System Cost: 2026.91
+Average Rush Level: 0.075
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.13378 vehicles/tick
+Total System Cost: 2026.91
+Average Rush Level: 0.075
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.133601 vehicles/tick
+Total System Cost: 2026.91
+Average Rush Level: 0.075
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.133422 vehicles/tick
+Total System Cost: 2026.91
+Average Rush Level: 0.075
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.133244 vehicles/tick
+Total System Cost: 2026.91
+Average Rush Level: 0.075
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 998
+Average Travel Time: 154.54 ticks
+System Throughput: 0.133067 vehicles/tick
+Total System Cost: 2026.91
+Average Rush Level: 0.075
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Total Vehicles Arrived: 1000
+Average Travel Time: 155.731 ticks
+System Throughput: 0.133262 vehicles/tick
+Total System Cost: 2026.77
+Average Rush Level: 0.0694444
+----------------------------------

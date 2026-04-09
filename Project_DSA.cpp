@@ -5,6 +5,8 @@
 #include<list>
 #include<string>
 #include"Header1.h"
+#include<utility>
+#include<fstream>
 using namespace std;
 
 
@@ -16,6 +18,7 @@ struct vehicle {
     t source;
     t current;
     list<t> path;
+	pair<t, t> currentRoad; 
     int state;
     float timespent, timeRemaining;
     vehicle() {
@@ -25,6 +28,7 @@ struct vehicle {
         current = t();
         state = -1;
         timespent = timeRemaining = 0;
+		currentRoad.first = currentRoad.second = t();
         //if 0 waiting 1 running 2 arrived;
     }
     vehicle(int i, t s, t d) {
@@ -34,15 +38,21 @@ struct vehicle {
         current = s;
         state = 0;
         timespent = timeRemaining = 0;
+        currentRoad.first = currentRoad.second = t();
         //if 0 waiting 1 running 2 arrived;
     }
 };
 template <class t,int size>
 class Manager {
+    float totalArrivedCount ;
+    float totalTime;
     list<vehicle<t>> array_of_vehicles;
     Graph<t, size>* map; //making it a pointerr so any change in map is refrencted here as well
 public:
-    Manager(Graph<t, size>* m) : map(m) {}
+    Manager(Graph<t, size>* m) : map(m) {
+        totalArrivedCount = 0; 
+        totalTime= 0;
+    }
 
     void entrance() {
         int mov[size];
@@ -67,6 +77,7 @@ public:
             t v = *it_p;
             int index = map->getIndex(u);
             RoadDetails& road = map->getEdgeDetails(u, v);
+			
             float discharge=road.DischargeAllowed(road.capacity, road.currentVehicles);
             if (road.signalState && mov[index]<discharge) {
                 mov[index]++;
@@ -74,6 +85,8 @@ public:
                 car->timeRemaining = road.NonIdealtime();
                 car->current = u;
                 car->state = 1;
+                car->currentRoad.first = u;
+                car->currentRoad.second = v;
             }
             else {
                 road.vehicleJoinsQueue();
@@ -105,6 +118,7 @@ public:
                 int index = map->getIndex(u);
                 RoadDetails& road = map->getEdgeDetails(u, v);
                 float discharge = road.DischargeAllowed(road.capacity, road.currentVehicles);
+				
                 if (road.signalState && mov[index] < discharge) {
                     mov[index]++;
                     road.vehicleExitsQueue();
@@ -112,6 +126,8 @@ public:
                     car->timeRemaining = road.NonIdealtime();
                     car->current = u;
                     car->state = 1;
+                    car->currentRoad.first = u;
+                    car->currentRoad.second = v;
                 }
             }
             car++;
@@ -122,28 +138,44 @@ public:
     void reached() {
         typename list<vehicle<t>> ::iterator car = array_of_vehicles.begin();
         while (car != array_of_vehicles.end()) {
-            if (car->state == 2) { car++; continue; }
+            bool deleted = false;
+            if (car->state == 2) {
+                this->totalArrivedCount++;
+                this->totalTime += car->timespent;
+                car = array_of_vehicles.erase(car);
+                deleted = true;
+                 
+                continue;
+            }
             if (car->state == 1) {
 
                 if (car->path.size() == 2) {
 
                     if (car->timeRemaining <= 0) {
+                        this->totalArrivedCount++;
+                        this->totalTime += car->timespent;
                         car->state = 2;
                         t u = car->path.front();
                         auto it_p = car->path.begin();
-                        advance(it_p, 1);
+                        it_p++;
                         t v = *it_p;
                         RoadDetails& r = map->getEdgeDetails(u, v);
                         r.vehicleExitsRoad();
+                        car->currentRoad.first = t();
+                        car->currentRoad.second = t();
                         car->current = v;
                         car->timeRemaining = 0;
-                        car->timespent += car->timeRemaining;
-                        cout << ">> Vehicle " << car->id << " has ARRIVED at " << v << endl;
+                        Car_timing_file(car->timespent, car->id);
+                        car = array_of_vehicles.erase(car);
+                        deleted = true;
+                        
                     }
 
                 }
             }
-            car++;
+            if (!deleted) {
+                car++;
+            }
         }
 
     }
@@ -192,7 +224,7 @@ public:
 
                 t next_u = car->path.front();
                 auto it2 = car->path.begin();
-                advance(it2, 1);
+                it2++;
                 t next_v = *it2;
                 RoadDetails& road = map->getEdgeDetails(next_u, next_v);
                 float discharge = road.DischargeAllowed(road.capacity, road.currentVehicles);
@@ -200,6 +232,8 @@ public:
                     road.vehicleJoinsQueue();
                     car->current = v;
                     car->state = 0;
+                    car->currentRoad.first = t();
+                    car->currentRoad.second = t();
                 }
 
                 else {
@@ -208,11 +242,15 @@ public:
                         road.vehicleEntersRoad();
                         car->timeRemaining = road.NonIdealtime();
                         car->state = 1;
+                        car->currentRoad.first = next_u;   
+                        car->currentRoad.second = next_v;
                     }
                     else {
                         road.vehicleJoinsQueue();
                         car->current = v;
                         car->state = 0;
+                        car->currentRoad.first = t();
+                        car->currentRoad.second = t();
 
                     }
                 }
@@ -237,19 +275,26 @@ public:
             RoadDetails* currentGreen = nullptr;
             RoadDetails* worstCandidate = nullptr;
             float max = -1.0f;
+            int maxWaitingQueue = 0;
             typename  list<RoadDetails*>::iterator temp = edges.begin();
             while (temp != edges.end()) {
-
-                (*temp)->increment(1);
+                
+                (*temp)->light.Timer((*temp)->signalState, 0.10f);
 
                 if ((*temp)->signalState == true) {
                     currentGreen = *temp;
                 }
-                if ((*temp)->choosing() > max) {
-                    max = (*temp)->choosing();
+
+                float totalCost = (*temp)->choosing() + (*temp)->light.starvationCost();
+
+                if (totalCost > max) {
+                    max = totalCost;
                     worstCandidate = *temp;
                 }
-                temp++;
+                if ((*temp)->queueCount > maxWaitingQueue) {
+                    maxWaitingQueue = (*temp)->queueCount;
+                }
+                temp++; 
             }
 
             if (worstCandidate != nullptr) {
@@ -258,7 +303,7 @@ public:
                 }
                 else if (currentGreen != worstCandidate) {
                    
-                    if (currentGreen->currentVehicles == 0 || currentGreen->switching()) {
+                    if (currentGreen->currentVehicles == 0 || currentGreen->light.canSwitch(currentGreen->queueCount, maxWaitingQueue)) {
                         currentGreen->change_to_red();
                         worstCandidate->changeState();
                     }
@@ -267,91 +312,74 @@ public:
             }
         }
     }
-    bool printPerformanceMetrics(int time, float average) {
-        float totalActualTime = 0;
-        float totalIdealTime = 0;
-        float arrivedCount = 0;
+    bool printPerformanceMetrics(float tickTime, float averageRush) {
+        
+        ofstream outfile("performance_metrics.txt", ios::app);
+        if (outfile.is_open()) {
+            outfile << "\n--- PERFORMANCE METRICS REPORT ---" << endl;
 
-        for (const auto& car : array_of_vehicles) {
-            if (car.state == 2) {
-                totalActualTime += car.timespent;
-                arrivedCount++;
+            if (this->totalArrivedCount > 0) {
+                // ACTUAL Average = (Sum of all car times) / (Total number of cars)
+                float actualAvgTravelTime = (float)this->totalTime / this->totalArrivedCount;
+
+                // System Throughput = (Cars Arrived) / (Simulation Ticks Elapsed)
+                float throughput = (float)this->totalArrivedCount / tickTime;
+
+                outfile << "Total Vehicles Arrived: " << totalArrivedCount << endl;
+                outfile << "Average Travel Time: " << actualAvgTravelTime << " ticks" << endl;
+                outfile << "System Throughput: " << throughput << " vehicles/tick" << endl;
             }
-        }
-        cout << "\n--- PERFORMANCE METRICS REPORT ---" << endl;
-        if (arrivedCount > 0) {
-            cout << "Average Travel Time: " << (totalActualTime / arrivedCount) << " units" << endl;
-        }
+            else {
+                outfile << "No vehicles have finished yet." << endl;
+            }
 
+            outfile << "Total System Cost: " << map->total_System_Cost() << endl;
+            outfile << "Average Rush Level: " << averageRush << endl;
+            outfile << "----------------------------------" << endl;
 
-        cout << "Throughput: " << arrivedCount / time << " vehicles total" << endl;
-        cout << "Congestion " << average << endl;
-        if (average == 0) { return true; }
-        else { return false; }
-        cout << "----------------------------------" << endl;
+            return (averageRush == 0);
+            
+        }
+        else {
+            cerr << "Unable to open performance_metrics.txt for writing." << endl;
+            return false;
+        }
     }
 
-    void physics() {
-        float x=1;
-        int total_time=0;
-        cout << "time step = 6 minutes ticks per loop";
-        for (int i = 0; i < 500; i++) {
-            total_time++;
-            updateSignals();
-
-            
-            for (auto& car : array_of_vehicles) {
-                if (car.state == 1) {
-                    car.timeRemaining -= .10f;
-                    car.timespent += .10f;
-                }
-                else if (car.state == 0) {
-                    car.timespent += .10f; 
-                }
-            }
-            if (i % 10==0) {
-             bool check= printPerformanceMetrics(total_time, x);
-            
-            if (check) {
-                cout << "All cars have reached destination\n";
-                break;
-            }
-            }
-            if (i % 50==0) {
-                if (x == 0) {
-                    break;
-                }
-                printNetwork();
-                
-            }
-
-            
-            reached();                  
-            arrivalAtIntersection();
-            entraingfromQueetoEdge();   
-            entrance(); 
-            checkBrokenPath();
-             x= map->AverageRush();
-
-            if (i %50==0) {
-                
-                cout << "\n--- DEBUG PROBE ---" << endl;
-                for (auto& car : array_of_vehicles) {
-                    cout << "Car " << car.id << " | State: " << car.state
-                        << " | Current Node: " << car.current
-                        << " | Time Rem: " << car.timeRemaining << endl;
-                   
-                }
-            }
-            
+    void Car_timing_file(float time, int id) {
+    
+		ofstream outfile("car_timings.txt", ios::app);
+        if (outfile.is_open()) {
+            outfile << "Vehicle " << id << " arrived at destination in " << time << " ticks." << endl;
         }
-        printPerformanceMetrics(total_time, x);
-        
+        else {
+            cerr << "Unable to open car_timings.txt for writing." << endl;
+		}
+    
+    }
+    void clearMetricsFile() {
+        ofstream outfile("performance_metrics.txt", ios::trunc); // trunc deletes everything
+        if (outfile.is_open()) {
+            outfile << "--- NEW SIMULATION SESSION ---" << endl;
+            outfile.close();
+        }
+        ofstream outfile1("car_timings.txt", ios::trunc); // trunc deletes everything
+        if (outfile1.is_open()) {
+            outfile1 << "--- NEW SIMULATION SESSION ---" << endl;
+            outfile1.close();
+        }
+        ofstream outfile2("map.txt", ios::trunc); // trunc deletes everything
+        if (outfile2.is_open()) {
+            outfile2 << "--- NEW SIMULATION SESSION ---" << endl;
+            outfile2.close();
+        }
+
     }
 
     void printNetwork() {
-
-        map->printGrapgh();
+        ofstream outfile("map.txt", ios::app);
+            if (outfile.is_open()){ outfile<<map->printGrapgh(); }
+        
     }
 
     void PrintAllConnetedCityFromAcity() {
@@ -362,13 +390,10 @@ public:
         typename list<vehicle<t>>::iterator car = array_of_vehicles.begin();
         while (car != array_of_vehicles.end()) {
             if (car->path.empty()) {
+                
             cout << "Removing Vehicle " << car->id << ": No viable path to " << car->dest << endl;
-            if (car->state == 1 && car->path.size() >= 2) {
-                typename list<t>::iterator temp=car->path.begin();
-                t i= *temp;
-                temp++;
-                t j = *temp;
-                RoadDetails& d = map->getEdgeDetails(i, j);
+            if (car->state ==1 ) {
+                RoadDetails& d = map->getEdgeDetails(car->currentRoad.first, car->currentRoad.second);
                 d.vehicleExitsRoad();
             }
             car = array_of_vehicles.erase(car);
@@ -378,51 +403,160 @@ public:
             }
         }
     }
+
+    void physics() {
+        float x = 1;
+        int total_time = 0;
+        cout << "time step = 6 minutes ticks per loop" << endl;
+
+        while (array_of_vehicles.size() > 0) {
+            total_time++;
+            updateSignals();
+
+  
+            for (auto& car : array_of_vehicles) {
+                // If even one car hasn't reached State 2, we keep running
+
+                if (car.state == 1) {
+                    car.timeRemaining -= .10f;
+                    car.timespent += .10f;
+                }
+                else if (car.state == 0) {
+
+                    car.timespent += .10f;
+                   
+                }
+
+                if (car.timeRemaining < 0) {
+                    car.timeRemaining = 0;
+                }
+
+            }
+
+            if (total_time % 10 == 0) {
+                printPerformanceMetrics(total_time, x);
+            }
+
+            // Core Physics Functions
+            reached();
+            arrivalAtIntersection();
+            entraingfromQueetoEdge();
+            entrance();
+            checkBrokenPath();
+
+            x = map->AverageRush();
+
+
+  
+            if (total_time > 20000) {
+                cout << "Simulation timed out after 20,000 ticks." << endl;
+                break;
+            }
+        }
+
+        cout << "\n--- FINAL SIMULATION REPORT ---" << endl;
+        printPerformanceMetrics(total_time, x);
+        cout << "All reachable cars have reached their destinations." << endl;
+		cout << this->array_of_vehicles.size() << " left in the system (unreachable or still en route)." << endl;
+    }
+};
+
+
+template <class t, int size>
+class Simulator {
+    Graph<t, size>* pakistanMap;
+    
+
+public:
+    Manager<t, size>* cityManager;
+    Simulator() {
+
+        pakistanMap = new Graph<t, size>(true); // Directed
+        cityManager = new Manager<t, size>(pakistanMap);
+    }
+
+    void setupNetwork() {
+        pakistanMap->insertVertex("Karachi");
+        pakistanMap->insertVertex("Sukkur");
+        pakistanMap->insertVertex("Quetta");
+        pakistanMap->insertVertex("DG Khan");
+        pakistanMap->insertVertex("Multan");
+        pakistanMap->insertVertex("Lahore");
+        pakistanMap->insertVertex("Islamabad");
+
+        int KHI = pakistanMap->getIndex("Karachi");
+        int SUK = pakistanMap->getIndex("Sukkur");
+        int QUE = pakistanMap->getIndex("Quetta");
+        int DGK = pakistanMap->getIndex("DG Khan");
+        int MUL = pakistanMap->getIndex("Multan");
+        int LHR = pakistanMap->getIndex("Lahore");
+        int ISB = pakistanMap->getIndex("Islamabad");
+
+        pakistanMap->makeEdge(KHI, SUK, 450, 120, 60, 0.15, 5.0);
+        pakistanMap->makeEdge(MUL, LHR, 330, 120, 50, 0.15, 5.0);
+        pakistanMap->makeEdge(LHR, ISB, 370, 120, 50, 0.15, 5.0);
+
+      
+        pakistanMap->makeEdge(SUK, MUL, 390, 80, 25, 0.7, 4.0);
+        pakistanMap->makeEdge(DGK, MUL, 100, 60, 20, 0.8, 4.0); 
+        pakistanMap->makeEdge(MUL, DGK, 100, 60, 20, 0.8, 4.0);
+
+        pakistanMap->makeEdge(ISB, LHR, 370, 120, 50, 0.15, 5.0);
+        pakistanMap->makeEdge(LHR, MUL, 330, 110, 50, 0.15, 5.0);
+        pakistanMap->makeEdge(MUL, SUK, 390, 100, 40, 0.15, 5.0);
+        pakistanMap->makeEdge(SUK, KHI, 450, 100, 60, 0.15, 5.0);
+
+        pakistanMap->makeEdge(KHI, QUE, 680, 80, 25, 0.4, 3.0);
+        pakistanMap->makeEdge(QUE, KHI, 680, 80, 25, 0.4, 3.0);
+
+        pakistanMap->makeEdge(QUE, DGK, 350, 70, 20, 0.5, 4.0);
+        pakistanMap->makeEdge(DGK, QUE, 350, 70, 20, 0.5, 4.0);
+
+        pakistanMap->makeEdge(DGK, ISB, 500, 90, 20, 0.5, 5.0);
+        pakistanMap->makeEdge(ISB, DGK, 500, 90, 20, 0.5, 5.0);
+
+        // Optional: Sukkur to Quetta link
+        pakistanMap->makeEdge(SUK, QUE, 400, 85, 15, 0.5, 4.0);
+        pakistanMap->makeEdge(QUE, SUK, 400, 85, 15, 0.5, 4.0);
+    }
+
+    void addMassiveTraffic() {
+        string cities[] = {"Karachi", "Sukkur", "Quetta", "DG Khan", "Multan", "Lahore", "Islamabad"};
+        
+        
+        for (int i = 1; i <= 1000; i++) {
+            string start = cities[i % 4]; 
+            string end = cities[4 + (i % 3)]; 
+            
+            if (start != end) {
+                cityManager->addVehicle(i, start, end);
+            }
+        }
+        cityManager->printNetwork();
+    }
+
+    void run() {
+        cout << "--- STARTING HEAVY TRAFFIC SIMULATION (1000 VEHICLES) ---\n";
+        cityManager->physics();
+    }
+
+    ~Simulator() {
+        delete cityManager;
+        delete pakistanMap;
+    }
+    void clear() {
+        cityManager->clearMetricsFile();
+
+    }
 };
 
 
 int main() {
-    Graph<string, 100> pakistanMap(true);
+    
+    Simulator<string, 100> gods_eye;
+    gods_eye.clear();
+	gods_eye.setupNetwork();
+    gods_eye.addMassiveTraffic();
+    gods_eye.run();
 
-    pakistanMap.insertVertex("Karachi");    // Hub South
-    pakistanMap.insertVertex("Sukkur");     // Junction
-    pakistanMap.insertVertex("Quetta");     // West Route
-    pakistanMap.insertVertex("DG Khan");    // Central Link
-    pakistanMap.insertVertex("Multan");     // South-Central Hub
-    pakistanMap.insertVertex("Lahore");     // East Hub
-    pakistanMap.insertVertex("Islamabad");  // Hub North
-
-    int KHI = pakistanMap.getIndex("Karachi");
-    int SUK = pakistanMap.getIndex("Sukkur");
-    int QUE = pakistanMap.getIndex("Quetta");
-    int DGK = pakistanMap.getIndex("DG Khan");
-    int MUL = pakistanMap.getIndex("Multan");
-    int LHR = pakistanMap.getIndex("Lahore");
-    int ISB = pakistanMap.getIndex("Islamabad");
-    pakistanMap.makeEdge(KHI, SUK, 450, 100, 10);
-    pakistanMap.makeEdge(SUK, MUL, 390, 120, 8);
-    pakistanMap.makeEdge(MUL, LHR, 330, 110, 8);
-    pakistanMap.makeEdge(LHR, ISB, 370, 120, 10);
-    pakistanMap.makeEdge(KHI, QUE, 680, 80, 5);
-    pakistanMap.makeEdge(QUE, DGK, 350, 70, 4);
-    pakistanMap.makeEdge(DGK, ISB, 500, 90, 6);
-    pakistanMap.makeEdge(SUK, QUE, 400, 85, 4);  // Sukkur to Quetta link
-    pakistanMap.makeEdge(DGK, MUL, 100, 90, 5);  // DGK to Multan link
-    pakistanMap.makeEdge(MUL, DGK, 100, 90, 5);  // Multan to DGK link
-    pakistanMap.makeEdge(LHR, MUL, 330, 110, 8); // Southbound East
-    pakistanMap.makeEdge(ISB, DGK, 500, 90, 6);  // Southbound West
-
-    Manager<string, 100> cityManager(&pakistanMap);
-
-    cityManager.addVehicle(1, "Karachi", "Islamabad"); // Has 2 main paths
-    cityManager.addVehicle(2, "Karachi", "Islamabad");
-    cityManager.addVehicle(3, "Quetta", "Lahore");    // Must cross from Left to Right
-    cityManager.addVehicle(4, "Multan", "Quetta");    // Must cross from Right to Left
-    cityManager.addVehicle(5, "Karachi", "Lahore");
-
-    cout << "--------------------------------------------------\n";
-    cityManager.PrintAllConnetedCityFromAcity();
-    cityManager.physics();
-
-    return 0;
 }

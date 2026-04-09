@@ -10,21 +10,32 @@ using namespace std;
 
 struct TrafficSignal {
 
-    int greentimer;
-    int minGreenTime;
-    int queueThreshold;
-    int pa, pb;
+    float greentimer;
+    float minGreenTime;
+    float queueThreshold;
+    float maxGreenTime;
+    float redtimer ;
+    float pa, pb;
     TrafficSignal() {
         greentimer = 0;
-        minGreenTime = 5;    // Default Tg = 10 steps
-        queueThreshold = 5;
-        pa = 1; pb = 10;// Default threshold
+        minGreenTime = 2;    // Default Tg = 2 steps
+        queueThreshold = 3;
+		maxGreenTime = 8;   // Default Tmax = 10 steps
+        pa = 10; pb = 7;// Default threshold
+        redtimer = 0;
     }
 
-    void Timer(bool state, int time) {
+    void Timer(bool state, float time) {
         if (state == true) {
-            greentimer = greentimer + time;
+            greentimer += time;
+            redtimer = 0; 
         }
+        else {
+            redtimer += time; 
+        }
+    }
+    float starvationCost() const {
+        return redtimer * 3.5f; 
     }
     void turnGreen(bool& state) {
         state = true;
@@ -32,11 +43,21 @@ struct TrafficSignal {
     }
     void turnRed(bool& state) {
         state = false;
-        greentimer = 0;
+        redtimer = 0;
     }
 
-    bool canSwitch(int currentQueue) const {
-        return (greentimer >= minGreenTime || currentQueue < queueThreshold);
+    bool canSwitch(int currentQueue, int maxOtherQueue) const {
+        if (greentimer < minGreenTime)
+            return false;
+
+        if (mustSwitch())
+            return true;
+
+      
+        return (currentQueue < maxOtherQueue) || (starvationCost() > 12.0f);
+    }
+    bool mustSwitch() const {
+        return greentimer >= maxGreenTime;
     }
 };
 
@@ -79,13 +100,15 @@ struct RoadDetails {
                 return signalState * queueCount;
             }
         }
-        else { return avail * signalState; }
+        else if (dischargeCapcity > avail) { return avail * signalState; }
+        else { return dischargeCapcity* signalState; }
     }
     float TimeCal() {
         if (capacity <= 0)
         {
             return bestTime();
         }
+
         NonIdealWeight = NonIdealtime();
         return NonIdealWeight;
     }
@@ -163,18 +186,20 @@ struct RoadDetails {
         
         
     }
-    bool switching () {
-       return light.canSwitch(queueCount);
-    }
+    //bool switching (int maxWaitingQueue) {
+    //   return light.canSwitch(queueCount, maxWaitingQueue);
+    //}
     void increment(int time) {
          light.Timer(signalState, time);
 
     }
 
-    float choosing() {
+    float choosing() {//computes per-road cost used for signal selection. 
         float currentCost = (light.pa * queueCount) + (light.pb * pow(Congestion(), 2));
         return currentCost;
     }
+
+
 };
 
 struct weighted {
@@ -293,6 +318,24 @@ public:
             }
         }
     }
+        void makeEdge(int a, int b, float len, float speed, float cap, float alpha = 0.5, float beta = 4.0) {
+            RoadDetails road(len, speed, cap, alpha, beta);
+
+            if (!directed) {
+                if (a < size && b < size && a >= 0 && b >= 0) {
+                    weighted tempA = { b, road };
+                    weighted tempB = { a, road };
+                    array[a].Neighbors.push_back(tempA);
+                    array[b].Neighbors.push_back(tempB);
+                }
+            }
+            else {
+                if (a < size && b < size && a >= 0 && b >= 0) {
+                    weighted tempA = { b, road };
+                    array[a].Neighbors.push_back(tempA);
+                }
+            }
+        }
     int getIndex(t label) {
         for (int i = 0; i < Vcount; i++) {
             if (array[i].vertex == label) return i;
@@ -541,7 +584,6 @@ public:
             indexes[i] = -1;
         }
 
-
         distance[a] = 0;
         for (int i = 0; i < Vcount; i++) {
             int nextNode = -1;
@@ -679,20 +721,22 @@ public:
         }
     }
 
-    void display_edge_of_index(string s) {
+    string  display_edge_of_index(string s) {
+        string x="";
         int index = getIndex(s);
-        if (index == -1) { cout << "\nCity not found.\n"; return; } // Safety
+        if (index == -1) { cout << "\nCity not found.\n"; return x; } // Safety
         typename list<weighted>::iterator temp = array[index].Neighbors.begin();
         cout << "\nThe vertex ";
         cout << array[index].vertex << " has links to \n";
         while (temp != array[index].Neighbors.end()) {
-            cout << array[temp->index].vertex << "\t";
-            cout<<"length = "<<temp->weight.length<<endl;
-            cout << "Current Vehicles = " << temp->weight.currentVehicles << endl;
-            cout << "Signal State = " << temp->weight.signalState << endl;
-            cout << "Congestion = " << temp->weight.Congestion() << endl;
+            x+= array[temp->index].vertex + "\t";
+            x+= "length = " + to_string(temp->weight.length) + "\n";
+            x+= "Current Vehicles = " + to_string(temp->weight.currentVehicles) + "\n";
+            x+= "Signal State = " + to_string(temp->weight.signalState) + "\n";
+            x+= "Congestion = " + to_string(temp->weight.Congestion()) + "\n";
             temp++;
         }
+        return x;
 
     }
     void Incoming(t target) {
@@ -759,6 +803,7 @@ public:
             }
 
         }
+
         return sum / count;
     }
 
@@ -767,11 +812,26 @@ public:
 
 
 
-    void printGrapgh() {
+    string printGrapgh() {
+        string result = "";
         for (int i = 0; i < Vcount; i++) {
-            display_edge_of_index(array[i].vertex);
-            cout << endl;
+            result+=display_edge_of_index(array[i].vertex);
+            
         }
+        return result;
+    }
+
+    double total_System_Cost() {
+        double totalCost = 0;
+        for (int i = 0; i < size; i++) {
+			typename list<weighted> ::iterator temp = array[i].Neighbors.begin();
+            while (temp != array[i].Neighbors.end()) {
+            
+               totalCost += temp->weight.choosing();
+               temp++;
+            }
+        }
+        return totalCost;
     }
 
     
