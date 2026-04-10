@@ -1,0 +1,11 @@
+<map id="IPOD" name="IPOD">
+<area shape="rect" id="Node000001" title=" " alt="" coords="7,1155,124,1480"/>
+<area shape="rect" id="Node000002" href="$class_doubly_linked_list.html" title=" " alt="" coords="120,800,312,1083"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,1085,132,1157,127,1155,160,1080"/>
+<area shape="rect" id="Node000003" href="$classnode.html" title=" " alt="" coords="5,509,125,707"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="60,704,58,800,56,941,58,1083,60,1138,55,1138,53,1083,51,941,53,800,59,709"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,704,148,784,142,785,110,709"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="123,581,144,589,150,597,152,608,149,620,143,628,138,625,144,618,146,608,145,599,140,593,126,586"/>
+<area shape="rect" id="Node000004" href="$class_meta_data.html" title=" " alt="" coords="15,5,116,437"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="65,434,68,492,63,492,65,440"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="IPOD::next" name="IPOD::next">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,93,57"/>
+<area shape="rect" id="Node000002" href="$class_i_p_o_d.html#ad0db7961020f4dd11fb9442b1ccb0a3c" title=" " alt="" coords="141,5,227,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,33,128,29,123,30,94,38"/>
+<area shape="rect" id="Node000003" href="$class_i_p_o_d.html#aa68400c2588b0e4beef0330215a9e7dd" title=" " alt="" coords="275,31,418,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="227,23,262,30,257,30,227,28"/>
+<area shape="poly" id="edge3_Node000003_Node000001" title=" " alt="" coords="274,47,109,47,109,41,275,41"/>
+</map>
