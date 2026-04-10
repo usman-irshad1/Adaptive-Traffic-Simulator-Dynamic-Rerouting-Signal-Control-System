@@ -1,3 +1,1 @@
-﻿docs/** linguist-documentation
-docs/** linguist-vendored
-docs/** -linguist-detectable
+﻿docs/** linguist-binary
