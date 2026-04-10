@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AIRPOD: README</title>
+<title>Adaptive Traffic Simulator: README</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">AIRPOD<span id="projectnumber">&#160;1</span>
+   <div id="projectname">Adaptive Traffic Simulator
    </div>
   </td>
  </tr>
@@ -91,100 +91,73 @@ $(function(){initNavTree('md__r_e_a_d_m_e.html','',''); });
   <div class="headertitle"><div class="title">README </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>**Intelligent <a class="el" href="class_i_p_o_d.html">IPOD</a> Music Management System (C++)**</p>
-<p>![C++](<a href="https://img.shields.io/badge/Language-C%2B%2B-blue">https://img.shields.io/badge/Language-C%2B%2B-blue</a>)</p>
-<p>![SFML](<a href="https://img.shields.io/badge/Library-SFML-green">https://img.shields.io/badge/Library-SFML-green</a>)</p>
-<p>![Status](<a href="https://img.shields.io/badge/Project-Completed-success">https://img.shields.io/badge/Project-Completed-success</a>)</p>
-<p>![License](<a href="https://img.shields.io/badge/License-MIT-lightgrey">https://img.shields.io/badge/License-MIT-lightgrey</a>)</p>
-<p>A high-performance digital audio playback simulation that leverages custom-built data structures, multithreaded background processing, and real-time audio manipulation using the SFML library.</p>
-<p>This project emulates a classic iPod-style interface, focusing on efficient playlist management, seamless playback, and optimized memory usage.</p>
-<p>---</p>
-<p>**Overview**</p>
-<p>The system is designed to handle large music libraries efficiently by combining:</p>
-<p>- Fast Navigation — Constant time O(1) track transitions <br  />
-</p>
-<p>- Memory Efficiency — Custom template-based data structures <br  />
-</p>
-<p>- Continuous Playback — Background thread automation <br  />
-</p>
-<p>---</p>
-<p>**Objectives**</p>
-<p>- Provide constant-time navigation between tracks <br  />
-</p>
-<p>- Ensure memory safety through custom data structures <br  />
-</p>
-<p>- Maintain uninterrupted playback using concurrent execution <br  />
-</p>
-<p>---</p>
-<p>**Core Features**</p>
-<p>**Custom Doubly Linked List Architecture**</p>
-<p>- Bidirectional traversal using a template-based <a class="el" href="class_doubly_linked_list.html">DoublyLinkedList&lt;t&gt;</a> <br  />
-</p>
-<p>- O(1) transitions between next and previous tracks <br  />
-</p>
-<p>- Deep copy constructor for safe playlist duplication <br  />
-</p>
-<p>- Dynamic insertion and deletion without full reallocation <br  />
-</p>
-<p>**Multithreaded Playback Engine**</p>
-<p>- Background monitoring using std::thread <br  />
-</p>
-<p>- Thread-safe control via std::atomic&lt;bool&gt; <br  />
-</p>
-<p>- Automatic transition to the next track upon completion <br  />
-</p>
-<p>- Clean shutdown without race conditions <br  />
-</p>
-<p>**Persistent Storage System**</p>
-<p>- CSV-based file storage for playlists <br  />
-</p>
-<p>- Efficient serialization of metadata (title, artist, duration, file path) <br  />
-</p>
-<p>- Persistent state across program executions <br  />
-</p>
-<p>**Real-Time Audio Control (SFML)**</p>
-<p>- Fine-grained seeking using setPlayingOffset <br  />
-</p>
-<p>- Efficient audio streaming directly from disk <br  />
-</p>
-<p>- Reduced memory consumption compared to full buffering <br  />
-</p>
-<p>**Playback Modes**</p>
-<p>- Random shuffle using indexed traversal (O(n)) <br  />
-</p>
-<p>- Circular playlist navigation (tail to head and vice versa) <br  />
-</p>
-<p>- Continuous playback without interruption <br  />
-</p>
-<p>---</p>
-<p>**Technical Design**</p>
-<p>**Metadata Model**</p>
-<p>Each track is represented using a <a class="el" href="class_meta_data.html">MetaData</a> class with operator overloading:</p>
-<p>- == for title-based comparisons <br  />
-</p>
-<p>- &lt; and &gt; for duration-based ordering <br  />
-</p>
-<p>- &lt;&lt; for formatted console output <br  />
-</p>
-<p>---</p>
-<p>**Performance Analysis**</p>
-<p>Operation | Complexity | Description</p>
-<p>-----------------&mdash; | -------&mdash; | -----------------------------&mdash;</p>
-<p>Next / Previous | O(1) | Direct pointer manipulation</p>
-<p>Add Song | O(1) | Insert at head or tail</p>
-<p>Search by Title | O(n) | Linear traversal</p>
-<p>Auto-Play Response | &lt; 1 second | Controlled via thread polling</p>
-<p>---</p>
-<p>**Project Structure**</p>
-<p>```text</p>
-<p>DoublyLinkedList.h # Template-based DLL implementation</p>
-<p>IPOD_Manager.cpp # Core logic and playback engine</p>
-<p>songs.csv # Persistent storage for tracks</p>
-<p><b>Technologies Used</b></p>
-<p>C++</p>
-<p>SFML (Simple and Fast Multimedia Library)</p>
-<p>Standard Template Library (STL)</p>
-<p>Multithreading (&lt;thread&gt;, &lt;atomic&gt;) </p>
+<div class="textblock"><p><b>Adaptive Traffic Flow Optimization System (C++)</b></p>
+<p>An Intelligent Transportation System (ITS) simulation that models and optimizes urban traffic flow using graph algorithms, congestion modeling, and adaptive signal control.</p>
+<p>This project simulates real-world traffic conditions in major Pakistani cities such as Karachi, Lahore, Multan, and Peshawar, with the goal of reducing congestion and improving travel efficiency.</p>
+<p>FOR UML click this link <a href="https://usman-irshad1.github.io/Adaptive-Traffic-Simulator-with-Dynamic-Rerouting-Signal-Control/">https://usman-irshad1.github.io/Adaptive-Traffic-Simulator-with-Dynamic-Rerouting-Signal-Control/</a></p>
+<p><b>Objective</b></p>
+<p>The system minimizes overall traffic cost by balancing:</p>
+<ul>
+<li>Waiting time (queue lengths)</li>
+<li>Road congestion (network utilization)</li>
+</ul>
+<p><b>Optimization Function</b></p>
+<p>min Σₜ Σ₍ᵢⱼ₎ [ α Q₍ᵢⱼ₎(t) + β (f₍ᵢⱼ₎(t) / c₍ᵢⱼ₎)² ]</p>
+<p>Where:</p>
+<p>Q₍ᵢⱼ₎ = Queue length</p>
+<p>f₍ᵢⱼ₎ = Traffic flow</p>
+<p>c₍ᵢⱼ₎ = Road capacity</p>
+<p><b>Core Features</b></p>
+<p><b>1. Dynamic Graph-Based Road Network</b></p>
+<ul>
+<li>Cities and intersections are modeled as nodes</li>
+<li>Roads are modeled as directed edges</li>
+<li>Enables realistic simulation of traffic flow between locations</li>
+</ul>
+<p><b>2. Intelligent Routing (Dijkstra Algorithm)</b></p>
+<ul>
+<li>Computes shortest paths using dynamic edge weights</li>
+<li>Edge weights update in real time based on congestion</li>
+<li>Vehicles automatically reroute based on current traffic conditions</li>
+</ul>
+<p><b>3. BPR Congestion Model</b></p>
+<ul>
+<li>Travel time is calculated using the Bureau of Public Roads (BPR) function:</li>
+<li>w₍ᵢⱼ₎(t) = w₍ᵢⱼ₎^free (1 + α (f₍ᵢⱼ₎(t) / c₍ᵢⱼ₎)^β)</li>
+<li>This models how travel time increases as traffic volume approaches road capacity.</li>
+</ul>
+<p><b>4. Adaptive Traffic Signals (Longest Queue First)</b></p>
+<ul>
+<li>Intersections monitor incoming road queues</li>
+<li>The road with the highest queue length is given the green signal</li>
+<li>Helps reduce bottlenecks and improves flow at congested intersections</li>
+</ul>
+<p><b>5. Backpressure Flow Control</b></p>
+<ul>
+<li>Enforces road capacity constraints</li>
+<li>Vehicles cannot enter a road if it is full</li>
+<li>Prevents unrealistic movement and models real traffic jams</li>
+</ul>
+<p><b>6. Real-Time Analytics</b></p>
+<p><b>The system continuously tracks:</b></p>
+<p><b>Average travel time</b></p>
+<p><b>Traffic congestion levels</b></p>
+<p><b>Network throughput</b></p>
+<p><b>Performance Metrics</b></p>
+<p>The simulator evaluates traffic conditions using:</p>
+<p>Network Utilization= (1 / |E|) Σ (f₍ᵢⱼ₎ / c₍ᵢⱼ₎)</p>
+<p>Total Delay = Σ (Tₛ d − Tₛd^free)</p>
+<p>Where:</p>
+<p>Tₛd = Actual travel time</p>
+<p>Tₛd^free = Free-flow travel time</p>
+<p><b>Testing Results</b></p>
+<p>In a high-density simulation with 30 vehicles:</p>
+<ul>
+<li>Average Travel Time: 18.53 units</li>
+<li>Network Throughput: 0.11 vehicles per tick</li>
+<li>Peak Congestion Level: 7.9% saturation</li>
+<li>Success Rate: 100% (no deadlocks, all vehicles reached destination) </li>
+</ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

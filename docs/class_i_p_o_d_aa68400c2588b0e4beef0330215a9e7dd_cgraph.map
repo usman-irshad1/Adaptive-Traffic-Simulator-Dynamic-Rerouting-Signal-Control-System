@@ -1,8 +1,0 @@
-<map id="IPOD::autoNextLoop" name="IPOD::autoNextLoop">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,149,57"/>
-<area shape="rect" id="Node000002" href="$class_i_p_o_d.html#a2b0182abfd1ca2f2239f9db5c95cd487" title=" " alt="" coords="197,5,284,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,30,184,27,178,28,150,35"/>
-<area shape="rect" id="Node000003" href="$class_i_p_o_d.html#ad0db7961020f4dd11fb9442b1ccb0a3c" title=" " alt="" coords="332,31,418,57"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="285,24,319,33,314,33,284,30"/>
-<area shape="poly" id="edge3_Node000003_Node000001" title=" " alt="" coords="330,46,164,47,164,41,333,42"/>
-</map>

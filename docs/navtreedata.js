@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "AIRPOD", "index.html", [
+  [ "Adaptive Traffic Simulator", "index.html", [
     [ "README", "md__r_e_a_d_m_e.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -32,8 +32,7 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ],
-        [ "Related Symbols", "functions_rela.html", null ]
+        [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -48,7 +47,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_assignment__1___d_s_a__ipod_8cpp.html"
+"_header1_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['current_0',['current',['../class_i_p_o_d.html#a9432ad51a93c7f3babcc57d543a6fa62',1,'IPOD']]]
+  ['b_0',['b',['../struct_road_details.html#a934e0a1b2172f52e649783c38826745c',1,'RoadDetails']]]
 ];

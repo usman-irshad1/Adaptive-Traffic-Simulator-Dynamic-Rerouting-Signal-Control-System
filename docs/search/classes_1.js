@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ipod_0',['IPOD',['../class_i_p_o_d.html',1,'']]]
+  ['manager_0',['Manager',['../class_manager.html',1,'']]]
 ];
