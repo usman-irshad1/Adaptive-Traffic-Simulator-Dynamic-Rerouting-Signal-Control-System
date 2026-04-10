@@ -1,6 +1,6 @@
 ﻿* linguist-documentation
-*.tex linguist-documentation
 *.html linguist-documentation
+*.tex linguist-documentation
 *.js linguist-documentation
 *.css linguist-documentation
-_functions/** linguist-documentation
+*.svg linguist-documentation
