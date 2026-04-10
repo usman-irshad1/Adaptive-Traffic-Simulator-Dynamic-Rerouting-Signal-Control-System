@@ -4,3 +4,5 @@
 *.svg linguist-documentation
 *.tex linguist-documentation
 *.map linguist-documentation
+
+# Force re-scan
