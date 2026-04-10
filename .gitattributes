@@ -1,1 +1,6 @@
-﻿docs/** linguist-binary
+﻿*.html linguist-documentation
+*.js linguist-documentation
+*.css linguist-documentation
+*.svg linguist-documentation
+*.tex linguist-documentation
+*.map linguist-documentation
