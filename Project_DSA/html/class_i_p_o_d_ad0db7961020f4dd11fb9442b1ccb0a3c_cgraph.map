@@ -1,0 +1,8 @@
+<map id="IPOD::play" name="IPOD::play">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,92,57"/>
+<area shape="rect" id="Node000002" href="$class_i_p_o_d.html#aa68400c2588b0e4beef0330215a9e7dd" title=" " alt="" coords="140,5,283,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,35,127,32,122,33,92,40"/>
+<area shape="rect" id="Node000003" href="$class_i_p_o_d.html#a2b0182abfd1ca2f2239f9db5c95cd487" title=" " alt="" coords="331,31,418,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="284,27,318,35,313,35,283,33"/>
+<area shape="poly" id="edge3_Node000003_Node000001" title=" " alt="" coords="330,47,107,47,107,41,331,41"/>
+</map>

@@ -1,0 +1,163 @@
+\chapter{README }
+\hypertarget{md__r_e_a_d_m_e}{}\label{md__r_e_a_d_m_e}\index{README@{README}}
+\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+Intelligent \doxylink{class_i_p_o_d}{IPOD} Music Management System (C++)\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}
+
+!\+[C++]\+(\href{https://img.shields.io/badge/Language-C\%2B\%2B-blue}{\texttt{https:\+/\+/\+img.\+shields.\+io/\+badge/\+\+Language-\/\+C\%2\+B\%2\+B-\/blue}})
+
+!\+[SFML]\+(\href{https://img.shields.io/badge/Library-SFML-green}{\texttt{https:\+/\+/\+img.\+shields.\+io/\+badge/\+\+Library-\/\+SFML-\/green}})
+
+!\+[Status]\+(\href{https://img.shields.io/badge/Project-Completed-success}{\texttt{https:\+/\+/\+img.\+shields.\+io/\+badge/\+\+Project-\/\+Completed-\/success}})
+
+!\+[License]\+(\href{https://img.shields.io/badge/License-MIT-lightgrey}{\texttt{https:\+/\+/\+img.\+shields.\+io/\+badge/\+\+License-\/\+MIT-\/lightgrey}})
+
+A high-\/performance digital audio playback simulation that leverages custom-\/built data structures, multithreaded background processing, and real-\/time audio manipulation using the SFML library.
+
+This project emulates a classic i\+Pod-\/style interface, focusing on efficient playlist management, seamless playback, and optimized memory usage.
+
+-\/-\/-\/
+
+\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+Overview\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}
+
+The system is designed to handle large music libraries efficiently by combining:\+
+
+-\/ Fast Navigation — Constant time O(1) track transitions ~\newline
+
+
+-\/ Memory Efficiency — Custom template-\/based data structures ~\newline
+
+
+-\/ Continuous Playback — Background thread automation ~\newline
+
+
+-\/-\/-\/
+
+\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+Objectives\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}
+
+-\/ Provide constant-\/time navigation between tracks ~\newline
+
+
+-\/ Ensure memory safety through custom data structures ~\newline
+
+
+-\/ Maintain uninterrupted playback using concurrent execution ~\newline
+
+
+-\/-\/-\/
+
+\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+Core Features\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}
+
+\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+Custom Doubly Linked List Architecture\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}
+
+-\/ Bidirectional traversal using a template-\/based \doxylink{class_doubly_linked_list}{Doubly\+Linked\+List$<$t$>$} ~\newline
+
+
+-\/ O(1) transitions between next and previous tracks ~\newline
+
+
+-\/ Deep copy constructor for safe playlist duplication ~\newline
+
+
+-\/ Dynamic insertion and deletion without full reallocation ~\newline
+
+
+\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+Multithreaded Playback Engine\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}
+
+-\/ Background monitoring using std::\+thread ~\newline
+
+
+-\/ Thread-\/safe control via std::\+atomic$<$bool$>$ ~\newline
+
+
+-\/ Automatic transition to the next track upon completion ~\newline
+
+
+-\/ Clean shutdown without race conditions ~\newline
+
+
+\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+Persistent Storage System\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}
+
+-\/ CSV-\/based file storage for playlists ~\newline
+
+
+-\/ Efficient serialization of metadata (title, artist, duration, file path) ~\newline
+
+
+-\/ Persistent state across program executions ~\newline
+
+
+\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+Real-\/\+Time Audio Control (SFML)\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}
+
+-\/ Fine-\/grained seeking using set\+Playing\+Offset ~\newline
+
+
+-\/ Efficient audio streaming directly from disk ~\newline
+
+
+-\/ Reduced memory consumption compared to full buffering ~\newline
+
+
+\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+Playback Modes\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}
+
+-\/ Random shuffle using indexed traversal (O(n)) ~\newline
+
+
+-\/ Circular playlist navigation (tail to head and vice versa) ~\newline
+
+
+-\/ Continuous playback without interruption ~\newline
+
+
+-\/-\/-\/
+
+\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+Technical Design\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}
+
+\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+Metadata Model\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}
+
+Each track is represented using a \doxylink{class_meta_data}{Meta\+Data} class with operator overloading:\+
+
+-\/ == for title-\/based comparisons ~\newline
+
+
+-\/ \texorpdfstring{$<$}{<} and \texorpdfstring{$>$}{>} for duration-\/based ordering ~\newline
+
+
+-\/ \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} for formatted console output ~\newline
+
+
+-\/-\/-\/
+
+\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+Performance Analysis\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}
+
+Operation \texorpdfstring{$\vert$}{|} Complexity \texorpdfstring{$\vert$}{|} Description
+
+-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- \texorpdfstring{$\vert$}{|} -\/-\/-\/-\/-\/-\/-\/--- \texorpdfstring{$\vert$}{|} -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/---
+
+Next /\+ Previous \texorpdfstring{$\vert$}{|} O(1) \texorpdfstring{$\vert$}{|} Direct pointer manipulation
+
+Add Song \texorpdfstring{$\vert$}{|} O(1) \texorpdfstring{$\vert$}{|} Insert at head or tail
+
+Search by Title \texorpdfstring{$\vert$}{|} O(n) \texorpdfstring{$\vert$}{|} Linear traversal
+
+Auto-\/\+Play Response \texorpdfstring{$\vert$}{|} \texorpdfstring{$<$}{<} 1 second \texorpdfstring{$\vert$}{|} Controlled via thread polling
+
+-\/-\/-\/
+
+\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+Project Structure\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}
+
+\`{}\`{}\`{}text
+
+Doubly\+Linked\+List.\+h \# Template-\/based DLL implementation
+
+IPOD\+\_\+\+Manager.\+cpp \# Core logic and playback engine
+
+songs.\+csv \# Persistent storage for tracks
+
+{\bfseries{Technologies Used}}
+
+C++
+
+SFML (Simple and Fast Multimedia Library)
+
+Standard Template Library (STL)
+
+Multithreading ($<$thread$>$, $<$atomic$>$) 

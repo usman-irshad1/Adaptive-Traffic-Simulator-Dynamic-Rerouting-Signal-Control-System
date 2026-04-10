@@ -1,0 +1,307 @@
+\doxysection{Doubly\+Linked\+List\texorpdfstring{$<$}{<} t \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{class_doubly_linked_list}{}\label{class_doubly_linked_list}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+
+
+{\ttfamily \+\#include $<$Double\+Linked\+List.\+h$>$}
+
+
+
+Collaboration diagram for Doubly\+Linked\+List\texorpdfstring{$<$}{<} t \texorpdfstring{$>$}{>}:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=185pt]{class_doubly_linked_list__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_doubly_linked_list_aa6fee648711007e770a730e68c61a9c2}{Doubly\+Linked\+List}} ()
+\item 
+\doxymbox{\hyperlink{class_doubly_linked_list_ae5b40fbca97507169224473b0b779293}{Doubly\+Linked\+List}} (const \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}} \&l)
+\item 
+void \doxymbox{\hyperlink{class_doubly_linked_list_aa15413398379ac3e8a776ab1f93a1a4f}{insert\+At\+End}} (t d)
+\item 
+void \doxymbox{\hyperlink{class_doubly_linked_list_a22a9cee07b677f13dad82c51bd4bd8b2}{insert\+At\+Start}} (t x)
+\item 
+void \doxymbox{\hyperlink{class_doubly_linked_list_a835b43af789084a533044ccd2af1f57e}{display\+Forward}} ()
+\item 
+void \doxymbox{\hyperlink{class_doubly_linked_list_a8db64e96ed65d36802d846ffdcddc4b4}{display\+Backward}} ()
+\item 
+bool \doxymbox{\hyperlink{class_doubly_linked_list_a22610017bd4fd1134049f0f9fe8bce2f}{search}} (t data)
+\item 
+int \doxymbox{\hyperlink{class_doubly_linked_list_aaf06922fd2fcd6fcd3a71460f141bcc2}{search\+\_\+\+\_\+b}} (t data)
+\item 
+\doxymbox{\hyperlink{class_doubly_linked_list_a24c65a64475a3edc32998daebdcaef9d}{\texorpdfstring{$\sim$}{\string~}\+Doubly\+Linked\+List}} ()
+\item 
+void \doxymbox{\hyperlink{class_doubly_linked_list_a0ea552bd5717a69937f0b3a9d6485aeb}{delete\+At\+Position}} (int pos)
+\item 
+void \doxymbox{\hyperlink{class_doubly_linked_list_a9aee7817a872c437833d93abc011490d}{delete\+At\+Start}} ()
+\item 
+void \doxymbox{\hyperlink{class_doubly_linked_list_adfa94c65d320163413c14e488c77682b}{delete\+At\+End}} ()
+\item 
+void \doxymbox{\hyperlink{class_doubly_linked_list_a167c53fc8cc5ad6816efd8d76dbd17a8}{insert\+At\+Any\+Position}} (int pos, \doxymbox{\hyperlink{classnode}{node}}$<$ t $>$ \texorpdfstring{$\ast$}{*}n)
+\item 
+bool \doxymbox{\hyperlink{class_doubly_linked_list_afca7279ae7089a3b6daaa32ad44ea31f}{is\+Empty}} ()
+\item 
+\doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}} \doxymbox{\hyperlink{class_doubly_linked_list_af7c81157359ec6be7942a48545960279}{Intersection}} (const \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}} \&d1)
+\item 
+int \doxymbox{\hyperlink{class_doubly_linked_list_aa319d22579e399f6fe45ee027d75dfe5}{get\+Size}} ()
+\item 
+\doxymbox{\hyperlink{classnode}{node}}$<$ t $>$ \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_doubly_linked_list_a32f815d0aaf6a73df4cd045c31d3f4ea}{get\+Head}} ()
+\item 
+\doxymbox{\hyperlink{classnode}{node}}$<$ t $>$ \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_doubly_linked_list_a0eab0edf031fc289b11bd5186e8461aa}{get\+Tail}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{classnode}{node}}$<$ t $>$ \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_doubly_linked_list_a7ec41d96975a951a39318d4525b3d1a4}{head}}
+\item 
+\doxymbox{\hyperlink{classnode}{node}}$<$ t $>$ \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_doubly_linked_list_a0ab73eee4a1b77f9da16fb4638b0c31b}{tail}}
+\item 
+int \doxymbox{\hyperlink{class_doubly_linked_list_a6cfb4a2d5304eec7c6b20f946116178c}{size}}
+\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{class_doubly_linked_list_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_doubly_linked_list_aa6fee648711007e770a730e68c61a9c2}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!DoublyLinkedList@{DoublyLinkedList}}
+\index{DoublyLinkedList@{DoublyLinkedList}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{DoublyLinkedList()}{DoublyLinkedList()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_aa6fee648711007e770a730e68c61a9c2} 
+template$<$class t$>$ \\
+\doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+\+Doubly\+Linked\+List (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_doubly_linked_list_ae5b40fbca97507169224473b0b779293}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!DoublyLinkedList@{DoublyLinkedList}}
+\index{DoublyLinkedList@{DoublyLinkedList}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{DoublyLinkedList()}{DoublyLinkedList()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_ae5b40fbca97507169224473b0b779293} 
+template$<$class t$>$ \\
+\doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+\+Doubly\+Linked\+List (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$ \&}]{l}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_doubly_linked_list_ae5b40fbca97507169224473b0b779293_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_doubly_linked_list_a24c65a64475a3edc32998daebdcaef9d}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!````~DoublyLinkedList@{\texorpdfstring{$\sim$}{\string~}DoublyLinkedList}}
+\index{````~DoublyLinkedList@{\texorpdfstring{$\sim$}{\string~}DoublyLinkedList}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}DoublyLinkedList()}{\string~DoublyLinkedList()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a24c65a64475a3edc32998daebdcaef9d} 
+template$<$class t$>$ \\
+\doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+\texorpdfstring{$\sim$}{\string~}\doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_doubly_linked_list_a24c65a64475a3edc32998daebdcaef9d_cgraph}
+\end{center}
+\end{figure}
+
+
+\label{doc-func-members}
+\Hypertarget{class_doubly_linked_list_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_doubly_linked_list_adfa94c65d320163413c14e488c77682b}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!deleteAtEnd@{deleteAtEnd}}
+\index{deleteAtEnd@{deleteAtEnd}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{deleteAtEnd()}{deleteAtEnd()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_adfa94c65d320163413c14e488c77682b} 
+template$<$class t$>$ \\
+void \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+delete\+At\+End (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_doubly_linked_list_a0ea552bd5717a69937f0b3a9d6485aeb}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!deleteAtPosition@{deleteAtPosition}}
+\index{deleteAtPosition@{deleteAtPosition}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{deleteAtPosition()}{deleteAtPosition()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a0ea552bd5717a69937f0b3a9d6485aeb} 
+template$<$class t$>$ \\
+void \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+delete\+At\+Position (\begin{DoxyParamCaption}\item[{int}]{pos}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_doubly_linked_list_a0ea552bd5717a69937f0b3a9d6485aeb_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_doubly_linked_list_a9aee7817a872c437833d93abc011490d}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!deleteAtStart@{deleteAtStart}}
+\index{deleteAtStart@{deleteAtStart}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{deleteAtStart()}{deleteAtStart()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a9aee7817a872c437833d93abc011490d} 
+template$<$class t$>$ \\
+void \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+delete\+At\+Start (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_doubly_linked_list_a8db64e96ed65d36802d846ffdcddc4b4}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!displayBackward@{displayBackward}}
+\index{displayBackward@{displayBackward}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{displayBackward()}{displayBackward()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a8db64e96ed65d36802d846ffdcddc4b4} 
+template$<$class t$>$ \\
+void \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+display\+Backward (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_doubly_linked_list_a8db64e96ed65d36802d846ffdcddc4b4_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_doubly_linked_list_a835b43af789084a533044ccd2af1f57e}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!displayForward@{displayForward}}
+\index{displayForward@{displayForward}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{displayForward()}{displayForward()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a835b43af789084a533044ccd2af1f57e} 
+template$<$class t$>$ \\
+void \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+display\+Forward (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_doubly_linked_list_a835b43af789084a533044ccd2af1f57e_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_doubly_linked_list_a32f815d0aaf6a73df4cd045c31d3f4ea}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!getHead@{getHead}}
+\index{getHead@{getHead}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{getHead()}{getHead()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a32f815d0aaf6a73df4cd045c31d3f4ea} 
+template$<$class t$>$ \\
+\doxymbox{\hyperlink{classnode}{node}}$<$ t $>$ \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+get\+Head (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_doubly_linked_list_aa319d22579e399f6fe45ee027d75dfe5}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!getSize@{getSize}}
+\index{getSize@{getSize}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{getSize()}{getSize()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_aa319d22579e399f6fe45ee027d75dfe5} 
+template$<$class t$>$ \\
+int \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+get\+Size (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_doubly_linked_list_a0eab0edf031fc289b11bd5186e8461aa}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!getTail@{getTail}}
+\index{getTail@{getTail}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{getTail()}{getTail()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a0eab0edf031fc289b11bd5186e8461aa} 
+template$<$class t$>$ \\
+\doxymbox{\hyperlink{classnode}{node}}$<$ t $>$ \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+get\+Tail (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_doubly_linked_list_a167c53fc8cc5ad6816efd8d76dbd17a8}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!insertAtAnyPosition@{insertAtAnyPosition}}
+\index{insertAtAnyPosition@{insertAtAnyPosition}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{insertAtAnyPosition()}{insertAtAnyPosition()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a167c53fc8cc5ad6816efd8d76dbd17a8} 
+template$<$class t$>$ \\
+void \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+insert\+At\+Any\+Position (\begin{DoxyParamCaption}\item[{int}]{pos}{, }\item[{\doxymbox{\hyperlink{classnode}{node}}$<$ t $>$ \texorpdfstring{$\ast$}{*}}]{n}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_doubly_linked_list_a167c53fc8cc5ad6816efd8d76dbd17a8_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_doubly_linked_list_aa15413398379ac3e8a776ab1f93a1a4f}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!insertAtEnd@{insertAtEnd}}
+\index{insertAtEnd@{insertAtEnd}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{insertAtEnd()}{insertAtEnd()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_aa15413398379ac3e8a776ab1f93a1a4f} 
+template$<$class t$>$ \\
+void \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+insert\+At\+End (\begin{DoxyParamCaption}\item[{t}]{d}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_doubly_linked_list_aa15413398379ac3e8a776ab1f93a1a4f_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_doubly_linked_list_a22a9cee07b677f13dad82c51bd4bd8b2}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!insertAtStart@{insertAtStart}}
+\index{insertAtStart@{insertAtStart}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{insertAtStart()}{insertAtStart()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a22a9cee07b677f13dad82c51bd4bd8b2} 
+template$<$class t$>$ \\
+void \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+insert\+At\+Start (\begin{DoxyParamCaption}\item[{t}]{x}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_doubly_linked_list_a22a9cee07b677f13dad82c51bd4bd8b2_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_doubly_linked_list_af7c81157359ec6be7942a48545960279}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!Intersection@{Intersection}}
+\index{Intersection@{Intersection}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{Intersection()}{Intersection()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_af7c81157359ec6be7942a48545960279} 
+template$<$class t$>$ \\
+\doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}} \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+\+Intersection (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$ \&}]{d1}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_doubly_linked_list_af7c81157359ec6be7942a48545960279_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_doubly_linked_list_afca7279ae7089a3b6daaa32ad44ea31f}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{isEmpty()}{isEmpty()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_afca7279ae7089a3b6daaa32ad44ea31f} 
+template$<$class t$>$ \\
+bool \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+is\+Empty (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_doubly_linked_list_a22610017bd4fd1134049f0f9fe8bce2f}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!search@{search}}
+\index{search@{search}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{search()}{search()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a22610017bd4fd1134049f0f9fe8bce2f} 
+template$<$class t$>$ \\
+bool \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+search (\begin{DoxyParamCaption}\item[{t}]{data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_doubly_linked_list_a22610017bd4fd1134049f0f9fe8bce2f_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_doubly_linked_list_aaf06922fd2fcd6fcd3a71460f141bcc2}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!search\_\_b@{search\_\_b}}
+\index{search\_\_b@{search\_\_b}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{search\_\_b()}{search\_\_b()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_aaf06922fd2fcd6fcd3a71460f141bcc2} 
+template$<$class t$>$ \\
+int \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+search\+\_\+\+\_\+b (\begin{DoxyParamCaption}\item[{t}]{data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_doubly_linked_list_aaf06922fd2fcd6fcd3a71460f141bcc2_cgraph}
+\end{center}
+\end{figure}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_doubly_linked_list_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_doubly_linked_list_a7ec41d96975a951a39318d4525b3d1a4}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!head@{head}}
+\index{head@{head}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{head}{head}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a7ec41d96975a951a39318d4525b3d1a4} 
+template$<$class t$>$ \\
+\doxymbox{\hyperlink{classnode}{node}}$<$t$>$\texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+head\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_doubly_linked_list_a6cfb4a2d5304eec7c6b20f946116178c}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!size@{size}}
+\index{size@{size}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{size}{size}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a6cfb4a2d5304eec7c6b20f946116178c} 
+template$<$class t$>$ \\
+int \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+size\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_doubly_linked_list_a0ab73eee4a1b77f9da16fb4638b0c31b}\index{DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}!tail@{tail}}
+\index{tail@{tail}!DoublyLinkedList$<$ t $>$@{DoublyLinkedList$<$ t $>$}}
+\doxysubsubsection{\texorpdfstring{tail}{tail}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a0ab73eee4a1b77f9da16fb4638b0c31b} 
+template$<$class t$>$ \\
+\doxymbox{\hyperlink{classnode}{node}}$<$t$>$ \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_doubly_linked_list}{Doubly\+Linked\+List}}$<$ t $>$::\+tail\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{_double_linked_list_8h}{Double\+Linked\+List.\+h}}\end{DoxyCompactItemize}
