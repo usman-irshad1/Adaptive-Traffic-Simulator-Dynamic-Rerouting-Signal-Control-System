@@ -1,4 +1,6 @@
-﻿* linguist-documentation
+﻿docs/** linguist-documentation
 *.html linguist-documentation
 *.tex linguist-documentation
 *.js linguist-documentation
+*.css linguist-documentation
+*.svg linguist-documentation
