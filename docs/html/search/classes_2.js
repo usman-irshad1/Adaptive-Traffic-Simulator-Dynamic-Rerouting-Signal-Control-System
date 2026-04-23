@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['roaddetails_0',['RoadDetails',['../struct_road_details.html',1,'']]]
+  ['simulator_0',['Simulator',['../class_simulator.html',1,'']]]
 ];

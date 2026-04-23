@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Italian Job: Graphics.cpp Source File</title>
+<title>My Project: Graphics.cpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Italian Job
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -99,8 +99,8 @@ $(function(){initNavTree('_graphics_8cpp_source.html','',''); });
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;cmath&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;raylib.h&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;raymath.h&quot;</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include&quot;<a class="code" href="_graph_8h.html">Graph.h</a>&quot;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include&quot;<a class="code" href="_header1_8h.html">Header1.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="_graph_8h.html">Graph.h</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="_header1_8h.html">Header1.h</a>&quot;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">using namespace </span>std;</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
@@ -108,162 +108,259 @@ $(function(){initNavTree('_graphics_8cpp_source.html','',''); });
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="_graphics_8cpp.html#a598a3330b3c21701223ee0ca14316eca">   15</a></span><span class="preprocessor">#define PI 3.1415926535f</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="foldopen" id="foldopen00018" data-start="{" data-end="}">
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="_graphics_8cpp.html#a3738c62f7e9275a8bf31dc18783ff6d2">   18</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="_graphics_8cpp.html#a3738c62f7e9275a8bf31dc18783ff6d2">DrawRoadArrowBold</a>(Vector2 start, Vector2 end, Color col) {</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    Vector2 dir = Vector2Normalize(Vector2Subtract(end, start));</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">float</span> length = Vector2Distance(start, end);</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordflow">if</span> (length &lt; 45.0f) <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    Vector2 arrowPos = Vector2Subtract(end, Vector2Scale(dir, 22.0f));</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">float</span> arrowSize = 16.0f;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    Vector2 perp = { -dir.y, dir.x };</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    Vector2 leftWing = Vector2Add(Vector2Subtract(arrowPos, Vector2Scale(dir, arrowSize)), Vector2Scale(perp, arrowSize * 0.8f));</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    Vector2 rightWing = Vector2Subtract(Vector2Subtract(arrowPos, Vector2Scale(dir, arrowSize)), Vector2Scale(perp, arrowSize * 0.8f));</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    DrawTriangle(arrowPos, leftWing, rightWing, col);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    DrawTriangleLines(arrowPos, leftWing, rightWing, RAYWHITE);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>}</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment">// --- HELPER: DRAW ARROWS ---</span></div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="}">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="_graphics_8cpp.html#a3738c62f7e9275a8bf31dc18783ff6d2">   19</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="_graphics_8cpp.html#a3738c62f7e9275a8bf31dc18783ff6d2">DrawRoadArrowBold</a>(Vector2 start, Vector2 end, Color col) {</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    Vector2 dir = Vector2Normalize(Vector2Subtract(end, start));</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">float</span> length = Vector2Distance(start, end);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordflow">if</span> (length &lt; 45.0f) <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    Vector2 arrowPos = Vector2Subtract(end, Vector2Scale(dir, 22.0f));</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">float</span> arrowSize = 16.0f;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    Vector2 perp = { -dir.y, dir.x };</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    Vector2 leftWing = Vector2Add(Vector2Subtract(arrowPos, Vector2Scale(dir, arrowSize)), Vector2Scale(perp, arrowSize * 0.8f));</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    Vector2 rightWing = Vector2Subtract(Vector2Subtract(arrowPos, Vector2Scale(dir, arrowSize)), Vector2Scale(perp, arrowSize * 0.8f));</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    DrawTriangle(arrowPos, leftWing, rightWing, col);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    DrawTriangleLines(arrowPos, leftWing, rightWing, RAYWHITE);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>}</div>
 </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="comment">// --- HELPER: HEATMAP COLORS ---</span></div>
-<div class="foldopen" id="foldopen00035" data-start="{" data-end="}">
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="_graphics_8cpp.html#a15bc6012285e75c8263666c2bddf712a">   35</a></span>Color <a class="code hl_function" href="_graphics_8cpp.html#a15bc6012285e75c8263666c2bddf712a">GetMetroHeatColor</a>(<span class="keywordtype">float</span> rush) {</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordflow">if</span> (rush &lt; 0.15f) <span class="keywordflow">return</span> GREEN;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordflow">if</span> (rush &lt; 0.45f) <span class="keywordflow">return</span> YELLOW;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordflow">if</span> (rush &lt; 0.75f) <span class="keywordflow">return</span> ORANGE;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordflow">return</span> RED;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>}</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="comment">// --- HELPER: HEATMAP COLORS ---</span></div>
+<div class="foldopen" id="foldopen00036" data-start="{" data-end="}">
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="_graphics_8cpp.html#a15bc6012285e75c8263666c2bddf712a">   36</a></span>Color <a class="code hl_function" href="_graphics_8cpp.html#a15bc6012285e75c8263666c2bddf712a">GetMetroHeatColor</a>(<span class="keywordtype">float</span> rush) {</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordflow">if</span> (rush &lt; 0.15f) <span class="keywordflow">return</span> GREEN;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordflow">if</span> (rush &lt; 0.45f) <span class="keywordflow">return</span> YELLOW;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordflow">if</span> (rush &lt; 0.75f) <span class="keywordflow">return</span> ORANGE;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordflow">return</span> RED;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>}</div>
 </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="foldopen" id="foldopen00042" data-start="{" data-end="}">
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="_graphics_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">   42</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="_graphics_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>() {</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_class" href="class_simulator.html">Simulator&lt;string, 100&gt;</a> gods_eye;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    gods_eye.<a class="code hl_function" href="class_simulator.html#a0c77395e21ebfd639d84d0377c9d3a3d">clear</a>();</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    gods_eye.<a class="code hl_function" href="class_simulator.html#a3a5d14505bf355eba440349bab13348d">setupNetwork</a>();</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    gods_eye.<a class="code hl_function" href="class_simulator.html#a86a69c377e1d86f957751f076f870773">addMassiveTraffic</a>();</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> screenWidth = 1250;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> screenHeight = 850;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    InitWindow(screenWidth, screenHeight, <span class="stringliteral">&quot;PAKISTAN TRAFFIC CONTROL - METRO DASHBOARD&quot;</span>);</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    SetTargetFPS(60);</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    map&lt;string, Vector2&gt; cityPositions;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">float</span> centerX = screenWidth / 2.0f + 130;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">float</span> centerY = screenHeight / 2.0f;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">float</span> radius = 330.0f;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <a class="code hl_class" href="class_graph.html">Graph&lt;string, 100&gt;</a>* mapRef = gods_eye.<a class="code hl_function" href="class_simulator.html#a727f3c6a0966dfd2e90a357bef8923ff">getMap</a>();</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordtype">int</span> totalCities = mapRef-&gt;<a class="code hl_variable" href="class_graph.html#a00ab4ddb998b829510cc3f920508b0a2">Vcount</a>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="_graphics_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">   43</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="_graphics_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>() {</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_class" href="class_simulator.html">Simulator&lt;string, 100&gt;</a> gods_eye;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    gods_eye.<a class="code hl_function" href="class_simulator.html#a0c77395e21ebfd639d84d0377c9d3a3d">clear</a>();</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    gods_eye.<a class="code hl_function" href="class_simulator.html#a3a5d14505bf355eba440349bab13348d">setupNetwork</a>();</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    gods_eye.<a class="code hl_function" href="class_simulator.html#a86a69c377e1d86f957751f076f870773">addMassiveTraffic</a>();</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="comment">// --- FULL SCREEN INITIALIZATION ---</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    InitWindow(0, 0, <span class="stringliteral">&quot;PAKISTAN TRAFFIC CONTROL - METRO DASHBOARD&quot;</span>);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">int</span> screenWidth = GetMonitorWidth(0);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordtype">int</span> screenHeight = GetMonitorHeight(0);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    SetWindowSize(screenWidth, screenHeight);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    ToggleFullscreen();</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    SetTargetFPS(60);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    map&lt;string, Vector2&gt; cityPositions;</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; totalCities; i++) {</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <span class="keywordtype">string</span> name = mapRef-&gt;<a class="code hl_function" href="class_graph.html#a9e9ea7da2d4f86a23c2f56c4c7e74bef">getVertexAt</a>(i);</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keywordtype">float</span> angle = (i * 2.0f * <a class="code hl_define" href="_graphics_8cpp.html#a598a3330b3c21701223ee0ca14316eca">PI</a>) / totalCities;</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        cityPositions[name] = { centerX + cosf(angle) * radius, centerY + sinf(angle) * radius };</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    }</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">int</span> total_time = 0;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">bool</span> simulationFinished = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordflow">while</span> (!WindowShouldClose()) {</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="keyword">auto</span>&amp; vehicles = gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;getVehicles();</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <span class="keywordtype">int</span> activeCount = vehicles.size();</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        <span class="keywordflow">if</span> (!simulationFinished) {</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>            <span class="keywordflow">if</span> (activeCount &gt; 0 || total_time &lt; 50) {</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>                <span class="keywordflow">if</span> (total_time % 50 == 0 &amp;&amp; total_time &lt; 1500) {</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>                    gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;injectSinusoidalTraffic(total_time);</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>                }</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>                gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;updateSignals();</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>                <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; v : vehicles) {</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>                    <span class="keywordflow">if</span> (v.state == 1) { v.timeRemaining -= 0.1f; v.timespent += 0.1f; }</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>                    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (v.state == 0) { v.timespent += 0.1f; }</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>                    <span class="keywordflow">if</span> (v.timeRemaining &lt; 0) v.timeRemaining = 0;</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>                }</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>                gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;reached();</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>                gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;arrivalAtIntersection();</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>                gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;entraingfromQueetoEdge();</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>                gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;entrance();</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>                gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;checkBrokenPath();</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>                total_time++;</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>                <span class="keywordflow">if</span> (total_time % 100 == 0) { gods_eye.<a class="code hl_function" href="class_simulator.html#a9c750fdea1f896857a16725693941caf">metric</a>(total_time, gods_eye.<a class="code hl_function" href="class_simulator.html#ad0051ab2022596dd50f7a960af800453">rush</a>()); }</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>            }</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>            </div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>            <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>                <span class="keyword">auto</span>* nodes = mapRef-&gt;<a class="code hl_function" href="class_graph.html#af01d416283ec3e8ec94e31801af852a1">getNodes</a>();</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; totalCities; i++) {</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>                    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; edge : nodes[i].Neighbors) {</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>                        edge.weight.currentVehicles = 0;</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>                        edge.weight.queueCount = 0;</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>                        gods_eye.<a class="code hl_function" href="class_simulator.html#a9c750fdea1f896857a16725693941caf">metric</a>(total_time, gods_eye.<a class="code hl_function" href="class_simulator.html#ad0051ab2022596dd50f7a960af800453">rush</a>());</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>                    }</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>                }</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>                simulationFinished = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>            }</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        }</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">float</span> centerX = 400 + (screenWidth - 400) / 2.0f;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">float</span> centerY = screenHeight / 2.0f;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">float</span> radius = (screenHeight / 2.0f) * 0.8f;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <a class="code hl_class" href="class_graph.html">Graph&lt;string, 100&gt;</a>* mapRef = gods_eye.<a class="code hl_function" href="class_simulator.html#a727f3c6a0966dfd2e90a357bef8923ff">getMap</a>();</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">int</span> totalCities = mapRef-&gt;<a class="code hl_variable" href="class_graph.html#a00ab4ddb998b829510cc3f920508b0a2">Vcount</a>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="comment">// =============================================================================</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="comment">// START: MULTAN CENTERING LOGIC</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="comment">// =============================================================================</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="comment">/* // PREVIOUS RADIAL LOGIC (Commented out)</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="comment">    for (int i = 0; i &lt; totalCities; i++) {</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="comment">        string name = mapRef-&gt;getVertexAt(i);</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="comment">        float angle = (i * 2.0f * PI) / totalCities;</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="comment">        cityPositions[name] = { centerX + cosf(angle) * radius, centerY + sinf(angle) * radius };</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="comment">    }</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="comment">    */</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordtype">int</span> outerCityCount = 0;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="comment">// First pass: Find Multan and count how many cities need to be on the outer ring</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; totalCities; i++) {</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        <span class="keywordtype">string</span> name = mapRef-&gt;<a class="code hl_function" href="class_graph.html#a9e9ea7da2d4f86a23c2f56c4c7e74bef">getVertexAt</a>(i);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <span class="keywordflow">if</span> (name == <span class="stringliteral">&quot;Multan&quot;</span>) {</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            cityPositions[name] = { centerX, centerY }; <span class="comment">// Lock Multan to Center</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        }</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>            outerCityCount++;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        }</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    }</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="comment">// Second pass: Arrange outer cities in a circle around the central hub (Multan)</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <span class="keywordtype">int</span> currentOuterIdx = 0;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; totalCities; i++) {</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        <span class="keywordtype">string</span> name = mapRef-&gt;<a class="code hl_function" href="class_graph.html#a9e9ea7da2d4f86a23c2f56c4c7e74bef">getVertexAt</a>(i);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        <span class="keywordflow">if</span> (name != <span class="stringliteral">&quot;Multan&quot;</span>) {</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>            <span class="keywordtype">float</span> angle = (currentOuterIdx * 2.0f * <a class="code hl_define" href="_graphics_8cpp.html#a598a3330b3c21701223ee0ca14316eca">PI</a>) / outerCityCount;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>            cityPositions[name] = {</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>                centerX + cosf(angle) * radius,</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>                centerY + sinf(angle) * radius</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>            };</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>            currentOuterIdx++;</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        }</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    }</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="comment">// =============================================================================</span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="comment">// END: MULTAN CENTERING LOGIC</span></div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="comment">// =============================================================================</span></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="keywordtype">int</span> total_time = 0;</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordtype">bool</span> simulationFinished = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        BeginDrawing();</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        ClearBackground({ 10, 10, 15, 255 });</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        <span class="keyword">auto</span>* nodes = mapRef-&gt;<a class="code hl_function" href="class_graph.html#af01d416283ec3e8ec94e31801af852a1">getNodes</a>();</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; totalCities; i++) {</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>            Vector2 uPos = cityPositions[nodes[i].vertex];</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; edge : nodes[i].Neighbors) {</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>                Vector2 vPos = cityPositions[mapRef-&gt;<a class="code hl_function" href="class_graph.html#a9e9ea7da2d4f86a23c2f56c4c7e74bef">getVertexAt</a>(edge.index)];</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>                DrawLineEx(uPos, vPos, 5.0f, <a class="code hl_function" href="_graphics_8cpp.html#a15bc6012285e75c8263666c2bddf712a">GetMetroHeatColor</a>(edge.weight.Congestion()));</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>            }</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>        }</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; v : vehicles) {</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>            <span class="keywordflow">if</span> (v.state == 1) { <span class="comment">// Moving</span></div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>                Vector2 start = cityPositions[v.currentRoad.first];</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>                Vector2 end = cityPositions[v.currentRoad.second];</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>                <a class="code hl_struct" href="struct_road_details.html">RoadDetails</a>&amp; rd = mapRef-&gt;<a class="code hl_function" href="class_graph.html#a48974faaaea7e54461e6800b8621401d">getEdgeDetails</a>(v.currentRoad.first, v.currentRoad.second);</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>                <span class="keywordtype">float</span> t = 1.0f - (v.timeRemaining / rd.<a class="code hl_function" href="struct_road_details.html#a915b2e8bea1bbe71934faeedf53a06fb">NonIdealtime</a>());</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>                DrawCircleV(Vector2Lerp(start, end, Clamp(t, 0.0f, 1.0f)), 3, GOLD);</div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>            }</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>        }</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; pair : cityPositions) {</div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>            DrawCircleV(pair.second, 15, RAYWHITE);</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>            DrawText(pair.first.c_str(), (<span class="keywordtype">int</span>)pair.second.x + 22, (<span class="keywordtype">int</span>)pair.second.y - 10, 20, RAYWHITE);</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>        }</div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; totalCities; i++) {</div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>            Vector2 uPos = cityPositions[nodes[i].vertex];</div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; edge : nodes[i].Neighbors) {</div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>                Vector2 vPos = cityPositions[mapRef-&gt;<a class="code hl_function" href="class_graph.html#a9e9ea7da2d4f86a23c2f56c4c7e74bef">getVertexAt</a>(edge.index)];</div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>                <a class="code hl_function" href="_graphics_8cpp.html#a3738c62f7e9275a8bf31dc18783ff6d2">DrawRoadArrowBold</a>(uPos, vPos, <a class="code hl_function" href="_graphics_8cpp.html#a15bc6012285e75c8263666c2bddf712a">GetMetroHeatColor</a>(edge.weight.Congestion()));</div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>            }</div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>        }</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>        DrawRectangle(0, 0, 400, screenHeight, Fade(BLACK, 0.8f));</div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>        DrawText(<span class="stringliteral">&quot;METRO OPS CENTER&quot;</span>, 40, 40, 26, GREEN);</div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>        DrawText(TextFormat(<span class="stringliteral">&quot;ACTIVE UNITS: %d&quot;</span>, activeCount), 50, 120, 22, RAYWHITE);</div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>        DrawText(TextFormat(<span class="stringliteral">&quot;COMPLETED: %d&quot;</span>, (<span class="keywordtype">int</span>)gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;getArrivedCount()), 50, 165, 22, YELLOW);</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>        <span class="keywordflow">if</span> (simulationFinished) {</div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>            DrawRectangle(20, 300, 360, 60, Fade(LIME, 0.3f));</div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>            DrawText(<span class="stringliteral">&quot;STATUS: ALL CLEAR&quot;</span>, 50, 320, 22, GREEN);</div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>        }</div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>        EndDrawing();</div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    }</div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>    CloseWindow();</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>}</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordflow">while</span> (!WindowShouldClose()) {</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        <span class="keyword">auto</span>&amp; vehicles = gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;getVehicles();</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>        <span class="keywordtype">int</span> activeCount = vehicles.size();</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        <span class="keywordflow">if</span> (!simulationFinished) {</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>            <span class="keywordflow">if</span> (activeCount &gt; 0 || total_time &lt; 50) {</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>                <span class="keywordflow">if</span> (total_time % 50 == 0 &amp;&amp; total_time &lt; 1500) {</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>                    gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;injectSinusoidalTraffic(total_time);</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>                }</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>                gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;updateSignals();</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>                <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; v : vehicles) {</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>                    <span class="keywordflow">if</span> (v.state == 1) { v.timeRemaining -= 0.1f; v.timespent += 0.1f; }</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>                    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (v.state == 0) { v.timespent += 0.1f; }</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>                    <span class="keywordflow">if</span> (v.timeRemaining &lt; 0) v.timeRemaining = 0;</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>                }</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>                gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;reached();</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>                gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;arrivalAtIntersection();</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>                gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;entraingfromQueetoEdge();</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>                gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;entrance();</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>                gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;checkBrokenPath();</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>                total_time++;</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>                <span class="keywordflow">if</span> (total_time == 1 || total_time == 50 || total_time % 100 == 0) {</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>                    gods_eye.<a class="code hl_function" href="class_simulator.html#af162b6cc1c8bae6af57b8c51b6f93996">metric</a>((<span class="keywordtype">float</span>)total_time, gods_eye.<a class="code hl_function" href="class_simulator.html#ad0051ab2022596dd50f7a960af800453">rush</a>());</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>                }</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>            }</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>            <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>                <span class="keyword">auto</span>* nodes = mapRef-&gt;<a class="code hl_function" href="class_graph.html#af01d416283ec3e8ec94e31801af852a1">getNodes</a>();</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; totalCities; i++) {</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>                    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; edge : nodes[i].Neighbors) {</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>                        edge.weight.currentVehicles = 0;</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>                        edge.weight.queueCount = 0;</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>                    }</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>                }</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>                gods_eye.<a class="code hl_function" href="class_simulator.html#af162b6cc1c8bae6af57b8c51b6f93996">metric</a>((<span class="keywordtype">float</span>)total_time, gods_eye.<a class="code hl_function" href="class_simulator.html#ad0051ab2022596dd50f7a960af800453">rush</a>());</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>                simulationFinished = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>            }</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>        }</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>        BeginDrawing();</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>        ClearBackground({ 10, 10, 15, 255 });</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span> </div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>        <span class="keyword">auto</span>* nodes = mapRef-&gt;<a class="code hl_function" href="class_graph.html#af01d416283ec3e8ec94e31801af852a1">getNodes</a>();</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>        <span class="comment">// 1. Draw Roads</span></div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; totalCities; i++) {</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>            Vector2 uPos = cityPositions[nodes[i].vertex];</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; edge : nodes[i].Neighbors) {</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>                Vector2 vPos = cityPositions[mapRef-&gt;<a class="code hl_function" href="class_graph.html#a9e9ea7da2d4f86a23c2f56c4c7e74bef">getVertexAt</a>(edge.index)];</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>                DrawLineEx(uPos, vPos, 5.0f, <a class="code hl_function" href="_graphics_8cpp.html#a15bc6012285e75c8263666c2bddf712a">GetMetroHeatColor</a>(edge.weight.Congestion()));</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>                <a class="code hl_function" href="_graphics_8cpp.html#a3738c62f7e9275a8bf31dc18783ff6d2">DrawRoadArrowBold</a>(uPos, vPos, <a class="code hl_function" href="_graphics_8cpp.html#a15bc6012285e75c8263666c2bddf712a">GetMetroHeatColor</a>(edge.weight.Congestion()));</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>            }</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>        }</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span> </div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>        <span class="comment">// 2. Draw Vehicles</span></div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; v : vehicles) {</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>            <span class="keywordflow">if</span> (v.state == 1) {</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>                Vector2 start = cityPositions[v.currentRoad.first];</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>                Vector2 end = cityPositions[v.currentRoad.second];</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>                <a class="code hl_struct" href="struct_road_details.html">RoadDetails</a>&amp; rd = mapRef-&gt;<a class="code hl_function" href="class_graph.html#a48974faaaea7e54461e6800b8621401d">getEdgeDetails</a>(v.currentRoad.first, v.currentRoad.second);</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>                <span class="keywordtype">float</span> t = 1.0f - (v.timeRemaining / rd.<a class="code hl_function" href="struct_road_details.html#a915b2e8bea1bbe71934faeedf53a06fb">NonIdealtime</a>());</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>                DrawCircleV(Vector2Lerp(start, end, Clamp(t, 0.0f, 1.0f)), 3, GOLD);</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>            }</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>        }</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span> </div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>        <span class="comment">// 3. Draw Cities (Multan is at center, others around)</span></div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; pair : cityPositions) {</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>            <span class="comment">// Multan gets a slightly larger visual indicator</span></div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>            <span class="keywordtype">float</span> citySize = (pair.first == <span class="stringliteral">&quot;Multan&quot;</span>) ? 20.0f : 15.0f;</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>            DrawCircleV(pair.second, citySize, RAYWHITE);</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>            DrawText(pair.first.c_str(), (<span class="keywordtype">int</span>)pair.second.x + 22, (<span class="keywordtype">int</span>)pair.second.y - 10, 20, RAYWHITE);</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>        }</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span> </div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>        <span class="comment">// 4. UI Sidebar</span></div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>        DrawRectangle(0, 0, 400, screenHeight, Fade(BLACK, 0.85f));</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>        DrawLineEx({ 400, 0 }, { 400, (float)screenHeight }, 2.0f, Fade(GREEN, 0.4f));</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>        <span class="comment">// --- Title ---</span></div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>        DrawText(<span class="stringliteral">&quot;METRO OPS CENTER&quot;</span>, 40, 30, 26, GREEN);</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>        DrawLineEx({ 30, 65 }, { 370, 65 }, 1.0f, Fade(GREEN, 0.3f));</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span> </div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>        <span class="comment">// --- Section: Simulation ---</span></div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>        DrawText(<span class="stringliteral">&quot;SIMULATION&quot;</span>, 30, 80, 16, Fade(LIME, 0.6f));</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>        DrawText(TextFormat(<span class="stringliteral">&quot;TICK:  %d&quot;</span>, total_time), 50, 105, 22, RAYWHITE);</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>        DrawText(TextFormat(<span class="stringliteral">&quot;ACTIVE UNITS:  %d&quot;</span>, activeCount), 50, 135, 22, RAYWHITE);</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>        DrawText(TextFormat(<span class="stringliteral">&quot;COMPLETED:  %d&quot;</span>, (<span class="keywordtype">int</span>)gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;getArrivedCount()), 50, 165, 22, YELLOW);</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span> </div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>        DrawLineEx({ 30, 198 }, { 370, 198 }, 1.0f, Fade(GREEN, 0.3f));</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span> </div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>        <span class="comment">// --- Section: Rush Level with visual bar ---</span></div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>        DrawText(<span class="stringliteral">&quot;RUSH LEVEL&quot;</span>, 30, 210, 16, Fade(LIME, 0.6f));</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>        <span class="keywordtype">float</span> rushVal = gods_eye.<a class="code hl_function" href="class_simulator.html#ad0051ab2022596dd50f7a960af800453">rush</a>();</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>        Color rushColor = <a class="code hl_function" href="_graphics_8cpp.html#a15bc6012285e75c8263666c2bddf712a">GetMetroHeatColor</a>(rushVal);</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>        DrawText(TextFormat(<span class="stringliteral">&quot;%.2f%%&quot;</span>, rushVal * 100.0f), 50, 235, 22, rushColor);</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>        <span class="comment">// Rush bar background</span></div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>        DrawRectangle(50, 265, 300, 16, Fade(GRAY, 0.3f));</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>        <span class="comment">// Rush bar fill</span></div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>        <span class="keywordtype">float</span> barWidth = rushVal * 300.0f;</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>        <span class="keywordflow">if</span> (barWidth &gt; 300.0f) barWidth = 300.0f;</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>        DrawRectangle(50, 265, (<span class="keywordtype">int</span>)barWidth, 16, rushColor);</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>        DrawRectangleLines(50, 265, 300, 16, Fade(RAYWHITE, 0.3f));</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span> </div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>        DrawLineEx({ 30, 295 }, { 370, 295 }, 1.0f, Fade(GREEN, 0.3f));</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span> </div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>        <span class="comment">// --- Section: Travel Time ---</span></div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>        DrawText(<span class="stringliteral">&quot;TRAVEL TIME&quot;</span>, 30, 307, 16, Fade(LIME, 0.6f));</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>        <span class="keywordtype">float</span> avgTT = gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;getAvgTravelTime();</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>        <span class="keywordtype">float</span> winTT = gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;getWindowedAvgTravelTime();</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>        <span class="keywordtype">float</span> minTT = gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;getMinTravelTime();</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>        <span class="keywordtype">float</span> maxTT = gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;getMaxTravelTime();</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>        DrawText(TextFormat(<span class="stringliteral">&quot;AVG:       %.1f ticks&quot;</span>, avgTT), 50, 332, 20, RAYWHITE);</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>        DrawText(TextFormat(<span class="stringliteral">&quot;RECENT:    %.1f ticks&quot;</span>, winTT), 50, 358, 20, Fade(SKYBLUE, 0.9f));</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>        DrawText(TextFormat(<span class="stringliteral">&quot;MIN:       %.1f&quot;</span>, minTT), 50, 384, 20, GREEN);</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>        DrawText(TextFormat(<span class="stringliteral">&quot;MAX:       %.1f&quot;</span>, maxTT), 50, 410, 20, Fade(RED, 0.8f));</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span> </div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>        DrawLineEx({ 30, 440 }, { 370, 440 }, 1.0f, Fade(GREEN, 0.3f));</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>        <span class="comment">// --- Section: Performance ---</span></div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>        DrawText(<span class="stringliteral">&quot;PERFORMANCE&quot;</span>, 30, 452, 16, Fade(LIME, 0.6f));</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>        <span class="keywordtype">float</span> throughput = gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;getThroughput((<span class="keywordtype">float</span>)total_time);</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>        <span class="keywordtype">float</span> sysCost = gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;getSystemCost();</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>        <span class="keywordtype">float</span> delay = gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;getTotalDelay();</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>        <span class="keywordtype">int</span> reroutes = gods_eye.<a class="code hl_variable" href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">cityManager</a>-&gt;getRerouteCount();</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>        DrawText(TextFormat(<span class="stringliteral">&quot;THROUGHPUT:  %.2f v/tick&quot;</span>, throughput), 50, 477, 20, RAYWHITE);</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>        DrawText(TextFormat(<span class="stringliteral">&quot;SYSTEM COST: %.0f&quot;</span>, sysCost), 50, 503, 20, Fade(ORANGE, 0.9f));</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>        DrawText(TextFormat(<span class="stringliteral">&quot;TOTAL DELAY: %.0f&quot;</span>, delay), 50, 529, 20, Fade(MAROON, 0.9f));</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>        DrawText(TextFormat(<span class="stringliteral">&quot;REROUTES:    %d&quot;</span>, reroutes), 50, 555, 20, Fade(SKYBLUE, 0.9f));</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span> </div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>        DrawLineEx({ 30, 585 }, { 370, 585 }, 1.0f, Fade(GREEN, 0.3f));</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span> </div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>        <span class="comment">// --- Section: Status ---</span></div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>        <span class="keywordflow">if</span> (simulationFinished) {</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>            DrawRectangle(20, 600, 360, 60, Fade(LIME, 0.3f));</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>            DrawText(<span class="stringliteral">&quot;STATUS: ALL CLEAR&quot;</span>, 50, 620, 22, GREEN);</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>        }</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>        <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>            DrawRectangle(20, 600, 360, 60, Fade(YELLOW, 0.1f));</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>            DrawText(<span class="stringliteral">&quot;STATUS: SIMULATING...&quot;</span>, 50, 620, 22, Fade(YELLOW, 0.8f));</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>        }</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span> </div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>        EndDrawing();</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    }</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span> </div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>    CloseWindow();</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>}</div>
 </div>
 <div class="ttc" id="a_graph_8h_html"><div class="ttname"><a href="_graph_8h.html">Graph.h</a></div></div>
-<div class="ttc" id="a_graphics_8cpp_html_a15bc6012285e75c8263666c2bddf712a"><div class="ttname"><a href="_graphics_8cpp.html#a15bc6012285e75c8263666c2bddf712a">GetMetroHeatColor</a></div><div class="ttdeci">Color GetMetroHeatColor(float rush)</div><div class="ttdef"><b>Definition</b> <a href="#l00035">Graphics.cpp:35</a></div></div>
-<div class="ttc" id="a_graphics_8cpp_html_a3738c62f7e9275a8bf31dc18783ff6d2"><div class="ttname"><a href="_graphics_8cpp.html#a3738c62f7e9275a8bf31dc18783ff6d2">DrawRoadArrowBold</a></div><div class="ttdeci">void DrawRoadArrowBold(Vector2 start, Vector2 end, Color col)</div><div class="ttdef"><b>Definition</b> <a href="#l00018">Graphics.cpp:18</a></div></div>
+<div class="ttc" id="a_graphics_8cpp_html_a15bc6012285e75c8263666c2bddf712a"><div class="ttname"><a href="_graphics_8cpp.html#a15bc6012285e75c8263666c2bddf712a">GetMetroHeatColor</a></div><div class="ttdeci">Color GetMetroHeatColor(float rush)</div><div class="ttdef"><b>Definition</b> <a href="#l00036">Graphics.cpp:36</a></div></div>
+<div class="ttc" id="a_graphics_8cpp_html_a3738c62f7e9275a8bf31dc18783ff6d2"><div class="ttname"><a href="_graphics_8cpp.html#a3738c62f7e9275a8bf31dc18783ff6d2">DrawRoadArrowBold</a></div><div class="ttdeci">void DrawRoadArrowBold(Vector2 start, Vector2 end, Color col)</div><div class="ttdef"><b>Definition</b> <a href="#l00019">Graphics.cpp:19</a></div></div>
 <div class="ttc" id="a_graphics_8cpp_html_a598a3330b3c21701223ee0ca14316eca"><div class="ttname"><a href="_graphics_8cpp.html#a598a3330b3c21701223ee0ca14316eca">PI</a></div><div class="ttdeci">#define PI</div><div class="ttdef"><b>Definition</b> <a href="#l00015">Graphics.cpp:15</a></div></div>
-<div class="ttc" id="a_graphics_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="_graphics_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> <a href="#l00042">Graphics.cpp:42</a></div></div>
+<div class="ttc" id="a_graphics_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="_graphics_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> <a href="#l00043">Graphics.cpp:43</a></div></div>
 <div class="ttc" id="a_header1_8h_html"><div class="ttname"><a href="_header1_8h.html">Header1.h</a></div></div>
 <div class="ttc" id="aclass_graph_html"><div class="ttname"><a href="class_graph.html">Graph</a></div><div class="ttdef"><b>Definition</b> <a href="_graph_8h_source.html#l00024">Graph.h:24</a></div></div>
 <div class="ttc" id="aclass_graph_html_a00ab4ddb998b829510cc3f920508b0a2"><div class="ttname"><a href="class_graph.html#a00ab4ddb998b829510cc3f920508b0a2">Graph::Vcount</a></div><div class="ttdeci">int Vcount</div><div class="ttdef"><b>Definition</b> <a href="_graph_8h_source.html#l00030">Graph.h:30</a></div></div>
@@ -271,13 +368,13 @@ $(function(){initNavTree('_graphics_8cpp_source.html','',''); });
 <div class="ttc" id="aclass_graph_html_a9e9ea7da2d4f86a23c2f56c4c7e74bef"><div class="ttname"><a href="class_graph.html#a9e9ea7da2d4f86a23c2f56c4c7e74bef">Graph::getVertexAt</a></div><div class="ttdeci">t getVertexAt(int i)</div><div class="ttdef"><b>Definition</b> <a href="_graph_8h_source.html#l00628">Graph.h:628</a></div></div>
 <div class="ttc" id="aclass_graph_html_af01d416283ec3e8ec94e31801af852a1"><div class="ttname"><a href="class_graph.html#af01d416283ec3e8ec94e31801af852a1">Graph::getNodes</a></div><div class="ttdeci">Gnode&lt; t &gt; * getNodes()</div><div class="ttdef"><b>Definition</b> <a href="_graph_8h_source.html#l00255">Graph.h:255</a></div></div>
 <div class="ttc" id="aclass_simulator_html"><div class="ttname"><a href="class_simulator.html">Simulator</a></div><div class="ttdef"><b>Definition</b> <a href="_simulator_8h_source.html#l00008">Simulator.h:8</a></div></div>
-<div class="ttc" id="aclass_simulator_html_a0c77395e21ebfd639d84d0377c9d3a3d"><div class="ttname"><a href="class_simulator.html#a0c77395e21ebfd639d84d0377c9d3a3d">Simulator::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definition</b> <a href="_simulator_8h_source.html#l00090">Simulator.h:90</a></div></div>
+<div class="ttc" id="aclass_simulator_html_a0c77395e21ebfd639d84d0377c9d3a3d"><div class="ttname"><a href="class_simulator.html#a0c77395e21ebfd639d84d0377c9d3a3d">Simulator::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definition</b> <a href="_simulator_8h_source.html#l00190">Simulator.h:190</a></div></div>
 <div class="ttc" id="aclass_simulator_html_a2d91bdaf4a97ba2687c11eebc4eaa0a2"><div class="ttname"><a href="class_simulator.html#a2d91bdaf4a97ba2687c11eebc4eaa0a2">Simulator::cityManager</a></div><div class="ttdeci">Manager&lt; t, size &gt; * cityManager</div><div class="ttdef"><b>Definition</b> <a href="_simulator_8h_source.html#l00012">Simulator.h:12</a></div></div>
 <div class="ttc" id="aclass_simulator_html_a3a5d14505bf355eba440349bab13348d"><div class="ttname"><a href="class_simulator.html#a3a5d14505bf355eba440349bab13348d">Simulator::setupNetwork</a></div><div class="ttdeci">void setupNetwork()</div><div class="ttdef"><b>Definition</b> <a href="_simulator_8h_source.html#l00020">Simulator.h:20</a></div></div>
 <div class="ttc" id="aclass_simulator_html_a727f3c6a0966dfd2e90a357bef8923ff"><div class="ttname"><a href="class_simulator.html#a727f3c6a0966dfd2e90a357bef8923ff">Simulator::getMap</a></div><div class="ttdeci">Graph&lt; t, size &gt; * getMap()</div><div class="ttdef"><b>Definition</b> <a href="_simulator_8h_source.html#l00018">Simulator.h:18</a></div></div>
-<div class="ttc" id="aclass_simulator_html_a86a69c377e1d86f957751f076f870773"><div class="ttname"><a href="class_simulator.html#a86a69c377e1d86f957751f076f870773">Simulator::addMassiveTraffic</a></div><div class="ttdeci">void addMassiveTraffic()</div><div class="ttdef"><b>Definition</b> <a href="_simulator_8h_source.html#l00058">Simulator.h:58</a></div></div>
-<div class="ttc" id="aclass_simulator_html_a9c750fdea1f896857a16725693941caf"><div class="ttname"><a href="class_simulator.html#a9c750fdea1f896857a16725693941caf">Simulator::metric</a></div><div class="ttdeci">void metric(int total_time, int x)</div><div class="ttdef"><b>Definition</b> <a href="_simulator_8h_source.html#l00083">Simulator.h:83</a></div></div>
-<div class="ttc" id="aclass_simulator_html_ad0051ab2022596dd50f7a960af800453"><div class="ttname"><a href="class_simulator.html#ad0051ab2022596dd50f7a960af800453">Simulator::rush</a></div><div class="ttdeci">float rush()</div><div class="ttdef"><b>Definition</b> <a href="_simulator_8h_source.html#l00087">Simulator.h:87</a></div></div>
+<div class="ttc" id="aclass_simulator_html_a86a69c377e1d86f957751f076f870773"><div class="ttname"><a href="class_simulator.html#a86a69c377e1d86f957751f076f870773">Simulator::addMassiveTraffic</a></div><div class="ttdeci">void addMassiveTraffic()</div><div class="ttdef"><b>Definition</b> <a href="_simulator_8h_source.html#l00140">Simulator.h:140</a></div></div>
+<div class="ttc" id="aclass_simulator_html_ad0051ab2022596dd50f7a960af800453"><div class="ttname"><a href="class_simulator.html#ad0051ab2022596dd50f7a960af800453">Simulator::rush</a></div><div class="ttdeci">float rush()</div><div class="ttdef"><b>Definition</b> <a href="_simulator_8h_source.html#l00187">Simulator.h:187</a></div></div>
+<div class="ttc" id="aclass_simulator_html_af162b6cc1c8bae6af57b8c51b6f93996"><div class="ttname"><a href="class_simulator.html#af162b6cc1c8bae6af57b8c51b6f93996">Simulator::metric</a></div><div class="ttdeci">void metric(float total_time, float x)</div><div class="ttdef"><b>Definition</b> <a href="_simulator_8h_source.html#l00183">Simulator.h:183</a></div></div>
 <div class="ttc" id="astruct_road_details_html"><div class="ttname"><a href="struct_road_details.html">RoadDetails</a></div><div class="ttdef"><b>Definition</b> <a href="_road_details_8h_source.html#l00009">RoadDetails.h:9</a></div></div>
 <div class="ttc" id="astruct_road_details_html_a915b2e8bea1bbe71934faeedf53a06fb"><div class="ttname"><a href="struct_road_details.html#a915b2e8bea1bbe71934faeedf53a06fb">RoadDetails::NonIdealtime</a></div><div class="ttdeci">float NonIdealtime()</div><div class="ttdef"><b>Definition</b> <a href="_road_details_8h_source.html#l00068">RoadDetails.h:68</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

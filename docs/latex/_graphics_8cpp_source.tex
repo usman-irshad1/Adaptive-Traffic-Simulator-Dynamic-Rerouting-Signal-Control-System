@@ -9,8 +9,8 @@
 \DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00006}00006\ \textcolor{preprocessor}{\#include\ <cmath>}}
 \DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00007}00007\ \textcolor{preprocessor}{\#include\ "{}raylib.h"{}}}
 \DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00008}00008\ \textcolor{preprocessor}{\#include\ "{}raymath.h"{}}\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00009}00009\ \textcolor{preprocessor}{\#include"{}\doxymbox{\hyperlink{_graph_8h}{Graph.h}}"{}}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00010}00010\ \textcolor{preprocessor}{\#include"{}\doxymbox{\hyperlink{_header1_8h}{Header1.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00009}00009\ \textcolor{preprocessor}{\#include\ "{}\doxymbox{\hyperlink{_graph_8h}{Graph.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00010}00010\ \textcolor{preprocessor}{\#include\ "{}\doxymbox{\hyperlink{_header1_8h}{Header1.h}}"{}}}
 \DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00011}00011\ }
 \DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00012}00012\ \textcolor{keyword}{using\ namespace\ }std;}
 \DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00013}00013\ }
@@ -18,150 +18,247 @@
 \DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00015}\doxymbox{\hyperlink{_graphics_8cpp_a598a3330b3c21701223ee0ca14316eca}{00015}}\ \textcolor{preprocessor}{\#define\ PI\ 3.1415926535f}}
 \DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00016}00016\ \textcolor{preprocessor}{\#endif}}
 \DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00017}00017\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00018}\doxymbox{\hyperlink{_graphics_8cpp_a3738c62f7e9275a8bf31dc18783ff6d2}{00018}}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{_graphics_8cpp_a3738c62f7e9275a8bf31dc18783ff6d2}{DrawRoadArrowBold}}(Vector2\ start,\ Vector2\ end,\ Color\ col)\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00019}00019\ \ \ \ \ Vector2\ dir\ =\ Vector2Normalize(Vector2Subtract(end,\ start));}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00020}00020\ \ \ \ \ \textcolor{keywordtype}{float}\ length\ =\ Vector2Distance(start,\ end);}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00021}00021\ \ \ \ \ \textcolor{keywordflow}{if}\ (length\ <\ 45.0f)\ \textcolor{keywordflow}{return};}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00022}00022\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00023}00023\ \ \ \ \ Vector2\ arrowPos\ =\ Vector2Subtract(end,\ Vector2Scale(dir,\ 22.0f));}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00024}00024\ \ \ \ \ \textcolor{keywordtype}{float}\ arrowSize\ =\ 16.0f;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00025}00025\ \ \ \ \ Vector2\ perp\ =\ \{\ -\/dir.y,\ dir.x\ \};}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00026}00026\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00027}00027\ \ \ \ \ Vector2\ leftWing\ =\ Vector2Add(Vector2Subtract(arrowPos,\ Vector2Scale(dir,\ arrowSize)),\ Vector2Scale(perp,\ arrowSize\ *\ 0.8f));}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00028}00028\ \ \ \ \ Vector2\ rightWing\ =\ Vector2Subtract(Vector2Subtract(arrowPos,\ Vector2Scale(dir,\ arrowSize)),\ Vector2Scale(perp,\ arrowSize\ *\ 0.8f));}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00029}00029\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00030}00030\ \ \ \ \ DrawTriangle(arrowPos,\ leftWing,\ rightWing,\ col);}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00031}00031\ \ \ \ \ DrawTriangleLines(arrowPos,\ leftWing,\ rightWing,\ RAYWHITE);}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00032}00032\ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00033}00033\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00034}00034\ \textcolor{comment}{//\ -\/-\/-\/\ HELPER:\ HEATMAP\ COLORS\ -\/-\/-\/}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00035}\doxymbox{\hyperlink{_graphics_8cpp_a15bc6012285e75c8263666c2bddf712a}{00035}}\ Color\ \doxymbox{\hyperlink{_graphics_8cpp_a15bc6012285e75c8263666c2bddf712a}{GetMetroHeatColor}}(\textcolor{keywordtype}{float}\ rush)\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00036}00036\ \ \ \ \ \textcolor{keywordflow}{if}\ (rush\ <\ 0.15f)\ \textcolor{keywordflow}{return}\ GREEN;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00037}00037\ \ \ \ \ \textcolor{keywordflow}{if}\ (rush\ <\ 0.45f)\ \textcolor{keywordflow}{return}\ YELLOW;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00038}00038\ \ \ \ \ \textcolor{keywordflow}{if}\ (rush\ <\ 0.75f)\ \textcolor{keywordflow}{return}\ ORANGE;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00039}00039\ \ \ \ \ \textcolor{keywordflow}{return}\ RED;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00040}00040\ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00041}00041\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00042}\doxymbox{\hyperlink{_graphics_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{00042}}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{_graphics_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}}()\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00043}00043\ \ \ \ \ \doxymbox{\hyperlink{class_simulator}{Simulator<string,\ 100>}}\ gods\_eye;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00044}00044\ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a0c77395e21ebfd639d84d0377c9d3a3d}{clear}}();}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00045}00045\ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a3a5d14505bf355eba440349bab13348d}{setupNetwork}}();}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00046}00046\ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a86a69c377e1d86f957751f076f870773}{addMassiveTraffic}}();}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00047}00047\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00048}00048\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ screenWidth\ =\ 1250;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00049}00049\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ screenHeight\ =\ 850;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00050}00050\ \ \ \ \ InitWindow(screenWidth,\ screenHeight,\ \textcolor{stringliteral}{"{}PAKISTAN\ TRAFFIC\ CONTROL\ -\/\ METRO\ DASHBOARD"{}});}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00051}00051\ \ \ \ \ SetTargetFPS(60);}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00052}00052\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00053}00053\ \ \ \ \ map<string,\ Vector2>\ cityPositions;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00054}00054\ \ \ \ \ \textcolor{keywordtype}{float}\ centerX\ =\ screenWidth\ /\ 2.0f\ +\ 130;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00055}00055\ \ \ \ \ \textcolor{keywordtype}{float}\ centerY\ =\ screenHeight\ /\ 2.0f;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00056}00056\ \ \ \ \ \textcolor{keywordtype}{float}\ radius\ =\ 330.0f;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00057}00057\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00058}00058\ \ \ \ \ \doxymbox{\hyperlink{class_graph}{Graph<string,\ 100>}}*\ mapRef\ =\ gods\_eye.\doxymbox{\hyperlink{class_simulator_a727f3c6a0966dfd2e90a357bef8923ff}{getMap}}();}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00059}00059\ \ \ \ \ \textcolor{keywordtype}{int}\ totalCities\ =\ mapRef-\/>\doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}};}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00018}00018\ \textcolor{comment}{//\ -\/-\/-\/\ HELPER:\ DRAW\ ARROWS\ -\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00019}\doxymbox{\hyperlink{_graphics_8cpp_a3738c62f7e9275a8bf31dc18783ff6d2}{00019}}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{_graphics_8cpp_a3738c62f7e9275a8bf31dc18783ff6d2}{DrawRoadArrowBold}}(Vector2\ start,\ Vector2\ end,\ Color\ col)\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00020}00020\ \ \ \ \ Vector2\ dir\ =\ Vector2Normalize(Vector2Subtract(end,\ start));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00021}00021\ \ \ \ \ \textcolor{keywordtype}{float}\ length\ =\ Vector2Distance(start,\ end);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00022}00022\ \ \ \ \ \textcolor{keywordflow}{if}\ (length\ <\ 45.0f)\ \textcolor{keywordflow}{return};}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00023}00023\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00024}00024\ \ \ \ \ Vector2\ arrowPos\ =\ Vector2Subtract(end,\ Vector2Scale(dir,\ 22.0f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00025}00025\ \ \ \ \ \textcolor{keywordtype}{float}\ arrowSize\ =\ 16.0f;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00026}00026\ \ \ \ \ Vector2\ perp\ =\ \{\ -\/dir.y,\ dir.x\ \};}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00027}00027\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00028}00028\ \ \ \ \ Vector2\ leftWing\ =\ Vector2Add(Vector2Subtract(arrowPos,\ Vector2Scale(dir,\ arrowSize)),\ Vector2Scale(perp,\ arrowSize\ *\ 0.8f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00029}00029\ \ \ \ \ Vector2\ rightWing\ =\ Vector2Subtract(Vector2Subtract(arrowPos,\ Vector2Scale(dir,\ arrowSize)),\ Vector2Scale(perp,\ arrowSize\ *\ 0.8f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00030}00030\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00031}00031\ \ \ \ \ DrawTriangle(arrowPos,\ leftWing,\ rightWing,\ col);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00032}00032\ \ \ \ \ DrawTriangleLines(arrowPos,\ leftWing,\ rightWing,\ RAYWHITE);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00033}00033\ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00034}00034\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00035}00035\ \textcolor{comment}{//\ -\/-\/-\/\ HELPER:\ HEATMAP\ COLORS\ -\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00036}\doxymbox{\hyperlink{_graphics_8cpp_a15bc6012285e75c8263666c2bddf712a}{00036}}\ Color\ \doxymbox{\hyperlink{_graphics_8cpp_a15bc6012285e75c8263666c2bddf712a}{GetMetroHeatColor}}(\textcolor{keywordtype}{float}\ rush)\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00037}00037\ \ \ \ \ \textcolor{keywordflow}{if}\ (rush\ <\ 0.15f)\ \textcolor{keywordflow}{return}\ GREEN;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00038}00038\ \ \ \ \ \textcolor{keywordflow}{if}\ (rush\ <\ 0.45f)\ \textcolor{keywordflow}{return}\ YELLOW;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00039}00039\ \ \ \ \ \textcolor{keywordflow}{if}\ (rush\ <\ 0.75f)\ \textcolor{keywordflow}{return}\ ORANGE;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00040}00040\ \ \ \ \ \textcolor{keywordflow}{return}\ RED;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00041}00041\ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00042}00042\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00043}\doxymbox{\hyperlink{_graphics_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{00043}}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{_graphics_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}}()\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00044}00044\ \ \ \ \ \doxymbox{\hyperlink{class_simulator}{Simulator<string,\ 100>}}\ gods\_eye;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00045}00045\ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a0c77395e21ebfd639d84d0377c9d3a3d}{clear}}();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00046}00046\ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a3a5d14505bf355eba440349bab13348d}{setupNetwork}}();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00047}00047\ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a86a69c377e1d86f957751f076f870773}{addMassiveTraffic}}();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00048}00048\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00049}00049\ \ \ \ \ \textcolor{comment}{//\ -\/-\/-\/\ FULL\ SCREEN\ INITIALIZATION\ -\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00050}00050\ \ \ \ \ InitWindow(0,\ 0,\ \textcolor{stringliteral}{"{}PAKISTAN\ TRAFFIC\ CONTROL\ -\/\ METRO\ DASHBOARD"{}});}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00051}00051\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00052}00052\ \ \ \ \ \textcolor{keywordtype}{int}\ screenWidth\ =\ GetMonitorWidth(0);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00053}00053\ \ \ \ \ \textcolor{keywordtype}{int}\ screenHeight\ =\ GetMonitorHeight(0);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00054}00054\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00055}00055\ \ \ \ \ SetWindowSize(screenWidth,\ screenHeight);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00056}00056\ \ \ \ \ ToggleFullscreen();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00057}00057\ \ \ \ \ SetTargetFPS(60);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00058}00058\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00059}00059\ \ \ \ \ map<string,\ Vector2>\ cityPositions;}
 \DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00060}00060\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00061}00061\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ totalCities;\ i++)\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00062}00062\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ name\ =\ mapRef-\/>\doxymbox{\hyperlink{class_graph_a9e9ea7da2d4f86a23c2f56c4c7e74bef}{getVertexAt}}(i);}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00063}00063\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ angle\ =\ (i\ *\ 2.0f\ *\ \doxymbox{\hyperlink{_graphics_8cpp_a598a3330b3c21701223ee0ca14316eca}{PI}})\ /\ totalCities;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00064}00064\ \ \ \ \ \ \ \ \ cityPositions[name]\ =\ \{\ centerX\ +\ cosf(angle)\ *\ radius,\ centerY\ +\ sinf(angle)\ *\ radius\ \};}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00065}00065\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00066}00066\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00067}00067\ \ \ \ \ \textcolor{keywordtype}{int}\ total\_time\ =\ 0;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00068}00068\ \ \ \ \ \textcolor{keywordtype}{bool}\ simulationFinished\ =\ \textcolor{keyword}{false};}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00069}00069\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00070}00070\ \ \ \ \ \textcolor{keywordflow}{while}\ (!WindowShouldClose())\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00071}00071\ \ \ \ \ \ \ \ \ \textcolor{keyword}{auto}\&\ vehicles\ =\ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>getVehicles();}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00072}00072\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ activeCount\ =\ vehicles.size();}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00073}00073\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00074}00074\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!simulationFinished)\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00075}00075\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (activeCount\ >\ 0\ ||\ total\_time\ <\ 50)\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00076}00076\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (total\_time\ \%\ 50\ ==\ 0\ \&\&\ total\_time\ <\ 1500)\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00077}00077\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>injectSinusoidalTraffic(total\_time);}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00078}00078\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00079}00079\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00080}00080\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>updateSignals();}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00081}00081\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00082}00082\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\&\ v\ :\ vehicles)\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00083}00083\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (v.state\ ==\ 1)\ \{\ v.timeRemaining\ -\/=\ 0.1f;\ v.timespent\ +=\ 0.1f;\ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00084}00084\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \textcolor{keywordflow}{if}\ (v.state\ ==\ 0)\ \{\ v.timespent\ +=\ 0.1f;\ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00085}00085\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (v.timeRemaining\ <\ 0)\ v.timeRemaining\ =\ 0;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00086}00086\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00087}00087\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00088}00088\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>reached();}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00089}00089\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>arrivalAtIntersection();}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00090}00090\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>entraingfromQueetoEdge();}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00091}00091\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>entrance();}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00092}00092\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>checkBrokenPath();}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00093}00093\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00094}00094\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ total\_time++;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00095}00095\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (total\_time\ \%\ 100\ ==\ 0)\ \{\ gods\_eye.\doxymbox{\hyperlink{class_simulator_a9c750fdea1f896857a16725693941caf}{metric}}(total\_time,\ gods\_eye.\doxymbox{\hyperlink{class_simulator_ad0051ab2022596dd50f7a960af800453}{rush}}());\ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00096}00096\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00097}00097\ \ \ \ \ \ \ \ \ \ \ \ \ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00098}00098\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00099}00099\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{auto}*\ nodes\ =\ mapRef-\/>\doxymbox{\hyperlink{class_graph_af01d416283ec3e8ec94e31801af852a1}{getNodes}}();}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00100}00100\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ totalCities;\ i++)\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00101}00101\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\&\ edge\ :\ nodes[i].Neighbors)\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00102}00102\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ edge.weight.currentVehicles\ =\ 0;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00103}00103\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ edge.weight.queueCount\ =\ 0;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00104}00104\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a9c750fdea1f896857a16725693941caf}{metric}}(total\_time,\ gods\_eye.\doxymbox{\hyperlink{class_simulator_ad0051ab2022596dd50f7a960af800453}{rush}}());}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00105}00105\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00106}00106\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00107}00107\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ simulationFinished\ =\ \textcolor{keyword}{true};}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00108}00108\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00109}00109\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00061}00061\ \ \ \ \ \textcolor{keywordtype}{float}\ centerX\ =\ 400\ +\ (screenWidth\ -\/\ 400)\ /\ 2.0f;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00062}00062\ \ \ \ \ \textcolor{keywordtype}{float}\ centerY\ =\ screenHeight\ /\ 2.0f;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00063}00063\ \ \ \ \ \textcolor{keywordtype}{float}\ radius\ =\ (screenHeight\ /\ 2.0f)\ *\ 0.8f;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00064}00064\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00065}00065\ \ \ \ \ \doxymbox{\hyperlink{class_graph}{Graph<string,\ 100>}}*\ mapRef\ =\ gods\_eye.\doxymbox{\hyperlink{class_simulator_a727f3c6a0966dfd2e90a357bef8923ff}{getMap}}();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00066}00066\ \ \ \ \ \textcolor{keywordtype}{int}\ totalCities\ =\ mapRef-\/>\doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}};}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00067}00067\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00068}00068\ \ \ \ \ \textcolor{comment}{//\ =============================================================================}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00069}00069\ \ \ \ \ \textcolor{comment}{//\ START:\ MULTAN\ CENTERING\ LOGIC}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00070}00070\ \ \ \ \ \textcolor{comment}{//\ =============================================================================}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00071}00071\ \ \ \ \ \textcolor{comment}{/*\ //\ PREVIOUS\ RADIAL\ LOGIC\ (Commented\ out)}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00072}00072\ \textcolor{comment}{\ \ \ \ for\ (int\ i\ =\ 0;\ i\ <\ totalCities;\ i++)\ \{}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00073}00073\ \textcolor{comment}{\ \ \ \ \ \ \ \ string\ name\ =\ mapRef-\/>getVertexAt(i);}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00074}00074\ \textcolor{comment}{\ \ \ \ \ \ \ \ float\ angle\ =\ (i\ *\ 2.0f\ *\ PI)\ /\ totalCities;}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00075}00075\ \textcolor{comment}{\ \ \ \ \ \ \ \ cityPositions[name]\ =\ \{\ centerX\ +\ cosf(angle)\ *\ radius,\ centerY\ +\ sinf(angle)\ *\ radius\ \};}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00076}00076\ \textcolor{comment}{\ \ \ \ \}}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00077}00077\ \textcolor{comment}{\ \ \ \ */}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00078}00078\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00079}00079\ \ \ \ \ \textcolor{keywordtype}{int}\ outerCityCount\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00080}00080\ \ \ \ \ \textcolor{comment}{//\ First\ pass:\ Find\ Multan\ and\ count\ how\ many\ cities\ need\ to\ be\ on\ the\ outer\ ring}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00081}00081\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ totalCities;\ i++)\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00082}00082\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ name\ =\ mapRef-\/>\doxymbox{\hyperlink{class_graph_a9e9ea7da2d4f86a23c2f56c4c7e74bef}{getVertexAt}}(i);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00083}00083\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (name\ ==\ \textcolor{stringliteral}{"{}Multan"{}})\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00084}00084\ \ \ \ \ \ \ \ \ \ \ \ \ cityPositions[name]\ =\ \{\ centerX,\ centerY\ \};\ \textcolor{comment}{//\ Lock\ Multan\ to\ Center}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00085}00085\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00086}00086\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00087}00087\ \ \ \ \ \ \ \ \ \ \ \ \ outerCityCount++;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00088}00088\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00089}00089\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00090}00090\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00091}00091\ \ \ \ \ \textcolor{comment}{//\ Second\ pass:\ Arrange\ outer\ cities\ in\ a\ circle\ around\ the\ central\ hub\ (Multan)}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00092}00092\ \ \ \ \ \textcolor{keywordtype}{int}\ currentOuterIdx\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00093}00093\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ totalCities;\ i++)\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00094}00094\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ name\ =\ mapRef-\/>\doxymbox{\hyperlink{class_graph_a9e9ea7da2d4f86a23c2f56c4c7e74bef}{getVertexAt}}(i);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00095}00095\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (name\ !=\ \textcolor{stringliteral}{"{}Multan"{}})\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00096}00096\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ angle\ =\ (currentOuterIdx\ *\ 2.0f\ *\ \doxymbox{\hyperlink{_graphics_8cpp_a598a3330b3c21701223ee0ca14316eca}{PI}})\ /\ outerCityCount;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00097}00097\ \ \ \ \ \ \ \ \ \ \ \ \ cityPositions[name]\ =\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00098}00098\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ centerX\ +\ cosf(angle)\ *\ radius,}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00099}00099\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ centerY\ +\ sinf(angle)\ *\ radius}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00100}00100\ \ \ \ \ \ \ \ \ \ \ \ \ \};}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00101}00101\ \ \ \ \ \ \ \ \ \ \ \ \ currentOuterIdx++;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00102}00102\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00103}00103\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00104}00104\ \ \ \ \ \textcolor{comment}{//\ =============================================================================}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00105}00105\ \ \ \ \ \textcolor{comment}{//\ END:\ MULTAN\ CENTERING\ LOGIC}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00106}00106\ \ \ \ \ \textcolor{comment}{//\ =============================================================================}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00107}00107\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00108}00108\ \ \ \ \ \textcolor{keywordtype}{int}\ total\_time\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00109}00109\ \ \ \ \ \textcolor{keywordtype}{bool}\ simulationFinished\ =\ \textcolor{keyword}{false};}
 \DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00110}00110\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00111}00111\ \ \ \ \ \ \ \ \ BeginDrawing();}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00112}00112\ \ \ \ \ \ \ \ \ ClearBackground(\{\ 10,\ 10,\ 15,\ 255\ \});}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00113}00113\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00114}00114\ \ \ \ \ \ \ \ \ \textcolor{keyword}{auto}*\ nodes\ =\ mapRef-\/>\doxymbox{\hyperlink{class_graph_af01d416283ec3e8ec94e31801af852a1}{getNodes}}();}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00115}00115\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00116}00116\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ totalCities;\ i++)\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00117}00117\ \ \ \ \ \ \ \ \ \ \ \ \ Vector2\ uPos\ =\ cityPositions[nodes[i].vertex];}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00118}00118\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ \textcolor{keyword}{const}\&\ edge\ :\ nodes[i].Neighbors)\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00119}00119\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Vector2\ vPos\ =\ cityPositions[mapRef-\/>\doxymbox{\hyperlink{class_graph_a9e9ea7da2d4f86a23c2f56c4c7e74bef}{getVertexAt}}(edge.index)];}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00120}00120\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ DrawLineEx(uPos,\ vPos,\ 5.0f,\ \doxymbox{\hyperlink{_graphics_8cpp_a15bc6012285e75c8263666c2bddf712a}{GetMetroHeatColor}}(edge.weight.Congestion()));}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00121}00121\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00122}00122\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00123}00123\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00124}00124\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ \textcolor{keyword}{const}\&\ v\ :\ vehicles)\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00125}00125\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (v.state\ ==\ 1)\ \{\ \textcolor{comment}{//\ Moving}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00126}00126\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Vector2\ start\ =\ cityPositions[v.currentRoad.first];}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00127}00127\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Vector2\ end\ =\ cityPositions[v.currentRoad.second];}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00128}00128\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{struct_road_details}{RoadDetails}}\&\ rd\ =\ mapRef-\/>\doxymbox{\hyperlink{class_graph_a48974faaaea7e54461e6800b8621401d}{getEdgeDetails}}(v.currentRoad.first,\ v.currentRoad.second);}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00129}00129\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ t\ =\ 1.0f\ -\/\ (v.timeRemaining\ /\ rd.\doxymbox{\hyperlink{struct_road_details_a915b2e8bea1bbe71934faeedf53a06fb}{NonIdealtime}}());}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00130}00130\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ DrawCircleV(Vector2Lerp(start,\ end,\ Clamp(t,\ 0.0f,\ 1.0f)),\ 3,\ GOLD);}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00131}00131\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00132}00132\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00133}00133\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00134}00134\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ \textcolor{keyword}{const}\&\ pair\ :\ cityPositions)\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00135}00135\ \ \ \ \ \ \ \ \ \ \ \ \ DrawCircleV(pair.second,\ 15,\ RAYWHITE);}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00136}00136\ \ \ \ \ \ \ \ \ \ \ \ \ DrawText(pair.first.c\_str(),\ (\textcolor{keywordtype}{int})pair.second.x\ +\ 22,\ (\textcolor{keywordtype}{int})pair.second.y\ -\/\ 10,\ 20,\ RAYWHITE);}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00137}00137\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00138}00138\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00139}00139\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ totalCities;\ i++)\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00140}00140\ \ \ \ \ \ \ \ \ \ \ \ \ Vector2\ uPos\ =\ cityPositions[nodes[i].vertex];}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00141}00141\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ \textcolor{keyword}{const}\&\ edge\ :\ nodes[i].Neighbors)\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00142}00142\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Vector2\ vPos\ =\ cityPositions[mapRef-\/>\doxymbox{\hyperlink{class_graph_a9e9ea7da2d4f86a23c2f56c4c7e74bef}{getVertexAt}}(edge.index)];}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00143}00143\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{_graphics_8cpp_a3738c62f7e9275a8bf31dc18783ff6d2}{DrawRoadArrowBold}}(uPos,\ vPos,\ \doxymbox{\hyperlink{_graphics_8cpp_a15bc6012285e75c8263666c2bddf712a}{GetMetroHeatColor}}(edge.weight.Congestion()));}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00144}00144\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00145}00145\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00146}00146\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00147}00147\ \ \ \ \ \ \ \ \ DrawRectangle(0,\ 0,\ 400,\ screenHeight,\ Fade(BLACK,\ 0.8f));}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00148}00148\ \ \ \ \ \ \ \ \ DrawText(\textcolor{stringliteral}{"{}METRO\ OPS\ CENTER"{}},\ 40,\ 40,\ 26,\ GREEN);}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00149}00149\ \ \ \ \ \ \ \ \ DrawText(TextFormat(\textcolor{stringliteral}{"{}ACTIVE\ UNITS:\ \%d"{}},\ activeCount),\ 50,\ 120,\ 22,\ RAYWHITE);}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00150}00150\ \ \ \ \ \ \ \ \ DrawText(TextFormat(\textcolor{stringliteral}{"{}COMPLETED:\ \%d"{}},\ (\textcolor{keywordtype}{int})gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>getArrivedCount()),\ 50,\ 165,\ 22,\ YELLOW);}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00151}00151\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00152}00152\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (simulationFinished)\ \{}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00153}00153\ \ \ \ \ \ \ \ \ \ \ \ \ DrawRectangle(20,\ 300,\ 360,\ 60,\ Fade(LIME,\ 0.3f));}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00154}00154\ \ \ \ \ \ \ \ \ \ \ \ \ DrawText(\textcolor{stringliteral}{"{}STATUS:\ ALL\ CLEAR"{}},\ 50,\ 320,\ 22,\ GREEN);}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00155}00155\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00156}00156\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00157}00157\ \ \ \ \ \ \ \ \ EndDrawing();}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00158}00158\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00159}00159\ }
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00160}00160\ \ \ \ \ CloseWindow();}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00161}00161\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
-\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00162}00162\ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00111}00111\ \ \ \ \ \textcolor{keywordflow}{while}\ (!WindowShouldClose())\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00112}00112\ \ \ \ \ \ \ \ \ \textcolor{keyword}{auto}\&\ vehicles\ =\ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>getVehicles();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00113}00113\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ activeCount\ =\ vehicles.size();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00114}00114\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00115}00115\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!simulationFinished)\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00116}00116\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (activeCount\ >\ 0\ ||\ total\_time\ <\ 50)\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00117}00117\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (total\_time\ \%\ 50\ ==\ 0\ \&\&\ total\_time\ <\ 1500)\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00118}00118\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>injectSinusoidalTraffic(total\_time);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00119}00119\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00120}00120\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00121}00121\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>updateSignals();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00122}00122\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00123}00123\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\&\ v\ :\ vehicles)\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00124}00124\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (v.state\ ==\ 1)\ \{\ v.timeRemaining\ -\/=\ 0.1f;\ v.timespent\ +=\ 0.1f;\ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00125}00125\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \textcolor{keywordflow}{if}\ (v.state\ ==\ 0)\ \{\ v.timespent\ +=\ 0.1f;\ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00126}00126\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (v.timeRemaining\ <\ 0)\ v.timeRemaining\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00127}00127\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00128}00128\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00129}00129\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>reached();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00130}00130\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>arrivalAtIntersection();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00131}00131\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>entraingfromQueetoEdge();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00132}00132\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>entrance();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00133}00133\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>checkBrokenPath();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00134}00134\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00135}00135\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ total\_time++;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00136}00136\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (total\_time\ ==\ 1\ ||\ total\_time\ ==\ 50\ ||\ total\_time\ \%\ 100\ ==\ 0)\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00137}00137\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_af162b6cc1c8bae6af57b8c51b6f93996}{metric}}((\textcolor{keywordtype}{float})total\_time,\ gods\_eye.\doxymbox{\hyperlink{class_simulator_ad0051ab2022596dd50f7a960af800453}{rush}}());}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00138}00138\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00139}00139\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00140}00140\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00141}00141\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{auto}*\ nodes\ =\ mapRef-\/>\doxymbox{\hyperlink{class_graph_af01d416283ec3e8ec94e31801af852a1}{getNodes}}();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00142}00142\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ totalCities;\ i++)\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00143}00143\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\&\ edge\ :\ nodes[i].Neighbors)\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00144}00144\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ edge.weight.currentVehicles\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00145}00145\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ edge.weight.queueCount\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00146}00146\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00147}00147\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00148}00148\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ gods\_eye.\doxymbox{\hyperlink{class_simulator_af162b6cc1c8bae6af57b8c51b6f93996}{metric}}((\textcolor{keywordtype}{float})total\_time,\ gods\_eye.\doxymbox{\hyperlink{class_simulator_ad0051ab2022596dd50f7a960af800453}{rush}}());}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00149}00149\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ simulationFinished\ =\ \textcolor{keyword}{true};}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00150}00150\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00151}00151\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00152}00152\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00153}00153\ \ \ \ \ \ \ \ \ BeginDrawing();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00154}00154\ \ \ \ \ \ \ \ \ ClearBackground(\{\ 10,\ 10,\ 15,\ 255\ \});}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00155}00155\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00156}00156\ \ \ \ \ \ \ \ \ \textcolor{keyword}{auto}*\ nodes\ =\ mapRef-\/>\doxymbox{\hyperlink{class_graph_af01d416283ec3e8ec94e31801af852a1}{getNodes}}();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00157}00157\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00158}00158\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ 1.\ Draw\ Roads}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00159}00159\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ totalCities;\ i++)\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00160}00160\ \ \ \ \ \ \ \ \ \ \ \ \ Vector2\ uPos\ =\ cityPositions[nodes[i].vertex];}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00161}00161\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ \textcolor{keyword}{const}\&\ edge\ :\ nodes[i].Neighbors)\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00162}00162\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Vector2\ vPos\ =\ cityPositions[mapRef-\/>\doxymbox{\hyperlink{class_graph_a9e9ea7da2d4f86a23c2f56c4c7e74bef}{getVertexAt}}(edge.index)];}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00163}00163\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ DrawLineEx(uPos,\ vPos,\ 5.0f,\ \doxymbox{\hyperlink{_graphics_8cpp_a15bc6012285e75c8263666c2bddf712a}{GetMetroHeatColor}}(edge.weight.Congestion()));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00164}00164\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{_graphics_8cpp_a3738c62f7e9275a8bf31dc18783ff6d2}{DrawRoadArrowBold}}(uPos,\ vPos,\ \doxymbox{\hyperlink{_graphics_8cpp_a15bc6012285e75c8263666c2bddf712a}{GetMetroHeatColor}}(edge.weight.Congestion()));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00165}00165\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00166}00166\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00167}00167\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00168}00168\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ 2.\ Draw\ Vehicles}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00169}00169\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ \textcolor{keyword}{const}\&\ v\ :\ vehicles)\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00170}00170\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (v.state\ ==\ 1)\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00171}00171\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Vector2\ start\ =\ cityPositions[v.currentRoad.first];}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00172}00172\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Vector2\ end\ =\ cityPositions[v.currentRoad.second];}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00173}00173\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{struct_road_details}{RoadDetails}}\&\ rd\ =\ mapRef-\/>\doxymbox{\hyperlink{class_graph_a48974faaaea7e54461e6800b8621401d}{getEdgeDetails}}(v.currentRoad.first,\ v.currentRoad.second);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00174}00174\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ t\ =\ 1.0f\ -\/\ (v.timeRemaining\ /\ rd.\doxymbox{\hyperlink{struct_road_details_a915b2e8bea1bbe71934faeedf53a06fb}{NonIdealtime}}());}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00175}00175\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ DrawCircleV(Vector2Lerp(start,\ end,\ Clamp(t,\ 0.0f,\ 1.0f)),\ 3,\ GOLD);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00176}00176\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00177}00177\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00178}00178\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00179}00179\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ 3.\ Draw\ Cities\ (Multan\ is\ at\ center,\ others\ around)}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00180}00180\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ \textcolor{keyword}{const}\&\ pair\ :\ cityPositions)\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00181}00181\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Multan\ gets\ a\ slightly\ larger\ visual\ indicator}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00182}00182\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ citySize\ =\ (pair.first\ ==\ \textcolor{stringliteral}{"{}Multan"{}})\ ?\ 20.0f\ :\ 15.0f;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00183}00183\ \ \ \ \ \ \ \ \ \ \ \ \ DrawCircleV(pair.second,\ citySize,\ RAYWHITE);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00184}00184\ \ \ \ \ \ \ \ \ \ \ \ \ DrawText(pair.first.c\_str(),\ (\textcolor{keywordtype}{int})pair.second.x\ +\ 22,\ (\textcolor{keywordtype}{int})pair.second.y\ -\/\ 10,\ 20,\ RAYWHITE);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00185}00185\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00186}00186\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00187}00187\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ 4.\ UI\ Sidebar}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00188}00188\ \ \ \ \ \ \ \ \ DrawRectangle(0,\ 0,\ 400,\ screenHeight,\ Fade(BLACK,\ 0.85f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00189}00189\ \ \ \ \ \ \ \ \ DrawLineEx(\{\ 400,\ 0\ \},\ \{\ 400,\ (float)screenHeight\ \},\ 2.0f,\ Fade(GREEN,\ 0.4f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00190}00190\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00191}00191\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ -\/-\/-\/\ Title\ -\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00192}00192\ \ \ \ \ \ \ \ \ DrawText(\textcolor{stringliteral}{"{}METRO\ OPS\ CENTER"{}},\ 40,\ 30,\ 26,\ GREEN);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00193}00193\ \ \ \ \ \ \ \ \ DrawLineEx(\{\ 30,\ 65\ \},\ \{\ 370,\ 65\ \},\ 1.0f,\ Fade(GREEN,\ 0.3f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00194}00194\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00195}00195\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ -\/-\/-\/\ Section:\ Simulation\ -\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00196}00196\ \ \ \ \ \ \ \ \ DrawText(\textcolor{stringliteral}{"{}SIMULATION"{}},\ 30,\ 80,\ 16,\ Fade(LIME,\ 0.6f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00197}00197\ \ \ \ \ \ \ \ \ DrawText(TextFormat(\textcolor{stringliteral}{"{}TICK:\ \ \%d"{}},\ total\_time),\ 50,\ 105,\ 22,\ RAYWHITE);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00198}00198\ \ \ \ \ \ \ \ \ DrawText(TextFormat(\textcolor{stringliteral}{"{}ACTIVE\ UNITS:\ \ \%d"{}},\ activeCount),\ 50,\ 135,\ 22,\ RAYWHITE);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00199}00199\ \ \ \ \ \ \ \ \ DrawText(TextFormat(\textcolor{stringliteral}{"{}COMPLETED:\ \ \%d"{}},\ (\textcolor{keywordtype}{int})gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>getArrivedCount()),\ 50,\ 165,\ 22,\ YELLOW);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00200}00200\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00201}00201\ \ \ \ \ \ \ \ \ DrawLineEx(\{\ 30,\ 198\ \},\ \{\ 370,\ 198\ \},\ 1.0f,\ Fade(GREEN,\ 0.3f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00202}00202\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00203}00203\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ -\/-\/-\/\ Section:\ Rush\ Level\ with\ visual\ bar\ -\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00204}00204\ \ \ \ \ \ \ \ \ DrawText(\textcolor{stringliteral}{"{}RUSH\ LEVEL"{}},\ 30,\ 210,\ 16,\ Fade(LIME,\ 0.6f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00205}00205\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ rushVal\ =\ gods\_eye.\doxymbox{\hyperlink{class_simulator_ad0051ab2022596dd50f7a960af800453}{rush}}();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00206}00206\ \ \ \ \ \ \ \ \ Color\ rushColor\ =\ \doxymbox{\hyperlink{_graphics_8cpp_a15bc6012285e75c8263666c2bddf712a}{GetMetroHeatColor}}(rushVal);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00207}00207\ \ \ \ \ \ \ \ \ DrawText(TextFormat(\textcolor{stringliteral}{"{}\%.2f\%\%"{}},\ rushVal\ *\ 100.0f),\ 50,\ 235,\ 22,\ rushColor);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00208}00208\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Rush\ bar\ background}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00209}00209\ \ \ \ \ \ \ \ \ DrawRectangle(50,\ 265,\ 300,\ 16,\ Fade(GRAY,\ 0.3f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00210}00210\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Rush\ bar\ fill}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00211}00211\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ barWidth\ =\ rushVal\ *\ 300.0f;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00212}00212\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (barWidth\ >\ 300.0f)\ barWidth\ =\ 300.0f;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00213}00213\ \ \ \ \ \ \ \ \ DrawRectangle(50,\ 265,\ (\textcolor{keywordtype}{int})barWidth,\ 16,\ rushColor);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00214}00214\ \ \ \ \ \ \ \ \ DrawRectangleLines(50,\ 265,\ 300,\ 16,\ Fade(RAYWHITE,\ 0.3f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00215}00215\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00216}00216\ \ \ \ \ \ \ \ \ DrawLineEx(\{\ 30,\ 295\ \},\ \{\ 370,\ 295\ \},\ 1.0f,\ Fade(GREEN,\ 0.3f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00217}00217\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00218}00218\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ -\/-\/-\/\ Section:\ Travel\ Time\ -\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00219}00219\ \ \ \ \ \ \ \ \ DrawText(\textcolor{stringliteral}{"{}TRAVEL\ TIME"{}},\ 30,\ 307,\ 16,\ Fade(LIME,\ 0.6f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00220}00220\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ avgTT\ =\ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>getAvgTravelTime();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00221}00221\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ winTT\ =\ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>getWindowedAvgTravelTime();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00222}00222\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ minTT\ =\ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>getMinTravelTime();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00223}00223\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ maxTT\ =\ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>getMaxTravelTime();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00224}00224\ \ \ \ \ \ \ \ \ DrawText(TextFormat(\textcolor{stringliteral}{"{}AVG:\ \ \ \ \ \ \ \%.1f\ ticks"{}},\ avgTT),\ 50,\ 332,\ 20,\ RAYWHITE);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00225}00225\ \ \ \ \ \ \ \ \ DrawText(TextFormat(\textcolor{stringliteral}{"{}RECENT:\ \ \ \ \%.1f\ ticks"{}},\ winTT),\ 50,\ 358,\ 20,\ Fade(SKYBLUE,\ 0.9f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00226}00226\ \ \ \ \ \ \ \ \ DrawText(TextFormat(\textcolor{stringliteral}{"{}MIN:\ \ \ \ \ \ \ \%.1f"{}},\ minTT),\ 50,\ 384,\ 20,\ GREEN);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00227}00227\ \ \ \ \ \ \ \ \ DrawText(TextFormat(\textcolor{stringliteral}{"{}MAX:\ \ \ \ \ \ \ \%.1f"{}},\ maxTT),\ 50,\ 410,\ 20,\ Fade(RED,\ 0.8f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00228}00228\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00229}00229\ \ \ \ \ \ \ \ \ DrawLineEx(\{\ 30,\ 440\ \},\ \{\ 370,\ 440\ \},\ 1.0f,\ Fade(GREEN,\ 0.3f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00230}00230\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00231}00231\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ -\/-\/-\/\ Section:\ Performance\ -\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00232}00232\ \ \ \ \ \ \ \ \ DrawText(\textcolor{stringliteral}{"{}PERFORMANCE"{}},\ 30,\ 452,\ 16,\ Fade(LIME,\ 0.6f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00233}00233\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ throughput\ =\ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>getThroughput((\textcolor{keywordtype}{float})total\_time);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00234}00234\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ sysCost\ =\ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>getSystemCost();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00235}00235\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ delay\ =\ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>getTotalDelay();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00236}00236\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ reroutes\ =\ gods\_eye.\doxymbox{\hyperlink{class_simulator_a2d91bdaf4a97ba2687c11eebc4eaa0a2}{cityManager}}-\/>getRerouteCount();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00237}00237\ \ \ \ \ \ \ \ \ DrawText(TextFormat(\textcolor{stringliteral}{"{}THROUGHPUT:\ \ \%.2f\ v/tick"{}},\ throughput),\ 50,\ 477,\ 20,\ RAYWHITE);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00238}00238\ \ \ \ \ \ \ \ \ DrawText(TextFormat(\textcolor{stringliteral}{"{}SYSTEM\ COST:\ \%.0f"{}},\ sysCost),\ 50,\ 503,\ 20,\ Fade(ORANGE,\ 0.9f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00239}00239\ \ \ \ \ \ \ \ \ DrawText(TextFormat(\textcolor{stringliteral}{"{}TOTAL\ DELAY:\ \%.0f"{}},\ delay),\ 50,\ 529,\ 20,\ Fade(MAROON,\ 0.9f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00240}00240\ \ \ \ \ \ \ \ \ DrawText(TextFormat(\textcolor{stringliteral}{"{}REROUTES:\ \ \ \ \%d"{}},\ reroutes),\ 50,\ 555,\ 20,\ Fade(SKYBLUE,\ 0.9f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00241}00241\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00242}00242\ \ \ \ \ \ \ \ \ DrawLineEx(\{\ 30,\ 585\ \},\ \{\ 370,\ 585\ \},\ 1.0f,\ Fade(GREEN,\ 0.3f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00243}00243\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00244}00244\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ -\/-\/-\/\ Section:\ Status\ -\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00245}00245\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (simulationFinished)\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00246}00246\ \ \ \ \ \ \ \ \ \ \ \ \ DrawRectangle(20,\ 600,\ 360,\ 60,\ Fade(LIME,\ 0.3f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00247}00247\ \ \ \ \ \ \ \ \ \ \ \ \ DrawText(\textcolor{stringliteral}{"{}STATUS:\ ALL\ CLEAR"{}},\ 50,\ 620,\ 22,\ GREEN);}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00248}00248\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00249}00249\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \{}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00250}00250\ \ \ \ \ \ \ \ \ \ \ \ \ DrawRectangle(20,\ 600,\ 360,\ 60,\ Fade(YELLOW,\ 0.1f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00251}00251\ \ \ \ \ \ \ \ \ \ \ \ \ DrawText(\textcolor{stringliteral}{"{}STATUS:\ SIMULATING..."{}},\ 50,\ 620,\ 22,\ Fade(YELLOW,\ 0.8f));}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00252}00252\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00253}00253\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00254}00254\ \ \ \ \ \ \ \ \ EndDrawing();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00255}00255\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00256}00256\ }
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00257}00257\ \ \ \ \ CloseWindow();}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00258}00258\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{\Hypertarget{_graphics_8cpp_source_l00259}00259\ \}}
 
 \end{DoxyCode}

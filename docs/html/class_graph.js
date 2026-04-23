@@ -33,7 +33,5 @@ var class_graph =
     [ "shortest_Path_btw2_vericex_returing_list", "class_graph.html#aef37950729048d2469b3b3f11b9527ff", null ],
     [ "total_System_Cost", "class_graph.html#add64c027d39756ec212c9edf0be31302", null ],
     [ "Type", "class_graph.html#a815b4143a77b417d6acffc83f3c4eda2", null ],
-    [ "array", "class_graph.html#ad3930a5c1f73d93741c8c632717b164e", null ],
-    [ "directed", "class_graph.html#ae50ec8090e5493bbdd2767aa058ac7ea", null ],
     [ "Vcount", "class_graph.html#a00ab4ddb998b829510cc3f920508b0a2", null ]
 ];

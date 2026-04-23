@@ -11,7 +11,7 @@ Collaboration diagram for Manager\texorpdfstring{$<$}{<} t, size \texorpdfstring
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=212pt]{class_manager__coll__graph}
+\includegraphics[width=229pt]{class_manager__coll__graph}
 \end{center}
 \end{figure}
 \doxysubsubsection*{Public Member Functions}
@@ -22,6 +22,22 @@ Collaboration diagram for Manager\texorpdfstring{$<$}{<} t, size \texorpdfstring
 int \doxymbox{\hyperlink{class_manager_a50433214c0035b6145f9bfa863f8a95d}{get\+Vehicle\+Count}} ()
 \item 
 float \doxymbox{\hyperlink{class_manager_af9554320b5b6a5f6a194330a90e5def4}{get\+Arrived\+Count}} ()
+\item 
+float \doxymbox{\hyperlink{class_manager_ae151673828c3a144f5b538361540b7a5}{get\+Avg\+Travel\+Time}} ()
+\item 
+float \doxymbox{\hyperlink{class_manager_a1bed5acca173c931c25b4d2d03883e74}{get\+Windowed\+Avg\+Travel\+Time}} ()
+\item 
+float \doxymbox{\hyperlink{class_manager_af50a190443ef986df50b1a999b306a2f}{get\+Min\+Travel\+Time}} ()
+\item 
+float \doxymbox{\hyperlink{class_manager_a6471dd429b3bc5339a0860fc958383e0}{get\+Max\+Travel\+Time}} ()
+\item 
+float \doxymbox{\hyperlink{class_manager_ae532d710d9eca3e06f097b66354b16f4}{get\+Throughput}} (float tick)
+\item 
+float \doxymbox{\hyperlink{class_manager_a3cfc8a9a6b1cc0a1508f152ada7c9c84}{get\+Total\+Delay}} ()
+\item 
+float \doxymbox{\hyperlink{class_manager_a8dcfa017835505c3cb5402b19e9e036e}{get\+System\+Cost}} ()
+\item 
+int \doxymbox{\hyperlink{class_manager_a387c79782447eaa9703dc52b347e071a}{get\+Reroute\+Count}} ()
 \item 
 void \doxymbox{\hyperlink{class_manager_aa096455f1fb6db1d64381ba40b1924b0}{entrance}} ()
 \item 
@@ -61,27 +77,6 @@ void \doxymbox{\hyperlink{class_manager_a0170cc23a3a67917aed9e6f708830fe9}{physi
 \item 
 void \doxymbox{\hyperlink{class_manager_a336a1e9218b0d04d5f555851d123b352}{inject\+Sinusoidal\+Traffic}} (int current\+Time)
 \end{DoxyCompactItemize}
-\doxysubsubsection*{Private Attributes}
-\begin{DoxyCompactItemize}
-\item 
-float \doxymbox{\hyperlink{class_manager_a128c592de3c504d6951beb256c5e69c6}{total\+Arrived\+Count}}
-\item 
-float \doxymbox{\hyperlink{class_manager_a172fcb465802aff188509ed8f0ce1a94}{total\+Time}}
-\item 
-list$<$ \doxymbox{\hyperlink{structvehicle}{vehicle}}$<$ t $>$ $>$ \doxymbox{\hyperlink{class_manager_a55779dccb44a95388ec5310d33b92c67}{array\+\_\+of\+\_\+vehicles}}
-\item 
-\doxymbox{\hyperlink{class_graph}{Graph}}$<$ t, size $>$ \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_manager_aeecc62d457b860cb37e2c195cf56e5c4}{map}}
-\item 
-vector$<$ float $>$ \doxymbox{\hyperlink{class_manager_a947bfa28895dd730202f347bf8d7f2f4}{recent\+Travel\+Times}}
-\item 
-float \doxymbox{\hyperlink{class_manager_adc85677f7f86301a3ebcdc7d07440fc7}{min\+Travel\+Time}}
-\item 
-float \doxymbox{\hyperlink{class_manager_a23894387d52d803518bbcb88a93078a3}{max\+Travel\+Time}}
-\item 
-float \doxymbox{\hyperlink{class_manager_a99e814ca49a88675d715c451c22cc406}{total\+Free\+Flow\+Time}}
-\item 
-int \doxymbox{\hyperlink{class_manager_a443b0354b5254c7f1613b6bdf92e17ec}{window\+Size}}
-\end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}
@@ -105,7 +100,7 @@ template$<$class t, int size$>$ \\
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00024}{24}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00025}{25}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 
 
@@ -121,7 +116,7 @@ void \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+add\+Vehicl
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00250}{250}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00290}{290}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 Here is the caller graph for this function:\+
 \nopagebreak
@@ -140,7 +135,7 @@ void \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+arrival\+At
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00257}{257}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00297}{297}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 Here is the call graph for this function:\+
 \nopagebreak
@@ -167,7 +162,7 @@ void \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+\+Car\+\_\+
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00485}{485}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00526}{526}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 Here is the caller graph for this function:\+
 \nopagebreak
@@ -186,7 +181,7 @@ void \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+check\+Brok
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00527}{527}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00568}{568}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 Here is the call graph for this function:\+
 \nopagebreak
@@ -213,7 +208,7 @@ void \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+clear\+Metr
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00499}{499}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00540}{540}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 Here is the call graph for this function:\+
 \nopagebreak
@@ -232,7 +227,7 @@ void \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+entraingfro
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00087}{87}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00124}{124}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 Here is the call graph for this function:\+
 \nopagebreak
@@ -259,7 +254,7 @@ void \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+entrance (\
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00034}{34}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00071}{71}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 Here is the call graph for this function:\+
 \nopagebreak
@@ -286,7 +281,84 @@ float \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+get\+Arriv
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00033}{33}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00035}{35}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+
+\Hypertarget{class_manager_ae151673828c3a144f5b538361540b7a5}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!getAvgTravelTime@{getAvgTravelTime}}
+\index{getAvgTravelTime@{getAvgTravelTime}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
+\doxysubsubsection{\texorpdfstring{getAvgTravelTime()}{getAvgTravelTime()}}
+{\footnotesize\ttfamily \label{class_manager_ae151673828c3a144f5b538361540b7a5} 
+template$<$class t, int size$>$ \\
+float \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+get\+Avg\+Travel\+Time (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00037}{37}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+
+\Hypertarget{class_manager_a6471dd429b3bc5339a0860fc958383e0}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!getMaxTravelTime@{getMaxTravelTime}}
+\index{getMaxTravelTime@{getMaxTravelTime}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
+\doxysubsubsection{\texorpdfstring{getMaxTravelTime()}{getMaxTravelTime()}}
+{\footnotesize\ttfamily \label{class_manager_a6471dd429b3bc5339a0860fc958383e0} 
+template$<$class t, int size$>$ \\
+float \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+get\+Max\+Travel\+Time (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00059}{59}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+
+\Hypertarget{class_manager_af50a190443ef986df50b1a999b306a2f}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!getMinTravelTime@{getMinTravelTime}}
+\index{getMinTravelTime@{getMinTravelTime}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
+\doxysubsubsection{\texorpdfstring{getMinTravelTime()}{getMinTravelTime()}}
+{\footnotesize\ttfamily \label{class_manager_af50a190443ef986df50b1a999b306a2f} 
+template$<$class t, int size$>$ \\
+float \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+get\+Min\+Travel\+Time (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00051}{51}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+
+\Hypertarget{class_manager_a387c79782447eaa9703dc52b347e071a}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!getRerouteCount@{getRerouteCount}}
+\index{getRerouteCount@{getRerouteCount}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
+\doxysubsubsection{\texorpdfstring{getRerouteCount()}{getRerouteCount()}}
+{\footnotesize\ttfamily \label{class_manager_a387c79782447eaa9703dc52b347e071a} 
+template$<$class t, int size$>$ \\
+int \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+get\+Reroute\+Count (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00070}{70}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+
+\Hypertarget{class_manager_a8dcfa017835505c3cb5402b19e9e036e}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!getSystemCost@{getSystemCost}}
+\index{getSystemCost@{getSystemCost}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
+\doxysubsubsection{\texorpdfstring{getSystemCost()}{getSystemCost()}}
+{\footnotesize\ttfamily \label{class_manager_a8dcfa017835505c3cb5402b19e9e036e} 
+template$<$class t, int size$>$ \\
+float \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+get\+System\+Cost (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00069}{69}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+
+\Hypertarget{class_manager_ae532d710d9eca3e06f097b66354b16f4}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!getThroughput@{getThroughput}}
+\index{getThroughput@{getThroughput}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
+\doxysubsubsection{\texorpdfstring{getThroughput()}{getThroughput()}}
+{\footnotesize\ttfamily \label{class_manager_ae532d710d9eca3e06f097b66354b16f4} 
+template$<$class t, int size$>$ \\
+float \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+get\+Throughput (\begin{DoxyParamCaption}\item[{float}]{tick}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00060}{60}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+
+\Hypertarget{class_manager_a3cfc8a9a6b1cc0a1508f152ada7c9c84}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!getTotalDelay@{getTotalDelay}}
+\index{getTotalDelay@{getTotalDelay}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
+\doxysubsubsection{\texorpdfstring{getTotalDelay()}{getTotalDelay()}}
+{\footnotesize\ttfamily \label{class_manager_a3cfc8a9a6b1cc0a1508f152ada7c9c84} 
+template$<$class t, int size$>$ \\
+float \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+get\+Total\+Delay (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00068}{68}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 \Hypertarget{class_manager_a50433214c0035b6145f9bfa863f8a95d}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!getVehicleCount@{getVehicleCount}}
 \index{getVehicleCount@{getVehicleCount}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
@@ -297,7 +369,7 @@ int \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+get\+Vehicle
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00032}{32}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00034}{34}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 \Hypertarget{class_manager_ad0225e9d82af0bbf8bff4fa02e32b064}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!getVehicles@{getVehicles}}
 \index{getVehicles@{getVehicles}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
@@ -308,7 +380,18 @@ list$<$ \doxymbox{\hyperlink{structvehicle}{vehicle}}$<$ t $>$ $>$ \& \doxymbox{
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00129}{129}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00166}{166}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+
+\Hypertarget{class_manager_a1bed5acca173c931c25b4d2d03883e74}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!getWindowedAvgTravelTime@{getWindowedAvgTravelTime}}
+\index{getWindowedAvgTravelTime@{getWindowedAvgTravelTime}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
+\doxysubsubsection{\texorpdfstring{getWindowedAvgTravelTime()}{getWindowedAvgTravelTime()}}
+{\footnotesize\ttfamily \label{class_manager_a1bed5acca173c931c25b4d2d03883e74} 
+template$<$class t, int size$>$ \\
+float \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+get\+Windowed\+Avg\+Travel\+Time (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00045}{45}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 \Hypertarget{class_manager_a336a1e9218b0d04d5f555851d123b352}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!injectSinusoidalTraffic@{injectSinusoidalTraffic}}
 \index{injectSinusoidalTraffic@{injectSinusoidalTraffic}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
@@ -319,7 +402,7 @@ void \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+inject\+Sin
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00611}{611}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00652}{652}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 Here is the call graph for this function:\+
 \nopagebreak
@@ -346,7 +429,7 @@ void \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+physics (\b
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00558}{558}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00599}{599}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 Here is the call graph for this function:\+
 \nopagebreak
@@ -365,7 +448,7 @@ void \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+\+Print\+Al
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00525}{525}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00566}{566}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 \Hypertarget{class_manager_ab17ffee5b62b18932efc27fffb4e26dc}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!printCSVHeader@{printCSVHeader}}
 \index{printCSVHeader@{printCSVHeader}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
@@ -376,7 +459,7 @@ void \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+print\+CSVH
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00439}{439}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00480}{480}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 Here is the caller graph for this function:\+
 \nopagebreak
@@ -395,7 +478,7 @@ void \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+print\+CSVR
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00450}{450}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00491}{491}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 Here is the caller graph for this function:\+
 \nopagebreak
@@ -414,7 +497,7 @@ void \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+print\+Netw
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00518}{518}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00559}{559}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 \Hypertarget{class_manager_a6ef737e8ac55962fc35dfb1a69b237c6}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!printPerformanceMetrics@{printPerformanceMetrics}}
 \index{printPerformanceMetrics@{printPerformanceMetrics}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
@@ -425,7 +508,7 @@ bool \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+print\+Perf
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00369}{369}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00409}{409}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 Here is the caller graph for this function:\+
 \nopagebreak
@@ -444,7 +527,7 @@ void \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+reached (\b
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00158}{158}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00195}{195}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 Here is the call graph for this function:\+
 \nopagebreak
@@ -471,7 +554,7 @@ void \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+record\+Arr
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00133}{133}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00170}{170}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 Here is the call graph for this function:\+
 \nopagebreak
@@ -498,7 +581,7 @@ void \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+\+Shortest\
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00204}{204}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00241}{241}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 Here is the call graph for this function:\+
 \nopagebreak
@@ -525,7 +608,7 @@ void \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+update\+Sig
 
 
 
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00317}{317}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
+Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00357}{357}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
 
 Here is the call graph for this function:\+
 \nopagebreak
@@ -543,110 +626,6 @@ Here is the caller graph for this function:\+
 \includegraphics[width=330pt]{class_manager_a0491c679bd2da5b32514b462d89fd3f1_icgraph}
 \end{center}
 \end{figure}
-
-
-\label{doc-variable-members}
-\Hypertarget{class_manager_doc-variable-members}
-\doxysubsection{Member Data Documentation}
-\Hypertarget{class_manager_a55779dccb44a95388ec5310d33b92c67}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!array\_of\_vehicles@{array\_of\_vehicles}}
-\index{array\_of\_vehicles@{array\_of\_vehicles}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
-\doxysubsubsection{\texorpdfstring{array\_of\_vehicles}{array\_of\_vehicles}}
-{\footnotesize\ttfamily \label{class_manager_a55779dccb44a95388ec5310d33b92c67} 
-template$<$class t, int size$>$ \\
-list$<$\doxymbox{\hyperlink{structvehicle}{vehicle}}$<$t$>$ $>$ \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+array\+\_\+of\+\_\+vehicles\hspace{0.3cm}{\ttfamily [private]}}
-
-
-
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00015}{15}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
-
-\Hypertarget{class_manager_aeecc62d457b860cb37e2c195cf56e5c4}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!map@{map}}
-\index{map@{map}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
-\doxysubsubsection{\texorpdfstring{map}{map}}
-{\footnotesize\ttfamily \label{class_manager_aeecc62d457b860cb37e2c195cf56e5c4} 
-template$<$class t, int size$>$ \\
-\doxymbox{\hyperlink{class_graph}{Graph}}$<$t, size$>$\texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+map\hspace{0.3cm}{\ttfamily [private]}}
-
-
-
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00016}{16}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
-
-\Hypertarget{class_manager_a23894387d52d803518bbcb88a93078a3}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!maxTravelTime@{maxTravelTime}}
-\index{maxTravelTime@{maxTravelTime}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
-\doxysubsubsection{\texorpdfstring{maxTravelTime}{maxTravelTime}}
-{\footnotesize\ttfamily \label{class_manager_a23894387d52d803518bbcb88a93078a3} 
-template$<$class t, int size$>$ \\
-float \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+max\+Travel\+Time\hspace{0.3cm}{\ttfamily [private]}}
-
-
-
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00019}{19}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
-
-\Hypertarget{class_manager_adc85677f7f86301a3ebcdc7d07440fc7}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!minTravelTime@{minTravelTime}}
-\index{minTravelTime@{minTravelTime}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
-\doxysubsubsection{\texorpdfstring{minTravelTime}{minTravelTime}}
-{\footnotesize\ttfamily \label{class_manager_adc85677f7f86301a3ebcdc7d07440fc7} 
-template$<$class t, int size$>$ \\
-float \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+min\+Travel\+Time\hspace{0.3cm}{\ttfamily [private]}}
-
-
-
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00018}{18}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
-
-\Hypertarget{class_manager_a947bfa28895dd730202f347bf8d7f2f4}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!recentTravelTimes@{recentTravelTimes}}
-\index{recentTravelTimes@{recentTravelTimes}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
-\doxysubsubsection{\texorpdfstring{recentTravelTimes}{recentTravelTimes}}
-{\footnotesize\ttfamily \label{class_manager_a947bfa28895dd730202f347bf8d7f2f4} 
-template$<$class t, int size$>$ \\
-vector$<$float$>$ \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+recent\+Travel\+Times\hspace{0.3cm}{\ttfamily [private]}}
-
-
-
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00017}{17}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
-
-\Hypertarget{class_manager_a128c592de3c504d6951beb256c5e69c6}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!totalArrivedCount@{totalArrivedCount}}
-\index{totalArrivedCount@{totalArrivedCount}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
-\doxysubsubsection{\texorpdfstring{totalArrivedCount}{totalArrivedCount}}
-{\footnotesize\ttfamily \label{class_manager_a128c592de3c504d6951beb256c5e69c6} 
-template$<$class t, int size$>$ \\
-float \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+total\+Arrived\+Count\hspace{0.3cm}{\ttfamily [private]}}
-
-
-
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00013}{13}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
-
-\Hypertarget{class_manager_a99e814ca49a88675d715c451c22cc406}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!totalFreeFlowTime@{totalFreeFlowTime}}
-\index{totalFreeFlowTime@{totalFreeFlowTime}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
-\doxysubsubsection{\texorpdfstring{totalFreeFlowTime}{totalFreeFlowTime}}
-{\footnotesize\ttfamily \label{class_manager_a99e814ca49a88675d715c451c22cc406} 
-template$<$class t, int size$>$ \\
-float \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+total\+Free\+Flow\+Time\hspace{0.3cm}{\ttfamily [private]}}
-
-
-
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00020}{20}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
-
-\Hypertarget{class_manager_a172fcb465802aff188509ed8f0ce1a94}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!totalTime@{totalTime}}
-\index{totalTime@{totalTime}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
-\doxysubsubsection{\texorpdfstring{totalTime}{totalTime}}
-{\footnotesize\ttfamily \label{class_manager_a172fcb465802aff188509ed8f0ce1a94} 
-template$<$class t, int size$>$ \\
-float \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+total\+Time\hspace{0.3cm}{\ttfamily [private]}}
-
-
-
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00014}{14}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
-
-\Hypertarget{class_manager_a443b0354b5254c7f1613b6bdf92e17ec}\index{Manager$<$ t, size $>$@{Manager$<$ t, size $>$}!windowSize@{windowSize}}
-\index{windowSize@{windowSize}!Manager$<$ t, size $>$@{Manager$<$ t, size $>$}}
-\doxysubsubsection{\texorpdfstring{windowSize}{windowSize}}
-{\footnotesize\ttfamily \label{class_manager_a443b0354b5254c7f1613b6bdf92e17ec} 
-template$<$class t, int size$>$ \\
-int \doxymbox{\hyperlink{class_manager}{Manager}}$<$ t, size $>$::\+window\+Size\hspace{0.3cm}{\ttfamily [private]}}
-
-
-
-Definition at line \doxymbox{\hyperlink{_manger_8h_source_l00021}{21}} of file \doxymbox{\hyperlink{_manger_8h_source}{Manger.\+h}}.
-
 
 
 The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}

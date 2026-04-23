@@ -26,18 +26,18 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00023}00023\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00024}\doxymbox{\hyperlink{class_graph}{00024}}\ \textcolor{keyword}{template}\ <\textcolor{keyword}{class}\ t,\ \textcolor{keywordtype}{int}\ size>\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_graph_af9005733f70a565e943218b2dc9f383d}{Graph}}\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00025}00025\ }
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00026}\doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{00026}}\ \ \ \ \ \doxymbox{\hyperlink{struct_gnode}{Gnode<t>}}\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[size];}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00027}\doxymbox{\hyperlink{class_graph_ae50ec8090e5493bbdd2767aa058ac7ea}{00027}}\ \ \ \ \ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_graph_ae50ec8090e5493bbdd2767aa058ac7ea}{directed}};}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00026}00026\ \ \ \ \ \doxymbox{\hyperlink{struct_gnode}{Gnode<t>}}\ array[size];}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00027}00027\ \ \ \ \ \textcolor{keywordtype}{bool}\ directed;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00028}00028\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00029}00029\ \textcolor{keyword}{public}:}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00030}\doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{00030}}\ \ \ \ \ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00031}\doxymbox{\hyperlink{class_graph_af9005733f70a565e943218b2dc9f383d}{00031}}\ \ \ \ \ \doxymbox{\hyperlink{class_graph_af9005733f70a565e943218b2dc9f383d}{Graph}}()\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00032}00032\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}}\ =\ 0;}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00033}00033\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_ae50ec8090e5493bbdd2767aa058ac7ea}{directed}}\ =\ \textcolor{keyword}{false};}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00033}00033\ \ \ \ \ \ \ \ \ directed\ =\ \textcolor{keyword}{false};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00034}00034\ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00035}\doxymbox{\hyperlink{class_graph_af7cb120dc494035c3a5a28db71c0b98c}{00035}}\ \ \ \ \ \doxymbox{\hyperlink{class_graph_af7cb120dc494035c3a5a28db71c0b98c}{Graph}}(\textcolor{keywordtype}{bool}\ x)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00036}00036\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}}\ =\ 0;}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00037}00037\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_ae50ec8090e5493bbdd2767aa058ac7ea}{directed}}\ =\ x;}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00037}00037\ \ \ \ \ \ \ \ \ directed\ =\ x;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00038}00038\ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00039}00039\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00040}\doxymbox{\hyperlink{class_graph_afe7c47553456e34f0a96ce99da12592a}{00040}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_graph_afe7c47553456e34f0a96ce99da12592a}{bfs}}(\textcolor{keywordtype}{int}\ levels[size])\ \{}
@@ -46,7 +46,7 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00043}00043\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00044}00044\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ visited[size]\ =\ \{\ 0\ \};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00045}00045\ \ \ \ \ \ \ \ \ queue<int>\ adjacent;}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00046}00046\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ starting\ =\ \doxymbox{\hyperlink{class_graph_a8759fc9c257261f65e1d7914b1434348}{getIndex}}(\doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[0].vertex);}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00046}00046\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ starting\ =\ \doxymbox{\hyperlink{class_graph_a8759fc9c257261f65e1d7914b1434348}{getIndex}}(array[0].vertex);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00047}00047\ \ \ \ \ \ \ \ \ adjacent.push(starting);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00048}00048\ \ \ \ \ \ \ \ \ visited[starting]\ =\ 1;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00049}00049\ }
@@ -54,11 +54,11 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00051}00051\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00052}00052\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (!adjacent.empty())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00053}00053\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ top\ =\ adjacent.front();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00054}00054\ \ \ \ \ \ \ \ \ \ \ \ \ cout\ <<\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[top].vertex\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00054}00054\ \ \ \ \ \ \ \ \ \ \ \ \ cout\ <<\ array[top].vertex\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00055}00055\ \ \ \ \ \ \ \ \ \ \ \ \ adjacent.pop();}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00056}00056\ }
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00057}00057\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[top].Neighbors.begin();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00058}00058\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[top].Neighbors.end())\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00057}00057\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ array[top].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00058}00058\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ array[top].Neighbors.end())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00059}00059\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ neighborIndex\ =\ temp-\/>index;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00060}00060\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (visited[neighborIndex]\ !=\ 1)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00061}00061\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ visited[neighborIndex]\ =\ 1;}
@@ -90,7 +90,7 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00087}00087\ \ \ \ \ \ \ \ \ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)nLevel\ =\ "{}}\ <<\ i\ <<\ endl;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00088}00088\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ j\ =\ 0;\ j\ <\ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}};\ j++)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00089}00089\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (levels[j]\ ==\ i)\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00090}00090\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}}\ <<\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[j].vertex\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00090}00090\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}}\ <<\ array[j].vertex\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00091}00091\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00092}00092\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00093}00093\ \ \ \ \ \ \ \ \ \}}
@@ -98,7 +98,7 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00095}00095\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00096}\doxymbox{\hyperlink{class_graph_a2a14feeb76125065bb6595f74a539c2c}{00096}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_graph_a2a14feeb76125065bb6595f74a539c2c}{insertVertex}}(t\ vertex)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00097}00097\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}}\ <\ size)\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00098}00098\ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[\doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}}].vertex\ =\ vertex;}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00098}00098\ \ \ \ \ \ \ \ \ \ \ \ \ array[\doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}}].vertex\ =\ vertex;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00099}00099\ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}}++;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00100}00100\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00101}00101\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \{}
@@ -108,18 +108,18 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00105}00105\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00106}\doxymbox{\hyperlink{class_graph_af26084da4c72766057335876c3ee50de}{00106}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_graph_af26084da4c72766057335876c3ee50de}{makeEdge}}(\textcolor{keywordtype}{int}\ a,\ \textcolor{keywordtype}{int}\ b,\ \textcolor{keywordtype}{float}\ len,\ \textcolor{keywordtype}{float}\ speed,\ \textcolor{keywordtype}{float}\ cap)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00107}00107\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{struct_road_details}{RoadDetails}}\ road(len,\ speed,\ cap);}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00108}00108\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!\doxymbox{\hyperlink{class_graph_ae50ec8090e5493bbdd2767aa058ac7ea}{directed}})\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00108}00108\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!directed)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00109}00109\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (a\ <\ size\ \&\&\ b\ <\ size\ \&\&\ a\ >=\ 0\ \&\&\ b\ >=\ 0)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00110}00110\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{structweighted}{weighted}}\ tempA\ =\ \{\ b,\ road\ \};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00111}00111\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{structweighted}{weighted}}\ tempB\ =\ \{\ a,\ road\ \};}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00112}00112\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[a].Neighbors.push\_back(tempA);}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00113}00113\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[b].Neighbors.push\_back(tempB);}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00112}00112\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ array[a].Neighbors.push\_back(tempA);}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00113}00113\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ array[b].Neighbors.push\_back(tempB);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00114}00114\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00115}00115\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00116}00116\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00117}00117\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (a\ <\ size\ \&\&\ b\ <\ size\ \&\&\ a\ >=\ 0\ \&\&\ b\ >=\ 0)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00118}00118\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{structweighted}{weighted}}\ tempA\ =\ \{\ b,\ road\ \};}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00119}00119\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[a].Neighbors.push\_back(tempA);}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00119}00119\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ array[a].Neighbors.push\_back(tempA);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00120}00120\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00121}00121\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00122}00122\ \ \ \ \ \}}
@@ -127,24 +127,24 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00124}00124\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ alpha\ =\ 0.5,\ \textcolor{keywordtype}{float}\ beta\ =\ 4.0)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00125}00125\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{struct_road_details}{RoadDetails}}\ road(len,\ speed,\ cap,\ alpha,\ beta);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00126}00126\ }
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00127}00127\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!\doxymbox{\hyperlink{class_graph_ae50ec8090e5493bbdd2767aa058ac7ea}{directed}})\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00127}00127\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!directed)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00128}00128\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (a\ <\ size\ \&\&\ b\ <\ size\ \&\&\ a\ >=\ 0\ \&\&\ b\ >=\ 0)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00129}00129\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{structweighted}{weighted}}\ tempA\ =\ \{\ b,\ road\ \};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00130}00130\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{structweighted}{weighted}}\ tempB\ =\ \{\ a,\ road\ \};}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00131}00131\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[a].Neighbors.push\_back(tempA);}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00132}00132\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[b].Neighbors.push\_back(tempB);}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00131}00131\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ array[a].Neighbors.push\_back(tempA);}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00132}00132\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ array[b].Neighbors.push\_back(tempB);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00133}00133\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00134}00134\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00135}00135\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00136}00136\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (a\ <\ size\ \&\&\ b\ <\ size\ \&\&\ a\ >=\ 0\ \&\&\ b\ >=\ 0)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00137}00137\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{structweighted}{weighted}}\ tempA\ =\ \{\ b,\ road\ \};}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00138}00138\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[a].Neighbors.push\_back(tempA);}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00138}00138\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ array[a].Neighbors.push\_back(tempA);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00139}00139\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00140}00140\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00141}00141\ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00142}\doxymbox{\hyperlink{class_graph_a8759fc9c257261f65e1d7914b1434348}{00142}}\ \ \ \ \ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_graph_a8759fc9c257261f65e1d7914b1434348}{getIndex}}(t\ label)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00143}00143\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}};\ i++)\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00144}00144\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].vertex\ ==\ label)}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00144}00144\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (array[i].vertex\ ==\ label)}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00145}00145\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ i;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00146}00146\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00147}00147\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ -\/1;\ \textcolor{comment}{//\ Not\ found}}
@@ -162,21 +162,21 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00159}00159\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00160}00160\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00161}00161\ }
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00162}00162\ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[a].Neighbors.begin();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00163}00163\ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp1\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[b].Neighbors.begin();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00164}00164\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[a].Neighbors.end())\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00162}00162\ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ array[a].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00163}00163\ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp1\ =\ array[b].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00164}00164\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ array[a].Neighbors.end())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00165}00165\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (temp-\/>index\ ==\ b)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00166}00166\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ links++;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00167}00167\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00168}00168\ \ \ \ \ \ \ \ \ \ \ \ \ temp++;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00169}00169\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00170}00170\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp1\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[b].Neighbors.end())\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00170}00170\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp1\ !=\ array[b].Neighbors.end())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00171}00171\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (temp1-\/>index\ ==\ a)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00172}00172\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ links++;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00173}00173\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00174}00174\ \ \ \ \ \ \ \ \ \ \ \ \ temp1++;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00175}00175\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00176}00176\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!\doxymbox{\hyperlink{class_graph_ae50ec8090e5493bbdd2767aa058ac7ea}{directed}})\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00176}00176\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!directed)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00177}00177\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ links\ /\ 2;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00178}00178\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00179}00179\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \{}
@@ -194,12 +194,12 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00191}00191\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{structweighted}{weighted}}\ A\ =\ \{\ a,}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00192}00192\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{struct_road_details}{RoadDetails}}(0,\ 1,\ 1)\ \};\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00193}00193\ }
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00194}00194\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!\doxymbox{\hyperlink{class_graph_ae50ec8090e5493bbdd2767aa058ac7ea}{directed}})\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00195}00195\ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[a].Neighbors.remove(B);}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00196}00196\ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[b].Neighbors.remove(A);}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00194}00194\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!directed)\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00195}00195\ \ \ \ \ \ \ \ \ \ \ \ \ array[a].Neighbors.remove(B);}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00196}00196\ \ \ \ \ \ \ \ \ \ \ \ \ array[b].Neighbors.remove(A);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00197}00197\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00198}00198\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00199}00199\ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[a].Neighbors.remove(B);}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00199}00199\ \ \ \ \ \ \ \ \ \ \ \ \ array[a].Neighbors.remove(B);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00200}00200\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00201}00201\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00202}00202\ \ \ \ \ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t\(\backslash\)t\(\backslash\)t\(\backslash\)t\(\backslash\)t\(\backslash\)tDeleted\(\backslash\)n"{}};}
@@ -212,18 +212,18 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00209}00209\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{struct_road_details}{RoadDetails}}(0,\ 1,\ 1)\ \};\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00210}00210\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00211}00211\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}};\ i++)\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00212}00212\ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].Neighbors.remove(d);}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00212}00212\ \ \ \ \ \ \ \ \ \ \ \ \ array[i].Neighbors.remove(d);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00213}00213\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00214}00214\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00215}00215\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ index;\ i\ <\ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}}\ -\/\ 1;\ i++)\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00216}00216\ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i]\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i\ +\ 1];}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00216}00216\ \ \ \ \ \ \ \ \ \ \ \ \ array[i]\ =\ array[i\ +\ 1];}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00217}00217\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00218}00218\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00219}00219\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}}-\/-\/;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00220}00220\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00221}00221\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}};\ i++)\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00222}00222\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ it\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].Neighbors.begin();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00223}00223\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (it\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].Neighbors.end())\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00222}00222\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ it\ =\ array[i].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00223}00223\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (it\ !=\ array[i].Neighbors.end())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00224}00224\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (it-\/>index\ >\ index)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00225}00225\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ it-\/>index\ =\ it-\/>index\ -\/\ 1;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00226}00226\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
@@ -235,17 +235,17 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00232}\doxymbox{\hyperlink{class_graph_a3f6fed049465dcfef6985a682692129c}{00232}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_graph_a3f6fed049465dcfef6985a682692129c}{dfs}}()\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00233}00233\ \ \ \ \ \ \ \ \ stack<int>\ holder;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00234}00234\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ visited[size]\ =\ \{\ \textcolor{keyword}{false}\ \};}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00235}00235\ \ \ \ \ \ \ \ \ t\ data\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[0].vertex;}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00235}00235\ \ \ \ \ \ \ \ \ t\ data\ =\ array[0].vertex;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00236}00236\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ start\ =\ \doxymbox{\hyperlink{class_graph_a8759fc9c257261f65e1d7914b1434348}{getIndex}}(data);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00237}00237\ \ \ \ \ \ \ \ \ holder.push(start);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00238}00238\ \ \ \ \ \ \ \ \ visited[start]\ =\ \textcolor{keyword}{true};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00239}00239\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00240}00240\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (!holder.empty())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00241}00241\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ index\ =\ holder.top();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00242}00242\ \ \ \ \ \ \ \ \ \ \ \ \ cout\ <<\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[index].vertex\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00242}00242\ \ \ \ \ \ \ \ \ \ \ \ \ cout\ <<\ array[index].vertex\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00243}00243\ \ \ \ \ \ \ \ \ \ \ \ \ holder.pop();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00244}00244\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[index].Neighbors.begin();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00245}00245\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[index].Neighbors.end())\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00244}00244\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ array[index].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00245}00245\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ array[index].Neighbors.end())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00246}00246\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (visited[temp-\/>index]\ ==\ \textcolor{keyword}{false})\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00247}00247\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ holder.push(temp-\/>index);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00248}00248\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ visited[temp-\/>index]\ =\ \textcolor{keyword}{true};}
@@ -255,7 +255,7 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00252}00252\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00253}00253\ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00254}00254\ }
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00255}\doxymbox{\hyperlink{class_graph_af01d416283ec3e8ec94e31801af852a1}{00255}}\ \ \ \ \ \doxymbox{\hyperlink{struct_gnode}{Gnode<t>}}*\ \doxymbox{\hyperlink{class_graph_af01d416283ec3e8ec94e31801af852a1}{getNodes}}()\ \{\ \textcolor{keywordflow}{return}\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}};\ \}}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00255}\doxymbox{\hyperlink{class_graph_af01d416283ec3e8ec94e31801af852a1}{00255}}\ \ \ \ \ \doxymbox{\hyperlink{struct_gnode}{Gnode<t>}}*\ \doxymbox{\hyperlink{class_graph_af01d416283ec3e8ec94e31801af852a1}{getNodes}}()\ \{\ \textcolor{keywordflow}{return}\ array;\ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00256}\doxymbox{\hyperlink{class_graph_abee83ddd0c00807a42276744a54ed545}{00256}}\ \ \ \ \ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_graph_abee83ddd0c00807a42276744a54ed545}{edgeExist}}(t\ data1,\ t\ data2)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00257}00257\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ a\ =\ \doxymbox{\hyperlink{class_graph_a8759fc9c257261f65e1d7914b1434348}{getIndex}}(data1);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00258}00258\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ b\ =\ \doxymbox{\hyperlink{class_graph_a8759fc9c257261f65e1d7914b1434348}{getIndex}}(data2);}
@@ -263,8 +263,8 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00260}00260\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{false};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00261}00261\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00262}00262\ }
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00263}00263\ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[a].Neighbors.begin();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00264}00264\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[a].Neighbors.end())\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00263}00263\ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ array[a].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00264}00264\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ array[a].Neighbors.end())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00265}00265\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (b\ ==\ temp-\/>index)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00266}00266\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{true};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00267}00267\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
@@ -276,13 +276,13 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00273}\doxymbox{\hyperlink{class_graph_a32649768d24579453369b90eb6b4d29b}{00273}}\ \ \ \ \ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_graph_a32649768d24579453369b90eb6b4d29b}{No\_Of\_Edges}}()\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00274}00274\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ edges\ =\ 0;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00275}00275\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}};\ i++)\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00276}00276\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].Neighbors.begin();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00277}00277\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].Neighbors.end())\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00276}00276\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ array[i].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00277}00277\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ array[i].Neighbors.end())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00278}00278\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ edges++;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00279}00279\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ temp++;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00280}00280\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00281}00281\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00282}00282\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!\doxymbox{\hyperlink{class_graph_ae50ec8090e5493bbdd2767aa058ac7ea}{directed}})\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00282}00282\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!directed)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00283}00283\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ edges\ /\ 2;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00284}00284\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00285}00285\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \{}
@@ -293,7 +293,7 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00290}\doxymbox{\hyperlink{class_graph_a86df3855ff0df33dc930a0a4548c1669}{00290}}\ \ \ \ \ \doxymbox{\hyperlink{class_graph_af9005733f70a565e943218b2dc9f383d}{Graph}}\ \doxymbox{\hyperlink{class_graph_a86df3855ff0df33dc930a0a4548c1669}{minimumSpanningtree}}()\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00291}00291\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_graph_af9005733f70a565e943218b2dc9f383d}{Graph<t,\ size>}}\ result;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00292}00292\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}};\ i++)\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00293}00293\ \ \ \ \ \ \ \ \ \ \ \ \ result.\doxymbox{\hyperlink{class_graph_a2a14feeb76125065bb6595f74a539c2c}{insertVertex}}(\doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].vertex);}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00293}00293\ \ \ \ \ \ \ \ \ \ \ \ \ result.\doxymbox{\hyperlink{class_graph_a2a14feeb76125065bb6595f74a539c2c}{insertVertex}}(array[i].vertex);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00294}00294\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00295}00295\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ visited[size]\ =\ \{\ \textcolor{keyword}{false}\ \};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00296}00296\ \ \ \ \ \ \ \ \ visited[0]\ =\ \textcolor{keyword}{true};}
@@ -306,8 +306,8 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00303}00303\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}};\ i++)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00304}00304\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (visited[i]\ ==\ \textcolor{keyword}{true})\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00305}00305\ }
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00306}00306\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].Neighbors.begin();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00307}00307\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].Neighbors.end())\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00306}00306\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ array[i].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00307}00307\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ array[i].Neighbors.end())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00308}00308\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00309}00309\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (temp-\/>weight.calculateWeight()\ <\ minimum\ \&\&}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00310}00310\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ visited[temp-\/>index]\ ==\ \textcolor{keyword}{false})\ \{}
@@ -325,8 +325,8 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00322}00322\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00323}00323\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{struct_road_details}{RoadDetails}}*\ w\ =\ \textcolor{keyword}{nullptr};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00324}00324\ }
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00325}00325\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[start].Neighbors.begin();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00326}00326\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[start].Neighbors.end())\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00325}00325\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ array[start].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00326}00326\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ array[start].Neighbors.end())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00327}00327\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (temp-\/>index\ ==\ end)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00328}00328\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ w\ =\ \&(temp-\/>weight);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00329}00329\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{break};}
@@ -354,11 +354,11 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00351}00351\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00352}00352\ \ \ \ \ \ \ \ \ \}\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00353}00353\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ direct\ =\ \textcolor{keyword}{false};}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00354}00354\ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[a].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00354}00354\ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ array[a].Neighbors.begin();}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00355}00355\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ min\ =}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00356}00356\ \ \ \ \ \ \ \ \ \ \ \ \ 100000.0f;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00357}00357\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ index\ =\ -\/1;}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00358}00358\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[a].Neighbors.end())\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00358}00358\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ array[a].Neighbors.end())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00359}00359\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (b\ ==\ temp-\/>index)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00360}00360\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ w\ =}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00361}00361\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ temp-\/>weight}
@@ -413,8 +413,8 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00410}00410\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ visited[nextNode]\ =\ \textcolor{keyword}{true};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00411}00411\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00412}00412\ }
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00413}00413\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ it\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[nextNode].Neighbors.begin();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00414}00414\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ it\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[nextNode].Neighbors.end();\ ++it)\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00413}00413\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ it\ =\ array[nextNode].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00414}00414\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ it\ !=\ array[nextNode].Neighbors.end();\ ++it)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00415}00415\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ v\ =\ it-\/>index;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00416}00416\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ weight\ =\ it-\/>weight.NonIdealtime();}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00417}00417\ }
@@ -440,7 +440,7 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00437}00437\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00438}00438\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ count\ -\/\ 1;\ i\ >=\ 0;\ i-\/-\/)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00439}00439\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ nodeIndex\ =\ path[i];}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00440}00440\ \ \ \ \ \ \ \ \ \ \ \ \ temp.push\_back(\doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[nodeIndex].vertex);}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00440}00440\ \ \ \ \ \ \ \ \ \ \ \ \ temp.push\_back(array[nodeIndex].vertex);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00441}00441\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00442}00442\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ temp;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00443}00443\ \ \ \ \ \}}
@@ -478,8 +478,8 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00475}00475\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ visited[nextNode]\ =\ \textcolor{keyword}{true};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00476}00476\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00477}00477\ }
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00478}00478\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ it\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[nextNode].Neighbors.begin();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00479}00479\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ it\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[nextNode].Neighbors.end();\ ++it)\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00478}00478\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ it\ =\ array[nextNode].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00479}00479\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ it\ !=\ array[nextNode].Neighbors.end();\ ++it)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00480}00480\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ v\ =\ it-\/>index;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00481}00481\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ weight\ =\ it-\/>weight.NonIdealtime();}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00482}00482\ }
@@ -504,7 +504,7 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00501}00501\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00502}00502\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ count\ -\/\ 1;\ i\ >=\ 0;\ i-\/-\/)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00503}00503\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ nodeIndex\ =\ path[i];}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00504}00504\ \ \ \ \ \ \ \ \ \ \ \ \ cout\ <<\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[nodeIndex].vertex\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00504}00504\ \ \ \ \ \ \ \ \ \ \ \ \ cout\ <<\ array[nodeIndex].vertex\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00505}00505\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00506}00506\ \ \ \ \ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)nTotal\ Travel\ Cost:\ "{}}\ <<\ distance[b]\ <<\ \textcolor{stringliteral}{"{}\ units"{}}\ <<\ endl;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00507}00507\ \ \ \ \ \}}
@@ -519,13 +519,13 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00516}00516\ \ \ \ \ \ \ \ \ \}\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00517}00517\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ degree\ =}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00518}00518\ \ \ \ \ \ \ \ \ \ \ \ \ 0;\ }
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00519}00519\ \ \ \ \ \ \ \ \ degree\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[a].Neighbors.size();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00519}00519\ \ \ \ \ \ \ \ \ degree\ =\ array[a].Neighbors.size();}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00520}00520\ \ \ \ \ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)nThe\ degree\ of\ the\ vertex\ "{}}\ <<\ data\ <<\ \textcolor{stringliteral}{"{}\ is\ "{}}\ <<\ degree\ <<\ endl;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00521}00521\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ degree;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00522}00522\ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00523}00523\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00524}\doxymbox{\hyperlink{class_graph_a815b4143a77b417d6acffc83f3c4eda2}{00524}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_graph_a815b4143a77b417d6acffc83f3c4eda2}{Type}}()\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00525}00525\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\doxymbox{\hyperlink{class_graph_ae50ec8090e5493bbdd2767aa058ac7ea}{directed}})\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00525}00525\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (directed)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00526}00526\ \ \ \ \ \ \ \ \ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)nThe\ graph\ is\ Directed\(\backslash\)n"{}};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00527}00527\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00528}00528\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \{}
@@ -540,11 +540,11 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00537}00537\ \ \ \ \ \ \ \ \ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)nCity\ not\ found.\(\backslash\)n"{}};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00538}00538\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ x;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00539}00539\ \ \ \ \ \ \ \ \ \}\ \textcolor{comment}{//\ Safety}}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00540}00540\ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[index].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00540}00540\ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ array[index].Neighbors.begin();}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00541}00541\ \ \ \ \ \ \ \ \ x\ +=\ \textcolor{stringliteral}{"{}\(\backslash\)nThe\ vertex\ "{}};}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00542}00542\ \ \ \ \ \ \ \ \ x\ +=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[index].vertex\ +\ \textcolor{stringliteral}{"{}\ has\ links\ to\ \(\backslash\)n"{}};}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00543}00543\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[index].Neighbors.end())\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00544}00544\ \ \ \ \ \ \ \ \ \ \ \ \ x\ +=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[temp-\/>index].vertex\ +\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00542}00542\ \ \ \ \ \ \ \ \ x\ +=\ array[index].vertex\ +\ \textcolor{stringliteral}{"{}\ has\ links\ to\ \(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00543}00543\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ array[index].Neighbors.end())\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00544}00544\ \ \ \ \ \ \ \ \ \ \ \ \ x\ +=\ array[temp-\/>index].vertex\ +\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00545}00545\ \ \ \ \ \ \ \ \ \ \ \ \ x\ +=\ \textcolor{stringliteral}{"{}length\ =\ "{}}\ +\ to\_string(temp-\/>weight.length)\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00546}00546\ \ \ \ \ \ \ \ \ \ \ \ \ x\ +=\ \textcolor{stringliteral}{"{}Current\ Vehicles\ =\ "{}}\ +\ to\_string(temp-\/>weight.currentVehicles)\ +}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00547}00547\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
@@ -555,7 +555,7 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00552}00552\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ x;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00553}00553\ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00554}\doxymbox{\hyperlink{class_graph_a56b515e7712eec185fb4d5e33ffef32e}{00554}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_graph_a56b515e7712eec185fb4d5e33ffef32e}{Incoming}}(t\ target)\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00555}00555\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!\doxymbox{\hyperlink{class_graph_ae50ec8090e5493bbdd2767aa058ac7ea}{directed}})\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00555}00555\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!directed)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00556}00556\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00557}00557\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00558}00558\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ targetIdx\ =\ \doxymbox{\hyperlink{class_graph_a8759fc9c257261f65e1d7914b1434348}{getIndex}}(target);}
@@ -564,10 +564,10 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00561}00561\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00562}00562\ \ \ \ \ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}Incoming\ flights\ to\ "{}}\ <<\ target\ <<\ \textcolor{stringliteral}{"{}:"{}}\ <<\ endl;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00563}00563\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}};\ i++)\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00564}00564\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].Neighbors.begin();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00565}00565\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].Neighbors.end())\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00564}00564\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ array[i].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00565}00565\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ array[i].Neighbors.end())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00566}00566\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (temp-\/>index\ ==\ targetIdx)\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00567}00567\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cout\ <<\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].vertex\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00567}00567\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cout\ <<\ array[i].vertex\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00568}00568\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00569}00569\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ temp++;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00570}00570\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
@@ -581,8 +581,8 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00578}00578\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}Edge\ not\ found:\ invalid\ vertex"{}});}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00579}00579\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00580}00580\ }
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00581}00581\ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[a].Neighbors.begin();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00582}00582\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[a].Neighbors.end())\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00581}00581\ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ array[a].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00582}00582\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ array[a].Neighbors.end())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00583}00583\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (temp-\/>index\ ==\ b)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00584}00584\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ temp-\/>weight;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00585}00585\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
@@ -598,8 +598,8 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00595}00595\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ edges;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00596}00596\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00597}00597\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}};\ i++)\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00598}00598\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].Neighbors.begin();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00599}00599\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].Neighbors.end())\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00598}00598\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ array[i].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00599}00599\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ array[i].Neighbors.end())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00600}00600\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (temp-\/>index\ ==\ index)\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00601}00601\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ edges.push\_back(\&(temp-\/>weight));}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00602}00602\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
@@ -614,8 +614,8 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00611}00611\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ count\ =\ 0;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00612}00612\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00613}00613\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}};\ i++)\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00614}00614\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].Neighbors.begin();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00615}00615\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].Neighbors.end())\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00614}00614\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ array[i].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00615}00615\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ array[i].Neighbors.end())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00616}00616\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00617}00617\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sum\ +=\ temp-\/>weight.Congestion();}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00618}00618\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ count++;}
@@ -628,12 +628,12 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00625}00625\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ sum\ /\ count;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00626}00626\ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00627}00627\ }
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00628}\doxymbox{\hyperlink{class_graph_a9e9ea7da2d4f86a23c2f56c4c7e74bef}{00628}}\ \ \ \ \ t\ \doxymbox{\hyperlink{class_graph_a9e9ea7da2d4f86a23c2f56c4c7e74bef}{getVertexAt}}(\textcolor{keywordtype}{int}\ i)\ \{\ \textcolor{keywordflow}{return}\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].vertex;\ \}}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00628}\doxymbox{\hyperlink{class_graph_a9e9ea7da2d4f86a23c2f56c4c7e74bef}{00628}}\ \ \ \ \ t\ \doxymbox{\hyperlink{class_graph_a9e9ea7da2d4f86a23c2f56c4c7e74bef}{getVertexAt}}(\textcolor{keywordtype}{int}\ i)\ \{\ \textcolor{keywordflow}{return}\ array[i].vertex;\ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00629}00629\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00630}\doxymbox{\hyperlink{class_graph_a366f34afc26039910aebfeebee08539d}{00630}}\ \ \ \ \ \textcolor{keywordtype}{string}\ \doxymbox{\hyperlink{class_graph_a366f34afc26039910aebfeebee08539d}{printGrapgh}}()\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00631}00631\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ result\ =\ \textcolor{stringliteral}{"{}"{}};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00632}00632\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}};\ i++)\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00633}00633\ \ \ \ \ \ \ \ \ \ \ \ \ result\ +=\ \doxymbox{\hyperlink{class_graph_a23fa8d27815c95a2f51a20ff8192a125}{display\_edge\_of\_index}}(\doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].vertex);}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00633}00633\ \ \ \ \ \ \ \ \ \ \ \ \ result\ +=\ \doxymbox{\hyperlink{class_graph_a23fa8d27815c95a2f51a20ff8192a125}{display\_edge\_of\_index}}(array[i].vertex);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00634}00634\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00635}00635\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00636}00636\ \ \ \ \ \}}
@@ -642,8 +642,8 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00639}00639\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{double}\ totalCost\ =\ 0;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00640}00640\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00641}00641\ \ \ \ \ \ \ \ \ \ \ \ \ i++)\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00642}00642\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].Neighbors.begin();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00643}00643\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].Neighbors.end())\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00642}00642\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ array[i].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00643}00643\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ array[i].Neighbors.end())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00644}00644\ }
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00645}00645\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ totalCost\ +=\ temp-\/>weight.choosing();}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00646}00646\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ temp++;}
@@ -656,10 +656,10 @@
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00653}\doxymbox{\hyperlink{class_graph_a3629cd7ee651df2efb8c7f1c53f63576}{00653}}\ \ \ \ \ \textcolor{keywordtype}{string}\ \doxymbox{\hyperlink{class_graph_a3629cd7ee651df2efb8c7f1c53f63576}{printRoadSnapshot}}()\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00654}00654\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ result\ =\ \textcolor{stringliteral}{"{}"{}};}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00655}00655\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ \doxymbox{\hyperlink{class_graph_a00ab4ddb998b829510cc3f920508b0a2}{Vcount}};\ i++)\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00656}00656\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].Neighbors.begin();}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00657}00657\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].Neighbors.end())\ \{}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00656}00656\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{typename}\ list<weighted>::iterator\ temp\ =\ array[i].Neighbors.begin();}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00657}00657\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (temp\ !=\ array[i].Neighbors.end())\ \{}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00658}00658\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (temp-\/>weight.currentVehicles\ >\ 0\ ||\ temp-\/>weight.queueCount\ >\ 0)\ \{}
-\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00659}00659\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ result\ +=\ \textcolor{stringliteral}{"{}\ \ "{}}\ +\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[i].vertex\ +\ \textcolor{stringliteral}{"{}\ -\/>\ "{}}\ +\ \doxymbox{\hyperlink{class_graph_ad3930a5c1f73d93741c8c632717b164e}{array}}[temp-\/>index].vertex;}
+\DoxyCodeLine{\Hypertarget{_graph_8h_source_l00659}00659\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ result\ +=\ \textcolor{stringliteral}{"{}\ \ "{}}\ +\ array[i].vertex\ +\ \textcolor{stringliteral}{"{}\ -\/>\ "{}}\ +\ array[temp-\/>index].vertex;}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00660}00660\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ result\ +=\ \textcolor{stringliteral}{"{}\ |\ Vehicles:\ "{}}\ +\ to\_string(temp-\/>weight.currentVehicles);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00661}00661\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ result\ +=\ \textcolor{stringliteral}{"{}/"{}}\ +\ to\_string((\textcolor{keywordtype}{int})temp-\/>weight.capacity);}
 \DoxyCodeLine{\Hypertarget{_graph_8h_source_l00662}00662\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ result\ +=\ \textcolor{stringliteral}{"{}\ |\ Queue:\ "{}}\ +\ to\_string(temp-\/>weight.queueCount);}
